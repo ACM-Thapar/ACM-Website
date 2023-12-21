@@ -1,0 +1,31 @@
+import { Fragment, useState } from 'react'
+import './App.css'
+import { Route,Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Alumni from './Pages/Alumni/Alumni';
+import Bootcamps from './Pages/Bootcamps/Bootcamps';
+import Events from './Pages/Events/Events';
+import Gallery from './Pages/Gallery/Gallery';
+import Projects from './Pages/Projects/Projects';
+import Navbar from './Components/Navbar/navbar';
+import Footer from './Components/Footer/Footer';
+function App() {
+  return(
+    <Fragment>
+    <div>
+      <Navbar />
+  <Routes>
+    <Route exact path="/" element={<Home />} />
+    <Route path="/events" element={<Events />} />
+    <Route path="/alumni" element={<Alumni />} />
+    <Route path="/bootcamps" element={<Bootcamps />} />
+    <Route path="/gallery" element={<Gallery />} />
+    <Route path="/projects" element={<Projects />} />
+  </Routes>
+  <Footer />
+  </div>
+  </Fragment>
+  )
+}
+
+export default App
