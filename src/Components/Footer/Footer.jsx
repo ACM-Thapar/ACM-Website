@@ -27,7 +27,7 @@ const Footer = () => {
                     <div>
                     {bootcamps.slice(0, 5).map((item, index) => {
                     return (
-                    <p key={index}><a href="/">{item.name}</a></p>
+                    <p key={index}><a href='/'>{item.name}</a></p>
                     );
                     })}
 
@@ -40,7 +40,7 @@ const Footer = () => {
                     <div>
                     {projectcount.slice(0, 5).map ((item, index) => {
                         return (
-                        <p key={index}><a href="/team">{item.name}</a></p>
+                        <p key={index}><a href='/team'>{item.name}</a></p>
                         );
                     })}
                     </div>  
