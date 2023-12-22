@@ -6,6 +6,11 @@ import Phone from './assets/Images/phone.png';
 import amico1 from './assets/Images/amico.png';
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
+import Alumni from './Pages/Alumni/Alumni';
+import Gallery from './Pages/Gallery/Gallery';
+import Bootcamps from './Pages/Bootcamps/Bootcamps';
+import Events from './Pages/Events/Events';
+import Projects from './Pages/Projects/Projects';
 
 export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
@@ -33,12 +38,15 @@ export const NavData = {
   navbar: [
     {
       navitem: "Alumni",
+      href: Alumni,
     },
     {
       navitem: "Events",
+      href: Events,
     },
     {
       navitem: "Bootcamps",
+      href: Bootcamps,
     },
     {
       img: logo,
@@ -46,9 +54,11 @@ export const NavData = {
     },
     {
       navitem: "Projects",
+      href: Projects,
     },
     {
       navitem: "Gallery",
+      href: Gallery,
     },
   ]
 }

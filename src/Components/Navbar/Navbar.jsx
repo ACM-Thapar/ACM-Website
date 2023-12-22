@@ -2,7 +2,7 @@ import styles from "./navbar.module.css";
 import { NavData } from "../../data.mjs";
 
 const Navbar = () => {
-    const {navbar,img} = NavData;
+    const {navbar} = NavData;
 
     return ( 
         <div className={styles.section}>
@@ -10,7 +10,9 @@ const Navbar = () => {
                 <div className={styles.navitem}>
                     {navbar.slice(0,3).map ((item, index) => {
                             return (
-                                <p key={index}>{item.navitem}</p>
+                                <li className={styles.navitem}>
+                                <a key={index} href={item.href}>{item.navitem}</a>
+                                </li>
                             );
                     })}
                 </div>
@@ -26,7 +28,9 @@ const Navbar = () => {
                 <div className={styles.navitem}>
                     {navbar.slice(4,6).map ((item, index) => {
                             return (
-                                <p key={index}>{item.navitem}</p>
+                                <li className={styles.navitem}>
+                                <a key={index} href={item.href}>{item.navitem}</a>
+                                </li>
                             );
                     })}
                 </div>

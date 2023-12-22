@@ -21,7 +21,7 @@
 	display: flex;
 }
 
-.navitem p{
+.navitem a{
 	padding: 1vw 2vw;
 }
 
