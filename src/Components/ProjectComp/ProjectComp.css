@@ -1,0 +1,50 @@
+.scroll-section-outer {
+    overflow: hidden;
+    /* height: 70vh; */
+    position: relative;
+  }
+  
+  .scroll-section-inner {
+    height: 100vh;
+    width: 400vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    gap:15vw;
+    margin-left: 10vw;
+  }
+  
+  .scroll-section {
+    height: 50vh;
+    width: 40vw;
+    padding-inline: 1vw;
+    background-color: #EDF9FD;
+    display: flex;
+    overflow: hidden;
+    align-items: end;
+    box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0, 0.25)
+  }
+  
+  .scroll-section h3 {
+    
+    color: #15A6DD;
+    font-family: var(--textFont);
+    font-size: 3rem;
+    font-weight: 600;
+    width: 40%;
+    line-height: 100%;
+  }
+
+  .scroll-section img{
+     
+    height: 20vw;
+  }
+  .scroll-section-div{
+    height: 20vw;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+
+  

@@ -2,7 +2,9 @@ import styles from "./navbar.module.css";
 
 const Navbar = () => {
     return ( 
-        <h1>navbar</h1>
+        <div style={{height:"60px",backgroundColor:"lightblue"}}>
+        
+        </div>
      );
 }
  

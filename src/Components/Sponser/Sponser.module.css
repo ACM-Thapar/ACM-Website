@@ -1,0 +1,42 @@
+.main{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vw;
+}
+
+.main img{
+    height: 80%;
+    width: 80%;
+    margin-bottom: 3vw;
+}
+.headingdiv{
+    
+    width:80%;
+    margin-bottom: -60px;
+    color: #1E1E1E;
+}
+.headingdiv  h1{
+    font-family: var(--titleFont);
+    font-size: 8rem;
+    text-align: right;
+    color:#DDF6FF;
+}
+.main button{
+    background-color: #15A6DD;
+    border: none;
+    font-size: 1rem;
+    font-family: var(--titleFont);
+    font-weight: 500 ;
+    padding: 1vw 2vw;
+    color: white;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.25);
+    /* margin-block: 3vw; */
+    cursor: pointer !important;
+}
+.main button:active{
+    transform: translate3d(2px, 2px, 0);
+}

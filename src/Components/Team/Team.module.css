@@ -1,0 +1,74 @@
+.main{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+.innermain{
+    height: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px 10px; /* 10px column gap, 20pxrow gap */
+}
+
+.innermain .card:nth-child(odd){
+    background-color: #8FDAF5;
+}
+.innermain .card:nth-child(even){
+    background-color:#15A6DD;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1;
+    justify-content: space-between;
+    overflow: hidden;
+    font-family: var(--titleFont);
+}
+
+.lowercontent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.socials{
+    height: 100%;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+}
+.socials img{
+    height: 2vw;
+}
+
+.uppercontent{
+    padding: 10px;
+}
+.uppercontent h3{
+    font-size: 2.75rem;
+}
+.uppercontent h4{
+    font-size: 1.75rem;
+    color: white;
+}
+
+.card h1{
+    text-align: center;
+    margin-block: auto;
+}
+.headingdiv{
+    width: 90%;
+    margin-bottom: -30px;
+    color: #1E1E1E;
+}
+.headingdiv  h1{
+    font-family: var(--titleFont);
+    font-size: 8rem;
+    text-align: right;
+    color:#EDF9FD;
+}
