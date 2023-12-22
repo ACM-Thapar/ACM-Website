@@ -9,7 +9,7 @@ import Gallery from './Pages/Gallery/Gallery';
 import Projects from './Pages/Projects/Projects';
 import Navbar from './Components/Navbar/navbar';
 import Footer from './Components/Footer/Footer';
-import Loader from './Components/Loader/loader';
+// import Loader from './Components/Loader/loader';
 import TeamPage from './Pages/TeamPage/TeamPage';
 
 function App() {
