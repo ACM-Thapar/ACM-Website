@@ -59,6 +59,7 @@
 
 .ending{
 	color: #5A6265;
+    font-family: var(--footerFont);
 	/* margin: 3.25vw 10vw 0 0; */
 }
 
