@@ -89,6 +89,9 @@ export const Bootcamp = {
 }
 
 export const Teamdata = {
+  homeheadline :"Meet The Team",
+  ebheadline:"EXBO",
+  coreheadline:"THE CORE",
    EB : [
     {
       name : "Amit Goyal",
@@ -145,6 +148,268 @@ export const Teamdata = {
     {
       name : "Vasu Tohani",
       position : "Joint  Seceratary",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+   ],
+   core : [
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
+      img: face,
+      linkdin : {
+        link:"",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Instagram,
+      }
+    },
+    {
+      name : "Jashan",
+      position : "Core",
       img: face,
       linkdin : {
         link:"",

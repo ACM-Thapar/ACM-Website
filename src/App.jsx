@@ -10,6 +10,7 @@ import Projects from './Pages/Projects/Projects';
 import Navbar from './Components/Navbar/navbar';
 import Footer from './Components/Footer/Footer';
 import Loader from './Components/Loader/loader';
+import TeamPage from './Pages/TeamPage/TeamPage';
 
 function App() {
   return(
@@ -24,6 +25,7 @@ function App() {
     <Route path="/bootcamps" element={<Bootcamps />} />
     <Route path="/gallery" element={<Gallery />} />
     <Route path="/projects" element={<Projects />} />
+    <Route path="/team" element={<TeamPage />} />
   </Routes>
   <Footer />
   </div>

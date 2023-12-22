@@ -5,16 +5,19 @@ import ProjectComp from "../../Components/ProjectComp/ProjectComp";
 import BootcampComp from "../../Components/bootcampcomp/Bootcampcomp";
 import Team from "../../Components/Team/Team";
 import Sponser from "../../Components/Sponser/Sponser";
-
-
+import { Teamdata } from "../../data.mjs";
 
 const Home = () => {
+    const EBData = {
+        homeheadline: Teamdata.homeheadline,
+        EB: Teamdata.EB
+    };
     return(
         <Fragment>
        <Hero />
        <ProjectComp />
        <BootcampComp />
-       <Team />
+       <Team teamData={EBData} />
         <Sponser />
        </Fragment>
     )
