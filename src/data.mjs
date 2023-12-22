@@ -9,6 +9,7 @@ export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
   keywords: ['Innovate.', 'Elevate.', 'Collaborate.'],
   subtitle: 'ACM Thapar 2023',
+  copyright: 'THAPAR ACM CHAPTER © 2023',
   info: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.” `,
   logos: [
     {
@@ -27,6 +28,7 @@ export const HeroData = {
 };
 
 export const ProjectData = {
+  subtitle2: 'Projects',
   project: [
     {
       name: "Webdev Guide",
@@ -56,10 +58,31 @@ export const ProjectData = {
       name: "Webdev Guide",
       img : Device
     },
+  ],
+  projectcount : [
+    {
+      name:"Project 1",
+    },
+    {
+      name:"Project 2",
+    },
+    {
+      name:"Project 3",
+    },
+    {
+      name:"Project 4",
+    },
+    {
+      name:"Project 5",
+    },
+    {
+      name:"Project 6",
+    },
   ]
 }
 
 export const Bootcamp = {
+  subtitle1: 'Bootcamps',
   bootcamps : [
     {
       name:"Web Development",
