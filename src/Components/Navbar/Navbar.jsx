@@ -16,7 +16,9 @@ const Navbar = () => {
                             );
                     })}
                 </div>
-                <div>
+                 {/* <div className={styles.space}>
+                </div> */}
+                <div >
                     {navbar.slice(3,4).map ((item, index) => {
                             return (
                                 <a href="/" key={index}>
@@ -25,6 +27,7 @@ const Navbar = () => {
                             );
                     })}
                 </div>
+               
                 <div className={styles.navitem}>
                     {navbar.slice(4,6).map ((item, index) => {
                             return (

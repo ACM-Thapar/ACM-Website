@@ -1,32 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=PT+Serif:ital@0;1&family=Playfair+Display:wght@500&family=Poppins:wght@500&family=Ubuntu&family=Vollkorn:ital,wght@0,400;1,400;1,600&display=swap');
+
 
 .section{
     display: flex;
     flex-direction: column;
     width: 100%;
-	margin: 0 auto;
+	z-index: 3;
+	position: fixed;
 }
 
 .navbox{
 	display: flex;
+	height: 4vw;
+	padding-inline:2vw ;
 	justify-content: space-between;
 	z-index: 3;
+	background-color: white;
 	box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0, 0.25)
 }
 
 .navitem{
-	font-family: 'poppins';
+	font-family: var(--textFont);
 	font-weight: 500;
 	color: #020E13;
 	display: flex;
+	gap: 2vw;
+	align-items: center;
 }
 
-.navitem a{
-	padding: 1vw 2vw;
-}
 
 .logo{
+	padding-top: 5px;
 	width: 8vw;
 	height: auto;
 	align-items: center;
+	position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
