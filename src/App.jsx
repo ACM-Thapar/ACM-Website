@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment} from 'react'
 import './App.css'
 import { Route,Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
@@ -7,7 +7,7 @@ import Bootcamps from './Pages/Bootcamps/Bootcamps';
 import Events from './Pages/Events/Events';
 import Gallery from './Pages/Gallery/Gallery';
 import Projects from './Pages/Projects/Projects';
-import Navbar from './Components/Navbar/navbar';
+import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 // import Loader from './Components/Loader/loader';
 import TeamPage from './Pages/TeamPage/TeamPage';
