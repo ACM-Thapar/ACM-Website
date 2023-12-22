@@ -101,7 +101,7 @@ export const Bootcamp = {
       img : amico1
     },
     {
-      name:"Academic Bootcamps",
+      name:"Academic Classes",
       img : amico1
     },
     {

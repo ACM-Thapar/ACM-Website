@@ -11,23 +11,26 @@ const Footer = () => {
 
     return ( 
         <Fragment>
-            <div className={styles.mainbox}>
+        <div className={styles.section}>
+            <div className={styles.mainbox} >
                 <div className={styles.info}>
                     <div>
                         <h2>{subtitle}</h2>
                         <p style={{width:'30vw'}}>{info}</p>
                     </div>
                 </div>
+                <div className={styles.outerinfo}>
                 <div className={styles.info}>
                     <div>
                         <h2>{subtitle1}</h2>
                     </div>
                     <div>
-                    {bootcamps.map ((item, index) => {
-                        return (
-                        <p key={index}>{item.name}</p>
-                        );
+                    {bootcamps.slice(0, 5).map((item, index) => {
+                    return (
+                    <p key={index}><a href="/">{item.name}</a></p>
+                    );
                     })}
+
                     </div>
                 </div>
                 <div className={styles.info}>
@@ -35,14 +38,15 @@ const Footer = () => {
                         <h2>{subtitle2}</h2>
                     </div>
                     <div>
-                    {projectcount.map ((item, index) => {
+                    {projectcount.slice(0, 5).map ((item, index) => {
                         return (
-                        <p key={index}>{item.name}</p>
+                        <p key={index}><a href="/team">{item.name}</a></p>
                         );
                     })}
                     </div>  
                 </div>
                 </div>
+            </div>
                 <div className={styles.contact}>
                 <div className={styles.logos}>
                     {logos.map ((item, index) => {
@@ -55,8 +59,9 @@ const Footer = () => {
                     </div>
                     <div>
                         <p className={styles.ending}>{copyright}</p>
-                    </div>
                 </div>
+            </div>
+            </div>
         </Fragment>
      );
 }
