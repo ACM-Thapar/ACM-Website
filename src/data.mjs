@@ -4,7 +4,9 @@ import Github from './assets/Images/GitHub (1).svg';
 import Device from './assets/Images/device.png';
 import Phone from './assets/Images/phone.png';
 import amico1 from './assets/Images/amico.png';
-import face from "./assets/Images/sample.png";
+import face from './assets/Images/sample.png';
+import logo from './assets/Images/logo.png';
+
 export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
   keywords: ['Innovate.', 'Elevate.', 'Collaborate.'],
@@ -26,6 +28,30 @@ export const HeroData = {
     },
   ],
 };
+
+export const NavData = {
+  navbar: [
+    {
+      navitem: "Alumni",
+    },
+    {
+      navitem: "Events",
+    },
+    {
+      navitem: "Bootcamps",
+    },
+    {
+      img: logo,
+      alt: 'ACM-logo',
+    },
+    {
+      navitem: "Projects",
+    },
+    {
+      navitem: "Gallery",
+    },
+  ]
+}
 
 export const ProjectData = {
   subtitle2: 'Projects',
