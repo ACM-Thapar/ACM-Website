@@ -6,6 +6,7 @@ import BootcampComp from "../../Components/bootcampcomp/Bootcampcomp";
 import Team from "../../Components/Team/Team";
 import Sponser from "../../Components/Sponser/Sponser";
 import { Teamdata } from "../../data.mjs";
+import Homebrand from "../../Components/homebrand/Homebrand";
 
 const Home = () => {
     const EBData = {
@@ -15,6 +16,7 @@ const Home = () => {
     return(
         <Fragment>
        <Hero />
+       <Homebrand />
        <ProjectComp />
        <BootcampComp />
        <Team teamData={EBData} />

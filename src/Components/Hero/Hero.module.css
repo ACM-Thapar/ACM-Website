@@ -8,6 +8,7 @@
     background: rgb(255, 255, 255);
     display: flex;
     padding-top: 7vw;
+    margin-bottom:5vw ;
 }
 
 .upperpart{
@@ -46,6 +47,7 @@
 main {
     display: flex;
     margin-top: 5vw;
+    
 }
 
 .lsb {

@@ -4,6 +4,7 @@ import Github from './assets/Images/GitHub (1).svg';
 import Device from './assets/Images/device.png';
 import Phone from './assets/Images/phone.png';
 import amico1 from './assets/Images/amico.png';
+
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
 import Alumni from './Pages/Alumni/Alumni';
@@ -11,6 +12,8 @@ import Gallery from './Pages/Gallery/Gallery';
 import Bootcamps from './Pages/Bootcamps/Bootcamps';
 import Events from './Pages/Events/Events';
 import Projects from './Pages/Projects/Projects';
+import hackathon from "./assets/Images/hackathon.png";
+
 
 export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
@@ -62,6 +65,7 @@ export const NavData = {
     },
   ]
 }
+
 
 export const ProjectData = {
   subtitle2: 'Projects',
@@ -117,6 +121,8 @@ export const ProjectData = {
   ]
 }
 
+
+
 export const Bootcamp = {
   subtitle1: 'Bootcamps',
   bootcamps : [
@@ -146,6 +152,8 @@ export const Bootcamp = {
     },
   ]
 }
+
+
 
 export const Teamdata = {
   homeheadline :"Meet The Team",
@@ -480,4 +488,22 @@ export const Teamdata = {
       }
     },
    ]
+}
+
+export const homebrand = {
+  images: [hackathon,hackathon,hackathon,hackathon],
+  details : [
+    {
+      heading : "Innovate",
+      data : "We inspire members to explore uncharted territories, embrace challenges, and turn ideas into technological marvels. Here, creativity flourishes, and every problem becomes a canvas for inventive solutions.", 
+    },
+    {
+      heading : "Elevate",
+      data : " We're not just a society; we're a community dedicated to elevating skills, aspirations, and the tech landscape as a whole. Through engaging workshops, mentorship programs, and collaborative projects, we empower our members to rise to new heights.", 
+    },
+    {
+      heading : "Collaborate",
+      data : "At ACM individuals unite their diverse talents and perspectives, creating a vibrant ecosystem where ideas converge and knowledge multiplies. In this collaborative spirit, we navigate the ever-changing tech landscape, achieving shared milestones through the power of teamwork.", 
+    },
+  ]
 }
