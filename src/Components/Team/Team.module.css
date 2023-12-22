@@ -72,3 +72,8 @@
     text-align: right;
     color:#EDF9FD;
 }
+.card a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+}

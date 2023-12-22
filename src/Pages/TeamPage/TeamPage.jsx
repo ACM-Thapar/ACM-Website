@@ -21,9 +21,9 @@ const TeamPage = () => {
                 marginInline:"auto",
                 padding:"3vw"
             }}>
-                <img src={arrow} style={{
+                <a href="/" style={{textDecoration:"none",color:"black"}}><img src={arrow} style={{
                     height:"100%",
-                }}></img>
+                }}></img></a>
                 <img src={dots}  style={{
                     height:"100%",
                 }}></img>

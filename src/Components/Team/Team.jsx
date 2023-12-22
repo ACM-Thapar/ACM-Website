@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./Team.module.css";
+import { Link } from "react-router-dom";
+import TeamPage from "../../Pages/TeamPage/TeamPage";
 
 const Team = ({ teamData }) => {
     const { homeheadline, EB, core } = teamData;
@@ -45,7 +47,7 @@ const Team = ({ teamData }) => {
                     );
                 })}
                 <div className={style.card}>
-                    <h1>Show all</h1>
+                <h1><a href="/team">Show all</a></h1>
                 </div>
             </div>
         </div>
