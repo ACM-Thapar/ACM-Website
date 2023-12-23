@@ -43,37 +43,54 @@
     padding: 10px;
 }
 .socials img{
-    height: 2vw;
+    height: clamp(1rem,3vw,2rem);
 }
 
 .uppercontent{
     padding: 10px;
 }
 .uppercontent h3{
-    font-size: 2.75rem;
+    font-size: clamp(1rem,3vw,2.75rem);
 }
 .uppercontent h4{
-    font-size: 1.75rem;
+    font-size:clamp(0.5rem,3vw,1.75rem);
     color: white;
 }
 
 .card h1{
     text-align: center;
     margin-block: auto;
+
+}
+.card h1{
+    font-size: clamp(0.5rem,4vw,3rem);
 }
 .headingdiv{
     width: 90%;
-    margin-bottom: -30px;
+    margin-bottom: -2.25rem;
     color: #1E1E1E;
 }
 .headingdiv  h1{
     font-family: var(--titleFont);
-    font-size: clamp(3.5rem,10vw,8rem);
+    font-size: clamp(2.5rem,10vw,8rem);
     text-align: right;
     color:#EDF9FD;
+}
+.teamimage{
+    height: clamp(6rem,20vw,18rem);
 }
 .card a{
     text-emphasis: none;
     text-decoration: none;
     color: black;
+}
+@media only screen and (max-width: 600px){
+    .innermain{
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px 10px;
+    }
+   .headingdiv{
+    margin-bottom: -0.5rem;
+   }
+  
 }
