@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className={styles.info}>
                     <div>
                         <h2>{subtitle}</h2>
-                        <p style={{width:'30vw'}}>{info}</p>
+                        <p className={styles.context}>{info}</p>
                     </div>
                 </div>
                 <div className={styles.outerinfo}>
