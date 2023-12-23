@@ -2,7 +2,7 @@ import React, { useRef, useEffect, Fragment } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import "./ProjectComp.css"
-import { ProjectData } from "../../data.mjs";
+import { ProjectData } from "../../../../data.mjs";
 
 function ProjectComp() {
   const sectionRef = useRef(null);

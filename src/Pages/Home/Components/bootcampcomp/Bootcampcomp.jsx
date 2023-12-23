@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import styles from './Bootcampcomp.module.css';
-import { Bootcamp } from "../../data.mjs";
+import { Bootcamp } from "../../../../data.mjs";
 const BootcampComp = () => {
     const {bootcamps} = Bootcamp
     return ( 

@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import { homebrand } from '../../data.mjs';
+import { homebrand } from '../../../../data.mjs';
 import styles from "./Homebrand.module.css";
-import progressbar from "../../assets/Images/progressbar.png"
+import progressbar from "../../../../assets/Images/progressbar.png"
 const Homebrand = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const {images,details} = homebrand

@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./Team.module.css";
-import { Link } from "react-router-dom";
-import TeamPage from "../../Pages/TeamPage/TeamPage";
+
 
 const Team = ({ teamData }) => {
     const { homeheadline, EB, core } = teamData;

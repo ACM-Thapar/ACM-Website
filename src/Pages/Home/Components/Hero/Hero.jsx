@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
 import styles from './Hero.module.css';
-import {HeroData} from '../../data.mjs';
+import {HeroData} from '../../../../data.mjs';
 // import Navbar from './../Navbar/Navbar';
 
 const Hero = () => {

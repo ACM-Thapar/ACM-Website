@@ -1,0 +1,50 @@
+.main{
+    
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading{
+    font-size: clamp(3rem,5vw,4rem);
+    font-weight: 700;
+    font-family: var(--titleFont);
+    color: #15A6DD;
+    margin-block:4rem 1rem ;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 20px; /* 10px column gap, 20pxrow gap */
+}
+.card{
+    background-color: #EDF9FD;
+    display: flex;
+    font-family: var(--textFont);
+    padding: 2rem 1rem;
+    gap: 1rem;
+    /* line-height: 200%; */
+}
+.card img:nth-child(1){
+    height: 8rem;
+}
+.card img{
+    height: 2rem;
+    margin-top: 1rem;
+}
+.card h3{
+    font-size: 1.75rem;
+}
+.card h4{
+    color: #15A6DD;
+    font-size: 1.25rem;
+}
+.card p{
+    color:#9AAEBC;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width:600px) {
+    .cards{
+    grid-template-columns: repeat(1, 1fr);
+}
+}

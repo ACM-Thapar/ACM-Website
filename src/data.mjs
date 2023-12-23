@@ -7,13 +7,8 @@ import amico1 from './assets/Images/amico.png';
 
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
-import Alumni from './Pages/Alumni/Alumni';
-import Gallery from './Pages/Gallery/Gallery';
-import Bootcamps from './Pages/Bootcamps/Bootcamps';
-import Events from './Pages/Events/Events';
-import Projects from './Pages/Projects/Projects';
 import hackathon from "./assets/Images/hackathon.png";
-
+import profile from "./assets/Images/profile.png"
 
 export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
@@ -504,6 +499,85 @@ export const homebrand = {
     {
       heading : "Collaborate",
       data : "At ACM individuals unite their diverse talents and perspectives, creating a vibrant ecosystem where ideas converge and knowledge multiplies. In this collaborative spirit, we navigate the ever-changing tech landscape, achieving shared milestones through the power of teamwork.", 
+    },
+  ]
+}
+
+export const alumnid = {
+  heading1 : "2022-23",
+  heading2 : "2021-22",
+  data21 : [
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+  ],
+  data22:[
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
+    },
+    {
+      name:"Alex Carey",
+      position:"Ex - Gen. Sec.",
+      job:"Placed at Google",
+      linkdin : "",
+      img:profile,
     },
   ]
 }
