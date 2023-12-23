@@ -27,6 +27,10 @@
 	align-items: center;
 }
 
+.navitem a{
+	text-decoration: none;
+	color:#020E13;
+}
 
 .logo{
 	padding-top: 5px;
