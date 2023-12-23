@@ -2,34 +2,33 @@
 
 #hero {
     font-family: var(--textFont);
-    padding: 2.5vw;
+    padding: clamp(1rem, 2.5vw, 2rem);
     color: var(--black);
-    height: calc(100vh - 60px);
+    /* height: clamp(70vh, calc(100vh - 60px), 100vh); */
     background: rgb(255, 255, 255);
     display: flex;
-    padding-top: 7vw;
-    margin-bottom:5vw ;
+    padding-top: clamp(3rem, 7vw, 5rem);
+    margin-bottom: clamp(3rem, 5vw, 8rem);
 }
 
-.upperpart{
+.upperpart {
     display: flex;
     justify-content: space-between;
-    
-    margin-left: 6vw;
-    margin-bottom: 8vw;
+    margin-left: clamp(1rem, 6vw, 4rem);
+    margin-bottom: clamp(1.5rem, 8vw, 5rem);
 }
 
 .circles{
     display: flex;
     gap: 0.3vw;
-    height:3vw;
+    height:clamp(1rem,3vw,2rem);
 }
 
 .circle {
-    height: 1.3vw;
-    width: 1.3vw;
+    height: clamp(0.75rem,1.3vw,2rem);
+    width: clamp(0.75rem,1.3vw,2rem);
     border-radius: 50%;
-    margin: 0 0.25vw;
+    margin-inline: clamp(0.1rem,0.25vw,0.2rem);
 }
 
 .circle:nth-child(1) {
@@ -43,33 +42,31 @@
 .circle:nth-child(3) {
     background: var(--d-blue);
 }
-
 main {
     display: flex;
-    margin-top: 5vw;
-    
+    margin-top: clamp(3rem, 5vw, 8rem);
+    flex-wrap: wrap;
 }
 
 .lsb {
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
-    margin-right: 4vw;
+    margin-right: clamp(1rem, 4vw, 3rem);
     font-weight: 700;
-    font-size: 32px;
+    font-size: clamp(1.25rem, 3vw, 2rem);
     font-family: 'Poppins', sans-serif;
     color: #020E13;
-    opacity: 65%;
+    opacity: 0.65; /* Adjusted opacity value */
 }
 
-.headline{
+.headline {
     margin-top: auto;
     font-weight: 300 !important;
     color: var(--gray);
     border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
-    padding-right:1vw;
-    font-size: 1.5rem;
+    padding-right: clamp(0.5rem, 1vw, 1rem);
+    font-size: clamp(0.70rem, 2vw, 1.5rem);
     border-width: 0 0 3px 0;
     border-style: solid;
     display: inline-block;
@@ -77,41 +74,41 @@ main {
 }
 
 header {
-    font-size: 3rem;
+    font-size: clamp(1rem,4.5vw,3rem);
     font-family: var(--titleFont);
     text-transform: uppercase;
     color: var(--gray);
-    line-height: 150%;
-    
-    
+    line-height: clamp(2.5rem,7vw,5rem); 
 }
 
-header h1{
-    margin-bottom: -3vw ;
+header h1 {
+    margin-bottom: clamp(-1.5rem, -3vw, -1rem);
+    font-size: clamp(2rem, 7vw, 5rem);
 }
 
 header span {
     color: var(--black);
-    font-size: 7rem;
+    font-size: clamp(3rem, 9vw, 7rem);
 }
 
 .keywords {
     display: flex;
     align-items: flex-end;
-    margin-top: 7vw;
+    margin-top: clamp(3rem, 7vw, 5rem);
 }
 
 .keyword {
     width: 33.33%;
     text-transform: capitalize;
-    height: 9vw;
+    height: clamp(3rem, 9vw, 11rem);
     display: flex;
     align-items: flex-end;
-    padding-left: 1vw;
-    padding-bottom: 0.5vw;
-    font-size: 1.5rem;
+    padding-left: clamp(0.25rem, 1vw, 0.75rem);
+    padding-bottom: clamp(0.125rem, 0.5vw, 0.375rem);
+    font-size: clamp(0.70rem, 2vw, 1.5rem);
     color: white;
 }
+
 
 .keyword:nth-child(1) {
     background: var(--p-blue);
@@ -126,42 +123,65 @@ header span {
 }
 
 main .info {
-    margin-left: 2vw;
+    margin-left: clamp(0.5rem, 2vw, 1rem);
     border-left: 2px solid var(--gray);
-    padding-top: 3vw;
-    padding-left: 2vw;
+    padding-top: clamp(0.75rem, 3vw, 2rem);
+    padding-left: clamp(0.5rem, 2vw, 1rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
+    width: clamp(20%, 40vw, 40%);
 }
+
 
 .title{
     flex:1;
     
 }
 
+.innercontent{
+    width: 88%;
+}
 
 .info h2 {
     font-family: var(--titleFont);
+    font-size: clamp(1rem,3vw,2rem);
 }
 
 .info p {
     color: var(--gray);
     width: 100%;
-    font-size: 1.75rem;
+    font-size: clamp(0.75rem,2.5vw,1.75rem);
     margin-top: 1vw;
 }
 
 .info img {
-    height: 3.5vw;
-    margin-right: 1.25vw;
+    height: clamp(1.25rem, 3.5vw, 3.5rem);
+    margin-right: clamp(0.3125rem, 1.25vw, 1.25rem);
 }
 
 
-
-.video {
-    height: 100vh;
+.innertext{
+    display: flex;
     width: 100%;
-    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+    .title{
+        display: flex;
+    }
+    main .info{
+        width: 100%;
+        margin-left: 0;
+        flex-direction: row ;
+    }
+    .info p{
+        width: 80%;
+    }
+    main{
+        gap:3rem;
+    }
 }

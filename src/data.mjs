@@ -41,15 +41,15 @@ export const NavData = {
   navbar: [
     {
       navitem: "Alumni",
-      href: Alumni,
+      href: '/Alumni',
     },
     {
       navitem: "Events",
-      href: Events,
+      href: '/Events',
     },
     {
       navitem: "Bootcamps",
-      href: Bootcamps,
+      href: '/Bootcamps',
     },
     {
       img: logo,
@@ -57,11 +57,11 @@ export const NavData = {
     },
     {
       navitem: "Projects",
-      href: Projects,
+      href: '/Projects',
     },
     {
       navitem: "Gallery",
-      href: Gallery,
+      href: '/Gallery',
     },
   ]
 }

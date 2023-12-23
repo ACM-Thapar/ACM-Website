@@ -1,11 +1,10 @@
 
 .innnercard img{
-    height: 70%;  
+    height: 7vw;  
 }
 
 .innercard h3{
     width: 60%;
-    
 }
 .card{
     box-shadow: 2.8346822261810303px 4.252023220062256px 8.504046440124512px rgba(0, 0, 0, 0.20);
@@ -13,7 +12,7 @@
 
 .headingdiv  h1{
     font-family: var(--titleFont);
-    font-size: 8rem;
+    font-size: clamp(3.5rem,10vw,8rem);
     text-align: right;
     color:#EDF9FD;
 }
@@ -25,10 +24,10 @@
     /* margin: 0 auto; */
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     font-size: 1.25rem;
     font-weight: 700;
     font-family: var(--textFont);
-
 }
 .maininner .card:nth-child(odd){
     background-color: #F4F4F4;
@@ -39,8 +38,8 @@
 .main{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 80vh;
+   
+    /* height: 80vh;     */
     /* flex-wrap: wrap; */
     justify-content: end;
     align-items: center;
@@ -61,4 +60,10 @@
 .headingdiv{
     width: 90%;
     margin-bottom: -30px;
+}
+
+@media screen and (max-width:450px) {
+    .maininner{
+    grid-template-columns: repeat(1, 1fr);
+    }
 }

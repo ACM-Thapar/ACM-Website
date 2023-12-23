@@ -9,7 +9,7 @@
 }
 
 .main img{
-    height: 80%;
+    height: auto;
     width: 80%;
     margin-bottom: 3vw;
 }
@@ -21,7 +21,7 @@
 }
 .headingdiv  h1{
     font-family: var(--titleFont);
-    font-size: 8rem;
+    font-size: clamp(4rem,10vw,8rem);
     text-align: right;
     color:#DDF6FF;
 }

@@ -1,6 +1,7 @@
 .main{
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
+    
 }
 .image{
     position: relative;
@@ -8,44 +9,61 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-top:10vw ;
-    
+    margin-top:4rem ;   
 }
 
 .image img{
     position: absolute;
     box-shadow: 34px -39px 0px 4px rgba(143,218,245,0.75);
--webkit-box-shadow: 34px -39px 0px 4px rgba(143,218,245,0.75);
--moz-box-shadow: 34px -39px 0px 4px rgba(143,218,245,0.75);
+    -webkit-box-shadow: 34px -39px 0px 4px rgba(143,218,245,0.75);
+    -moz-box-shadow: 34px -39px 0px 4px rgba(143,218,245,0.75);
 }
 
 .content{
     flex:1;
     display: flex;
     flex-direction: column;
-    margin-left: 2vw;
+    margin-left: clamp(1rem,2vw,3rem);
 }
 
 
 .progressbar{
-    height: 100%;
+    height: clamp(20rem ,40vw,33rem);
     /* width: 100%; */
-    margin-left:2vw ;
-    margin-top: 2vw;
+    margin-left:clamp(1rem,2vw,3rem) ;
+    margin-top: clamp(1rem,2vw,3rem);
 }
 
 .innercontent p{
     color:#9AAEBC;
     font-family: var(--textFont);
-    font-size: 1rem;
+    font-size: clamp(0.25rem,3vw,1rem);
     width: 80%;
 }
-.innercontent h1{
-    color:#EDF9FD;
+.innercontent h1 {
+    color: #EDF9FD;
     font-family: var(--titleFont);
-    font-size: 5rem;
-    margin-bottom: -2.5vw;
+    font-size: clamp(2rem, 6vw, 5rem);
+    margin-bottom: clamp(-1rem, -4vw, -3rem);
 }
-.innercontent{
-    margin-bottom: 6vw;
+
+.innercontent {
+    margin-bottom: clamp(1.5rem, 6vw, 4rem);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main{
+        margin-bottom: 2rem;
+    }
+    
+    .innercontent p{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .image{
+        display: none;
+    }
 }
