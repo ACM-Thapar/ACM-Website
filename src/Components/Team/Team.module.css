@@ -68,7 +68,7 @@
 }
 .headingdiv  h1{
     font-family: var(--titleFont);
-    font-size: 8rem;
+    font-size: clamp(3.5rem,10vw,8rem);
     text-align: right;
     color:#EDF9FD;
 }

@@ -22,18 +22,20 @@ const Hero = () => {
           <div className={styles.circle} />
         </div>
         </div>
-
+        
         <main>
 
           
-          <h4 className={styles.lsb}>
+          
+          <div className={styles.title}>
+            <div className={styles.innertext}>
+            <h4 className={styles.lsb}>
             <span>2</span>
             <span>0</span>
             <span>2</span>
             <span>3</span>
-          </h4>
-          <div className={styles.title}>
-            
+            </h4>
+            <div className={styles.innercontent}>
             <header>
               <h1>
                 <span>ACM</span>
@@ -43,7 +45,7 @@ const Hero = () => {
                 Chapter
               </h1>
             </header>
-
+            
             <div className={styles.keywords}>
               {keywords.map ((item, index) => {
                 return (
@@ -52,6 +54,8 @@ const Hero = () => {
                   </div>
                 );
               })}
+            </div>
+            </div>
             </div>
           </div>
 

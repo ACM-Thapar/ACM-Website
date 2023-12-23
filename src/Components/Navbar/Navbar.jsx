@@ -10,8 +10,8 @@ const Navbar = () => {
                 <div className={styles.navitem}>
                     {navbar.slice(0,3).map ((item, index) => {
                             return (
-                                <li className={styles.navitem}>
-                                <a key={index} href={item.href}>{item.navitem}</a>
+                                <li className={styles.navitem} key={index}>
+                                <a  href={item.href}>{item.navitem}</a>
                                 </li>
                             );
                     })}
@@ -31,8 +31,8 @@ const Navbar = () => {
                 <div className={styles.navitem}>
                     {navbar.slice(4,6).map ((item, index) => {
                             return (
-                                <li className={styles.navitem}>
-                                <a key={index} href={item.href}>{item.navitem}</a>
+                                <li className={styles.navitem} key={index}>
+                                <a  href={item.href} >{item.navitem}</a>
                                 </li>
                             );
                     })}

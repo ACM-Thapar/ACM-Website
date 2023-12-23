@@ -17,7 +17,7 @@ const Home = () => {
         <Fragment>
        <Hero />
        <Homebrand />
-       <ProjectComp />
+       {/* <ProjectComp /> */}
        <BootcampComp />
        <Team teamData={EBData} />
         <Sponser />
