@@ -3,14 +3,14 @@
 .section{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%;	
 	z-index: 3;
 	position: fixed;
 }
 
 .navbox{
 	display: flex;
-	height: 4vw;
+	height: 3.5rem;
 	padding-inline:2vw ;
 	justify-content: space-between;
 	z-index: 3;
@@ -34,10 +34,16 @@
 
 .logo{
 	padding-top: 5px;
-	width: 8vw;
+	width: 7rem;
 	height: auto;
 	align-items: center;
-	position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+	position: absolute;	
+  	left: 50%;
+  	transform: translateX(-50%);
+}
+.image{
+	height: inherit;
+	width: inherit;
+	position: relative;
+	z-index: 5;
 }
