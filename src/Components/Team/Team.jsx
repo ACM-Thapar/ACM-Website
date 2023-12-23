@@ -41,7 +41,7 @@ const Team = ({ teamData }) => {
                                     <img src={item.linkdin.img} alt="LinkedIn" />
                                     <img src={item.insta.img} alt="Instagram" />
                                 </div>
-                                <img src={item.img} alt="Team Member" />
+                                <img src={item.img} alt="Team Member" className={style.teamimage} />
                             </div>
                         </div>
                     );
