@@ -96,10 +96,11 @@
 }
 
 .logos img{
-    height: 2.5vw;
+    height: clamp(1.5rem,2.5vw,2rem);
 }
 
 .logos{
+    margin-top:1rem ;
     display: flex;
     gap: 1vw;
 }
