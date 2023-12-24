@@ -36,6 +36,10 @@ export const HeroData = {
 };
 
 export const NavData = {
+  logo :{ 
+    img: logo,
+    alt: 'ACM-logo',
+  },
   navbar: [
     {
       navitem: "Alumni",
@@ -48,10 +52,6 @@ export const NavData = {
     {
       navitem: "Bootcamps",
       href: '/Bootcamps',
-    },
-    {
-      img: logo,
-      alt: 'ACM-logo',
     },
     {
       navitem: "Projects",
