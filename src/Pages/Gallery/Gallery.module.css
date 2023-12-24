@@ -27,7 +27,7 @@
     color: var(--gray);
     border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
     padding-right: clamp(0.5rem, 1vw, 1rem);
-    font-size: clamp(0.70rem, 2vw, 1.5rem);
+    font-size: clamp(0.6rem, 2vw, 1.5rem);
     border-width: 0 0 3px 0;
     border-style: solid;
     display: inline-block;

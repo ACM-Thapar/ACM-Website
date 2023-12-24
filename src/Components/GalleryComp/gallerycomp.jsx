@@ -14,15 +14,24 @@ const galleryComp = ( {gallerydata} ) => {
 						return(
 						<div className={styles.images} key={index}>
 							<div className={styles.left}>
-							<div>
-								<img src={item.img2} />
+							<div style={
+								{
+									backgroundImage:`url(${item.img2})`
+								}
+							}>
 								</div>
-								<div >
-								<img src={item.img3} />
+								<div style={
+								{
+									backgroundImage:`url(${item.img3})`
+								}
+							}>
 								</div>
 							</div>
-							<div className={styles.right}>
-								<img src={item.img1} />
+							<div className={styles.right} style={
+								{
+									backgroundImage:`url(${item.img1})`
+								}}>
+								
 							</div>
 						</div>
 						)

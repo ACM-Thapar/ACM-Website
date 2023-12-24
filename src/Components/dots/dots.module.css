@@ -1,0 +1,10 @@
+.dot{
+    width:90%;
+    text-align: right ;
+    padding-top: clamp(3rem,6vw,5rem);
+    
+    margin:0 auto
+}
+.dot img{
+    height: clamp(1rem,2vw,1.5rem);
+}
