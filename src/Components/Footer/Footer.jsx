@@ -14,36 +14,36 @@ const Footer = () => {
         <div className={styles.section}>
             <div className={styles.mainbox} >
                 <div className={styles.info}>
-                    <div>
+                    
                         <h2>{subtitle}</h2>
                         <p className={styles.context}>{info}</p>
-                    </div>
+                    
                 </div>
                 <div className={styles.outerinfo}>
                 <div className={styles.info}>
-                    <div>
+                    {/* <div> */}
                         <h2>{subtitle1}</h2>
-                    </div>
-                    <div>
+                    {/* </div> */}
+                    {/* <div> */}
                     {bootcamps.slice(0, 5).map((item, index) => {
                     return (
                     <p key={index}><a href='/'>{item.name}</a></p>
                     );
                     })}
 
-                    </div>
+                    {/* </div> */}
                 </div>
                 <div className={styles.info}>
-                    <div>
+                    {/* <div> */}
                         <h2>{subtitle2}</h2>
-                    </div>
-                    <div>
+                    {/* </div>
+                    <div> */}
                     {projectcount.slice(0, 5).map ((item, index) => {
                         return (
                         <p key={index}><a href='/team'>{item.name}</a></p>
                         );
                     })}
-                    </div>  
+                    {/* </div>   */}
                 </div>
                 </div>
             </div>

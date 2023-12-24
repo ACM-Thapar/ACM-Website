@@ -3,11 +3,13 @@
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
+    gap: 2rem;
 }
 .mainbox{
 	display: flex;
 	justify-content: space-between;
-    height: 40vh;
+    gap: 2rem;
+    /* height: 40vh; */
 }
 
 .info {
@@ -16,30 +18,50 @@
     padding-left: 2vw; */
     display: flex;
     flex-direction: column;
+    gap: clamp(0.5rem,1.25vw,1rem);
 	/* flex: 1; */
     /* width: 40%; */
 }
 
-.info:first-child {
-	 /* padding-right: 35vw; */
+/* .info:first-child {
+	 padding-right: 35vw; 
      width: 70%;
-  }
+      flex: 1; 
+  } */
+
 
   .info h2 {
     font-family: var(--titleFont);
-    margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
-    font-size: clamp(1.5rem, 3vw, 1.75rem);
+    margin-bottom: clamp(0.2rem,1vw,  0.75rem);
+    /* margin-bottom: clamp(1.5rem, 3vw, 2.5rem); */
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
 }
 
 .info p {
     color: var(--gray);
-    font-size: clamp(1.2rem, 2.5vw, 1.4rem);
-    margin-top: clamp(0.8rem, 1.5vw, 1vw);
+    font-size: clamp(0.8rem, 2.5vw, 1.4rem);
+    /* margin-top: clamp(0.8rem, 1.5vw, 1vw);see yaha pe tere clamp galat hai */
     font-family: var(--footerFont);
 }
 
+.outerinfo{
+    display: flex;
+    /* gap: clamp(0rem,12vw,10rem); */
+    /* width: 30%; */
+    gap: 8rem;
+    /* justify-content: space-between; */
+    
+}
+.context{
+    /* width: clamp(22rem,35vw,32rem); */
+    /* width: clamp(25rem,38vw,35rem); */
+    width: 30vw;
+}
 /* For mobile devices */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
+    /* .section{
+        width: inherit;
+    }
     .info h2 {
         font-size: clamp(1.25rem, 5vw, 1.5rem);
         margin-bottom: clamp(0.25rem, 1.5vw, 0.5rem);
@@ -51,19 +73,27 @@
         width: clamp(21rem, 10vw, 22rem);
     }
 
-    .mainbox{
-        flex-direction: column;
-        margin-bottom: clamp(2.5rem, 2vw,2rem);
-        height: clamp(18rem, 2vw, 19rem);
-    }
+    
 
     .outerinfo .info:nth-child(2){
         margin-left: clamp(9rem, 2vw, 9.5rem);
+    } */
+    .context{
+        width: 100%;
     }
-
+    .outerinfo{
+        justify-content: start;
+        width: 80%;
+        gap: 7vw;
+    }
+    .mainbox{
+        flex-direction: column;
+        /* margin-bottom: clamp(2.5rem, 2vw,2rem);
+        height: clamp(18rem, 2vw, 19rem); */
+    }
     .contact{
         flex-direction: column-reverse;
-        padding-bottom: clamp(2rem, 2vw, 2.5rem);
+        padding-bottom: 5rem;
     }
 }
 .info a{
@@ -77,9 +107,7 @@
     margin-right: 0.5vw; */
 }
 
-.context{
-    width: 30vw;
-}
+
 
 .contact{
 	/* margin: 5vw 0 2vw 2vw; */
@@ -103,13 +131,6 @@
     margin-top:1rem ;
     display: flex;
     gap: 1vw;
-}
-
-.outerinfo{
-    display: flex;
-    /* gap: 10vw; */
-    width: 30%;
-    justify-content: space-between;
 }
 
 
