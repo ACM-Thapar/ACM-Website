@@ -4,6 +4,9 @@ import Github from './assets/Images/GitHub (1).svg';
 import Device from './assets/Images/device.png';
 import Phone from './assets/Images/phone.png';
 import amico1 from './assets/Images/amico.png';
+import gallery2 from './assets/Images/gallery_big.png';
+import gallery0 from './assets/Images/gallery.png';
+import gallery1 from './assets/Images/gallery1.png';
 
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
@@ -580,4 +583,22 @@ export const alumnid = {
       img:profile,
     },
   ]
+}
+
+export const gallery = {
+  heading: "Gallery",
+  images:[
+    {
+      img: gallery2,
+      alt: "image1",
+    },
+    {
+      img: gallery0,
+      alt: "image2",
+    },
+    {
+      img: gallery1,
+      alt: "image3",
+    },
+  ],
 }
