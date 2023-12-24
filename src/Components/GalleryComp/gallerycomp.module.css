@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: clamp(2rem,3vw,2.5rem);
+    background-color: rgb(255, 255, 255);
+}
+
+.heading{
+    width: 94%;
+    margin-bottom: -2rem;
+}
+
+.heading h1{
+	font-family: var(--titleFont);
+	font-size: clamp(3.5rem,10vw,8rem);
+	text-align: right;
+	color:#EDF9FD;
+}
+
+
+
+.outerinfo .images:nth-child(even){
+    flex-direction: row-reverse ;
+}
+
+.images{
+    gap: 20px;
+    display: flex;
+    height: 60vh;
+    width: 100%;
+}
+
+.left {
+    width: 40%;
+}
+
+.left div{
+    height: 50%;
+}
+.left img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+
+.right img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.right{
+    width: 60%;
+}
+
+@media screen and (max-width:1000px) {
+    .images{
+        flex-direction: column-reverse;
+        gap: 0px;
+        /* height: 40vh */
+        width: 100%;
+        /* justify-content: space-around; */
+    }
+    .left{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        gap: 10px;
+    }
+    .left div{
+        height: 100%;
+        width: 50%;
+    }
+    .right{
+        height: 60%;
+        width: 100%;
+    }
+    .outerinfo .images:nth-child(even){
+        flex-direction: column;
+    }
+    .outerinfo .images:nth-child(even) .right{
+        margin-bottom: -5rem;
+    }
+
+    .right img{
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+    }
+    .heading{
+        margin-bottom: -1rem;
+    }
+}
