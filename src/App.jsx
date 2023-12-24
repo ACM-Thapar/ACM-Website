@@ -17,7 +17,7 @@ function App() {
     <Fragment>
       {/* <Loader /> */}
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
   <Routes>
     <Route exact path="/" element={<Home />} />
     <Route path="/events" element={<Events />} />

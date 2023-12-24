@@ -9,8 +9,7 @@
 }
 
 .main img{
-    height: clamp(15rem,50vw,45rem);
-    width: clamp(24rem,85vw,80rem);
+    height: clamp(12rem,52vw,50rem);
     margin-bottom: 3vw;
 }
 .headingdiv{
