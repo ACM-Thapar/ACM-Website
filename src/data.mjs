@@ -589,16 +589,19 @@ export const gallery = {
   heading: "Gallery",
   images:[
     {
-      img: gallery2,
-      alt: "image1",
+      img1: gallery2,
+      img2: gallery0,
+      img3: gallery1,
     },
     {
-      img: gallery0,
-      alt: "image2",
+      img1: gallery2,
+      img2: gallery0,
+      img3: gallery1,
     },
     {
-      img: gallery1,
-      alt: "image3",
+      img1: gallery2,
+      img2: gallery0,
+      img3: gallery1,
     },
   ],
 }
