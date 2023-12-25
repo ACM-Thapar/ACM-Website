@@ -11,7 +11,7 @@
     flex-direction: row;
     position: relative;
     align-items: center;
-    gap:15vw;
+    gap:8vw;
     margin-left: 10vw;
   }
   
@@ -37,7 +37,6 @@
   }
 
   .scroll-section img{
-     
     height: 20vw;
   }
   .scroll-section-div{

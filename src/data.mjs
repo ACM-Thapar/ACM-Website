@@ -7,7 +7,7 @@ import amico1 from './assets/Images/amico.png';
 import gallery2 from './assets/Images/gallery_big.png';
 import gallery0 from './assets/Images/gallery.png';
 import gallery1 from './assets/Images/gallery1.png';
-
+import project from "./assets/Images/project.svg";
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
 import hackathon from "./assets/Images/hackathon.png";
@@ -70,31 +70,52 @@ export const ProjectData = {
   project: [
     {
       name: "Webdev Guide",
-      img : Device
-    },
-    {
-      name: "Webdev Guide",
+      tech:  "HTML , CSS",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      link: "",
       img : Phone
     },
     {
       name: "Webdev Guide",
-      img : Device
-    },
-    {
-      name: "Webdev Guide",
+      tech:  "HTML , CSS",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      link: "",
       img : Phone
     },
     {
       name: "Webdev Guide",
-      img : Device
+      tech:  "HTML , CSS",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      link: "",
+      img : Phone
     },
     {
       name: "Webdev Guide",
-      img : Device
+      tech:  "HTML , CSS",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      link: "",
+      img : Phone
     },
     {
       name: "Webdev Guide",
-      img : Device
+      tech:  "HTML , CSS",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      link: "",
+      img : Phone
+    },
+    {
+      name: "Webdev Guide",
+      tech:  "HTML , CSS",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      link: "",
+      img : Phone
+    },
+    {
+      name: "Webdev Guide",
+      tech:  "HTML , CSS",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      link: "",
+      img : Phone
     },
   ],
   projectcount : [

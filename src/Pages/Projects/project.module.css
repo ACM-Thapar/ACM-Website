@@ -1,0 +1,64 @@
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+.main>h1{
+    font-family: var(--titleFont);
+    text-align: right;
+    color: #DDF6FF;
+    font-size: clamp(3rem,12vw,10rem);
+}
+.main>p{
+    font-family: var(--textFont);
+    color: #9AAEBC;
+    font-size: clamp(0.75rem,2vw,1.5rem);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-block: 5rem;
+}
+.buttons>button{
+    box-shadow: 6.928px 6.928px 8.313px 0px rgba(0, 0, 0, 0.25);
+    
+    font-family: var(--titleFont);
+    border: none;
+    padding: 1rem 3rem;
+}
+
+.buttons>button:nth-child(1){
+    background-color: #15A6DD;
+    color: #FFF;
+    font-size: clamp(0.8rem,2vw,1.5rem);
+}
+.buttons>button:nth-child(2){
+    background: #DDF6FF;
+    color: #15A6DD;
+    font-size: clamp(0.8rem,2vw,1.5rem);
+}
+
+@media screen and (max-width:1000px) {
+    .main>h1{
+        text-align: left;
+    }
+    .buttons{
+        
+        gap: 2rem;
+       
+    }
+    .buttons>button{
+        padding: 1rem 1.5rem;
+    }
+}
+

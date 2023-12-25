@@ -18,7 +18,7 @@ function ProjectComp() {
         translateX: 0,
       },
       {
-        translateX: "-300vw",
+        translateX: "-200vw",
         ease: "none",
         duration: 1,
         scrollTrigger: {
@@ -42,10 +42,11 @@ function ProjectComp() {
     
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner" >
-          {project.map ((item ,index)=> {
+          {project.slice(0,4).map ((item ,index)=> {
             return(
             <div className="scroll-section"  key={index}>
-            <div className="scroll-section-div"><h3>{item.name}</h3></div>
+            <div className="scroll-section-div"><h3>{item.name}</h3>
+            </div>
             <img src={item.img}></img>
             </div>
             )
