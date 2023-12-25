@@ -2,7 +2,7 @@ import React, { useState,Fragment } from "react";
 import { ProjectData } from "../../data.mjs";
 import style from "./project.module.css";
 import ProjectCard from "./ProjectCard/ProjectCard";
-import Dots from "../../Components/Dots/Dots";
+import Dots from "../../Components/dots/Dots";
 const Projects = () => {
     const [numCardsToShow, setNumCardsToShow] = useState
     (4);
