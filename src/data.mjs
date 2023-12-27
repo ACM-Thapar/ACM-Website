@@ -7,13 +7,18 @@ import amico1 from './assets/Images/amico.png';
 import gallery2 from './assets/Images/gallery_big.png';
 import gallery0 from './assets/Images/gallery.png';
 import gallery1 from './assets/Images/gallery1.png';
+
 import event1 from './assets/Images/event1.png';
 import event2 from './assets/Images/event2.png';
+
+
 import project from "./assets/Images/project.svg";
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
 import hackathon from "./assets/Images/hackathon.png";
 import profile from "./assets/Images/profile.png"
+import event1 from './assets/Images/event1.png';
+import event2 from './assets/Images/event2.png';
 
 export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
@@ -633,7 +638,7 @@ export const events = {
   heading1: "Events",
   heading2: "Sub-Events",
   details:[
-    { 
+    {
       subtitle: "ECLIPSE 3.0",
       description: "Flagship Event",
       data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
@@ -652,9 +657,6 @@ export const events = {
       subtitle: "CODESPRINT",
       description: "Competitive Coding",
       data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition",
-      images : [
-
-      ]
     },
   ],
 
@@ -669,5 +671,5 @@ export const events = {
       img: event2,
       img: event2,
     },
-  ],
+  ]
 }
