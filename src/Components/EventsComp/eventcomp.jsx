@@ -8,7 +8,7 @@ const EventComp = ( {eventdata} ) => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 		  setCurrentImageIndex((prevIndex) => (prevIndex + 1) % image.length);
-		}, 5000); // Change image every 5 seconds
+		}, 1000); // Change image every 5 seconds
 	
 		return () => clearInterval(interval);
 	  }, [image.length]);
@@ -31,13 +31,15 @@ const EventComp = ( {eventdata} ) => {
                 	)
             		})}
 					<div className={styles.imagebig}>
-      				{image.slice(0,1).map((items, index) => (
-        			<img key={index} src={items.img} style={{opacity: index === currentImageIndex ? 1 : 0, transition: 'opacity 1s ease',}} />
-      				))}
+						<div className={styles.innerimg}>
+      				{/* {image.slice(0,1).map((items, index) => (
+        			<img key={index} src={items.img}  />
+      				))} */}
+					</div>
     			</div>
         		</div>
             </div>
-			<div className={styles.box2}>
+			{/* <div className={styles.box2}>
 				<div className={styles.heading}>
 					<h2>{heading2}</h2>
 				</div>
@@ -96,7 +98,7 @@ const EventComp = ( {eventdata} ) => {
       				))}
     			</div>
         		</div>
-            </div>
+            </div> */}
 		</div>
 		</Fragment>
 	)

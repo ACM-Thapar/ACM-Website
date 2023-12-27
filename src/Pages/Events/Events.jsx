@@ -24,7 +24,7 @@ import Sponser from "../../Components/Sponser/Sponser";
                     <div>
                         <EventComp  />
                     </div>
-                    <Sponser />
+                    {/* <Sponser /> */}
                 </div>
             </section>
         </Fragment>
