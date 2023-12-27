@@ -7,11 +7,6 @@ import amico1 from './assets/Images/amico.png';
 import gallery2 from './assets/Images/gallery_big.png';
 import gallery0 from './assets/Images/gallery.png';
 import gallery1 from './assets/Images/gallery1.png';
-
-import event1 from './assets/Images/event1.png';
-import event2 from './assets/Images/event2.png';
-
-
 import project from "./assets/Images/project.svg";
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
