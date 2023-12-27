@@ -8,16 +8,17 @@ import gallery2 from './assets/Images/gallery_big.png';
 import gallery0 from './assets/Images/gallery.png';
 import gallery1 from './assets/Images/gallery1.png';
 <<<<<<< HEAD
-import event1 from './assets/Images/event1.png';
-import event2 from './assets/Images/event2.png';
 
-=======
+
+
 import project from "./assets/Images/project.svg";
 >>>>>>> d03d71b94006a5a45f937b0b27ddf2f3be930c8c
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
 import hackathon from "./assets/Images/hackathon.png";
 import profile from "./assets/Images/profile.png"
+import event1 from './assets/Images/event1.png';
+import event2 from './assets/Images/event2.png';
 
 export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
@@ -633,42 +634,42 @@ export const gallery = {
   ],
 }
 
-// export const events = {
-//   heading1: "Events",
-//   heading2: "Sub-Events",
-//   details:[
-//     {
-//       subtitle: "ECLIPSE 3.0",
-//       description: "Flagship Event",
-//       data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
-//     },
-//     {
-//       subtitle: "HACKLIPSE",
-//       description: "Most Popular Hackathon",
-//       data:"Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
-//     },
-//     {
-//       subtitle: "FLAMINGO",
-//       description: "Designathon",
-//       data:"Flamingo has been a canvas for imaginative expression, where designers used their artistic flair to craft visually stunning and impactful creations.",
-//     },
-//     {
-//       subtitle: "CODESPRINT",
-//       description: "Competitive Coding",
-//       data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition",
-//     },
-//   ],
+export const events = {
+  heading1: "Events",
+  heading2: "Sub-Events",
+  details:[
+    {
+      subtitle: "ECLIPSE 3.0",
+      description: "Flagship Event",
+      data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
+    },
+    {
+      subtitle: "HACKLIPSE",
+      description: "Most Popular Hackathon",
+      data:"Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
+    },
+    {
+      subtitle: "FLAMINGO",
+      description: "Designathon",
+      data:"Flamingo has been a canvas for imaginative expression, where designers used their artistic flair to craft visually stunning and impactful creations.",
+    },
+    {
+      subtitle: "CODESPRINT",
+      description: "Competitive Coding",
+      data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition",
+    },
+  ],
 
-//   image: [
-//     {
-//       img: event1,
-//       img: event1,
-//       img: event1,
-//     },
-//     {
-//       img: event2,
-//       img: event2,
-//       img: event2,
-//     },
-//   ],
-// }
+  image: [
+    {
+      img: event1,
+      img: event1,
+      img: event1,
+    },
+    {
+      img: event2,
+      img: event2,
+      img: event2,
+    },
+  ],
+}
