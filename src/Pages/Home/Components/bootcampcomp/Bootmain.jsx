@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import styles from './Bootcampcomp.module.css';
+import styles from './Bootmain.module.css';
 import { Bootcamp } from "../../../../data.mjs";
-const BootcampComp = () => {
+const Bootmain = () => {
     const {bootcamps} = Bootcamp
     return ( 
         <Fragment>
@@ -30,4 +30,4 @@ const BootcampComp = () => {
      );
 }
  
-export default BootcampComp;
+export default Bootmain;

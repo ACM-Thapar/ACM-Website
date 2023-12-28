@@ -1,0 +1,61 @@
+.header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header>h1{
+    font-family: var(--titleFont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    color: var(--HighlightLogo, #DDF6FF);
+    margin-left: 5rem;
+}
+
+.innerbody>h1{
+    font-family:var(--titleFont);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.innerbody>h2{
+    font-family: var(--textFont);
+    color: var(--Primary-Blue, #15A6DD);
+    font-weight: 500;
+}
+.innerbody>p{
+    font-family: var(--textFont);
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--Secondary-light-gray, #9AAEBC);
+    
+}
+
+.resources>h1{
+    font-family: var(--titleFont);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.resources>h2{
+    font-family: var(--textFont);
+    color: var(--Primary-Blue, #15A6DD);
+    font-weight: 500;
+}
+
+.links{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px; 
+}
+
+.links div>p{
+    font-family: var(--textFont);
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--Secondary-light-gray, #9AAEBC);
+}

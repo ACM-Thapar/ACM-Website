@@ -1,0 +1,38 @@
+import { Fragment } from "react";
+import styles from "./BootcampComp.module.css";
+const BootcampComp = (prop) => {
+    const {img,heading,tech,data,resourcs} = prop.prop;
+    return ( 
+        <Fragment>
+            <div className={styles.header}
+            style={{
+                backgroundImage: `url(${img})`,
+            }}>
+                <h1>{heading}</h1>
+            </div>
+            <div className={styles.body}>
+                <div className={styles.innerbody}>
+                <h1>What you'll learn?</h1>
+                <h2>{tech}</h2>
+                <p>{data}</p>
+                </div>
+                <div className={styles.resources}>
+                    <h1>Important Resources</h1>
+                    <h2>100% Free</h2>
+                    <div className={styles.links}>
+                    {resourcs.map((item,index)=>{
+                        return(
+                            <div key={index}>
+                                <p>{item.name}</p>
+                            </div>
+                        )
+                    }
+                    )}
+                    </div>
+                </div>
+            </div>
+        </Fragment>
+     );
+}
+ 
+export default BootcampComp;
