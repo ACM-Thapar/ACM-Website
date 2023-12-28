@@ -25,8 +25,8 @@
 
 .innercontent{
   width: 37%;
-
 }
+
 .imagebig{
   width: 60%;
   height: auto;
@@ -73,7 +73,8 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.main .box1:nth-child(2), :nth-child(3){
+.main .box1:nth-child(2),
+.main .box1:nth-child(3){
   width: 90%;
   align-self: flex-end;
 }
