@@ -1,137 +1,137 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Montserrat:wght@700;800;900&family=PT+Serif:ital@0;1&family=Playfair+Display:wght@500&family=Poppins:wght@400;500&family=Ubuntu&family=Vollkorn:ital,wght@0,400;1,400;1,600&display=swap');
-
-:root {
-  --titleFont: 'Playfair Display', serif;
-  --textFont: 'PT Serif', serif;
-} */
 
 .main {
   display: flex;
   flex-direction: column;
-  /* justify-content: end; */
-  /* align-items: center; */
   width: 100%;
   margin-bottom: clamp(2rem, 3vw, 2.5rem);
   background-color: rgb(255, 255, 255);
 }
 
 .heading {
-  padding-bottom: clamp(3.5rem, 1vw, 4rem);
-  /* padding-right: clamp(9.25rem, 7vw, 9.5rem); */
+  height: clamp(7rem, 12vw, 7.5rem);
 }
 
-.heading h1,
-.heading h2 {
+.heading h1{
   font-family: var(--titleFont);
-  font-size: clamp(3.5rem, 10vw, 8rem);
+  font-size: clamp(3.5rem, 10vw, 6rem);
   text-align: right;
   color: #ddf6ff;
 }
 
-
-
-
-
 .content {
   width: 100%;
   display: flex;
-  /* flex-direction: column; */
-  /* margin-left: clamp(1rem, 6vw, 4rem); */
-  /* width: clamp(88rem, 2vw, 88.5rem);  */
 }
 
 .innercontent{
-  width: 40%;
+  width: 37%;
 
 }
 .imagebig{
   width: 60%;
-  /* height: 100%; */
+  height: auto;
   display: flex;
-  align-items: flex-end;
-  height: 70vh;
+  justify-content:flex-end;
 }
 
 .innerimg{
-  box-shadow: 32px -30px 0px 3px rgba(21,166,221,0.75);
-  -webkit-box-shadow: 32px -30px 0px 3px rgba(21,166,221,0.75);
-  -moz-box-shadow: 32px -30px 0px 3px rgba(21,166,221,0.75);
-  height: 70%;
-  width: 70%;
-  background-color: #15a6dd;
+  box-shadow: 35px -30px 0px 3px rgba(21,166,221,0.75);
+  -webkit-box-shadow: 35px -30px 0px 3px rgba(21,166,221,0.75);
+  -moz-box-shadow: 35px -30px 0px 3px rgba(21,166,221,0.75);
+  height: 100%;
+  width: auto;
 }
+
 .innercontent p {
   color: #9aaebc;
   font-family: var(--textFont);
   font-weight: 400;
   font-size: clamp(0.25rem, 3vw, 1rem);
-  width: clamp(25rem, 27vw, 25.5rem);
+  width: clamp(24rem, 27vw, 24.5rem);
 }
 
 .innercontent h3 {
   font-family: var(--titleFont);
   font-weight: 700;
-  font-size: clamp(2rem, 6vw, 5rem);
+  font-size: clamp(1.75rem, 4vw, 2rem);
 }
 
 .innercontent h6 {
   color: #15a6dd;
   font-family: 'Poppins';
   font-weight: 500;
-  font-size: clamp(1.25rem, 2.25vw, 1.75rem);
+  font-size: clamp(1rem, 2.25vw, 1.5rem);
   margin-bottom: clamp(0.25rem, 1vw, 0.50rem);
 }
 
-
-
 .line {
-  margin-top: clamp(6rem, 2vw, 6.5rem);
-  margin-left: clamp(2rem, 2vw, 2.5rem);
-  margin-right: clamp(2rem, 2vw, 2.5rem);
-  margin-bottom: clamp(10rem, 2vw, 10.5rem);
+  margin-top: clamp(4.5rem, 7vw, 5rem);
+  margin-bottom: clamp(5.5rem, 8vw, 6rem);
   background-color: #70838a;
   height: 3px;
   border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* @media screen and (max-width: 1000px) {
-  .box1 .box2 {
-    width: clamp(49rem, 2vw, 49.5rem);
-  }
+.main .box1:nth-child(2), :nth-child(3){
+  width: 90%;
+  align-self: flex-end;
+}
 
-  .heading {
-    width: clamp(350px, 10vw, 80vw);
-    margin-left: clamp(30px, 2vw, 5vw);
-  }
+@media screen and (max-width: 1000px) {
 
-  .heading h1,
-  .heading h2 {
-    text-align: left;
-  }
+.main{
+  margin-bottom: 0;
+}
 
-  .content {
-    flex-direction: row;
-    width: clamp(350px, 10vw, 80vw);
-    margin-left: clamp(30px, 2vw, 5vw);
-    justify-content: center;
-  }
+.heading{
+  height: clamp(2.5rem, 4vw, 3rem);
+}
 
-  .innercontent {
-    justify-content: center;
-  }
+.heading h1{
+  text-align: left;
+  font-size: clamp(2rem,4vw,2.5rem);
+}
 
-  .box2 .innercontent {
-    margin-left: clamp(30px, 2vw, 5vw);
-    padding-left: 0;
-  }
+.box1, .content, .innercontent, .innercontent p{
+  width: 100%;
+}
 
-  .innercontent p {
-    width: clamp(350px, 10vw, 80vw);
-  }
+.box1{
+  margin-bottom: clamp(2rem,3vw,2.5rem);
+}
 
-  .image,
-  .imagebig {
-    padding: clamp(500px, 2vw, 80vw) 0 0 0;
-  }
-} */
+.main .box1:nth-child(2), :nth-child(3){
+  width: 100%;
+}
+
+.main .heading:nth-child(3){
+  height: 0;
+}
+
+.content{
+  flex-direction: column;
+}
+
+.imagebig{
+  width: 90%;
+  height: auto;
+  padding-top: clamp(1.5rem, 3vw, 1rem);
+}
+
+.innerimg{
+  -webkit-box-shadow: 14px -16px 0px -1px rgba(21,166,221,0.75);
+    -moz-box-shadow: 14px -16px 0px -1px rgba(21,166,221,0.75);
+    box-shadow: 14px -16px 0px -1px rgba(21,166,221,0.75);
+}
+
+.innerimg img{
+  width: 100%;
+  height: auto;
+}
+
+.line {
+  margin-top: clamp(1rem, 4vw, 1.5rem);
+  margin-bottom: clamp(1.5rem, 4vw, 2rem);
+}
+}

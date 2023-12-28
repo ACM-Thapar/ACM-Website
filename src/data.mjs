@@ -630,41 +630,32 @@ export const gallery = {
 }
 
 export const events = {
-  heading1: "Events",
-  heading2: "Sub-Events",
   details:[
     {
+      heading: "Events",
       subtitle: "ECLIPSE 3.0",
       description: "Flagship Event",
       data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
+      img: event1,
     },
     {
+      heading: "Sub-Events",
       subtitle: "HACKLIPSE",
       description: "Most Popular Hackathon",
       data:"Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
+      img: event2,
     },
     {
       subtitle: "FLAMINGO",
       description: "Designathon",
       data:"Flamingo has been a canvas for imaginative expression, where designers used their artistic flair to craft visually stunning and impactful creations.",
+      img: event2,
     },
     {
       subtitle: "CODESPRINT",
       description: "Competitive Coding",
-      data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition",
+      data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition.",
+      img: event1,
     },
   ],
-
-  image: [
-    {
-      img: event1,
-      img: event1,
-      img: event1,
-    },
-    {
-      img: event2,
-      img: event2,
-      img: event2,
-    },
-  ]
 }

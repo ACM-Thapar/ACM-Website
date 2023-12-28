@@ -3,102 +3,63 @@ import styles from "./eventcomp.module.css";
 import { events } from "../../data.mjs";
 
 const EventComp = ( {eventdata} ) => {
-    const {heading1,heading2,image,details} = events;
+    const {details} = events;
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
 	useEffect(() => {
-		const interval = setInterval(() => {
-		  setCurrentImageIndex((prevIndex) => (prevIndex + 1) % image.length);
-		}, 1000); // Change image every 5 seconds
-	
-		return () => clearInterval(interval);
-	  }, [image.length]);
+		details.forEach((item) => {
+		  const interval = setInterval(() => {
+			setCurrentImageIndex((prevIndex) => (prevIndex + 1) % item.img.length);
+		  }, 5000); // Change image every 5 seconds
+	  
+		  return () => clearInterval(interval);
+		});
+	  }, [details.length]);	  
 
 	return(
 		<Fragment>
 		<div className={styles.main}>
-			<div className={styles.box1}>
+		{details.slice(0,3).map((items,index)=>{
+			return(
+				<div className={styles.box1} key={index}>
                 <div className={styles.heading}>
-                    <h1>{heading1}</h1>
+                    <h1>{items.heading}</h1>
                 </div>
 				<div className={styles.content}>
-            		{details.slice(0,1).map((items,index)=>{
-                	return( 
-                		<div className={styles.innercontent} key={index}>
+					<div className={styles.innercontent}>
                				<h3 >{items.subtitle}</h3>
 							<h6>{items.description}</h6>
                 			<p > {items.data}</p>
-                		</div>
-                	)
-            		})}
+                	</div>
 					<div className={styles.imagebig}>
 						<div className={styles.innerimg}>
-      				{/* {image.slice(0,1).map((items, index) => (
-        			<img key={index} src={items.img}  />
-      				))} */}
-					</div>
-    			</div>
+        						<img key={index} src={items.img}  />
+						</div>
+    				</div>
         		</div>
             </div>
-			{/* <div className={styles.box2}>
-				<div className={styles.heading}>
-					<h2>{heading2}</h2>
-				</div>
+		)
+		})}
+
+		<hr className={styles.line} />
+			
+        {details.slice(3,4).map((items,index)=>{
+			return(
+				<div className={styles.box1} key={index}>
 				<div className={styles.content}>
-					{details.slice(1,2).map((items,index)=>{
-                	return( 
-                		<div className={styles.innercontent} key={index}>
+					<div className={styles.innercontent}>
                				<h3 >{items.subtitle}</h3>
 							<h6>{items.description}</h6>
                 			<p > {items.data}</p>
-                		</div>
-                	)
-            		})}
-					<div className={styles.image}>
-      				{image.slice(1,2).map((items, index) => (
-        			<img key={index} src={items.img} style={{opacity: index === currentImageIndex ? 1 : 0, transition: 'opacity 1s ease',}} />
-      				))}
-    			</div>
-				</div>
-			</div>
-			<div className={styles.box2}>
-				<div className={styles.content}>
-					{details.slice(2,3).map((items,index)=>{
-                	return( 
-                		<div className={styles.innercontent} key={index}>
-               				<h3 >{items.subtitle}</h3>
-							<h6>{items.description}</h6>
-                			<p > {items.data}</p>
-                		</div>
-                	)
-            		})}
-					<div className={styles.image}>
-      				{image.slice(1,2).map((items, index) => (
-        			<img key={index} src={items.img} style={{opacity: index === currentImageIndex ? 1 : 0, transition: 'opacity 1s ease',}} />
-      				))}
-    			</div>
-				</div>
-			</div>
-			<div className={styles.box1}>
-                <div>
-                    <hr className={styles.line} />
-                </div>
-				<div className={styles.content}>
-            		{details.slice(3,4).map((items,index)=>{
-                	return( 
-                		<div className={styles.innercontent} key={index}>
-               				<h3 >{items.subtitle}</h3>
-							<h6>{items.description}</h6>
-                			<p > {items.data}</p>
-                		</div>
-                	)
-            		})}
+                	</div>
 					<div className={styles.imagebig}>
-      				{image.slice(0,1).map((items, index) => (
-        			<img key={index} src={items.img} style={{opacity: index === currentImageIndex ? 1 : 0, transition: 'opacity 1s ease',}} />
-      				))}
-    			</div>
+						<div className={styles.innerimg}>
+        						<img key={index} src={items.img}  />
+						</div>
+    				</div>
         		</div>
-            </div> */}
+            </div>
+		)
+		})}    		
 		</div>
 		</Fragment>
 	)

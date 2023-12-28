@@ -5,7 +5,6 @@
     background: rgb(255, 255, 255);
     display: flex;
     width: 90%;
-    overflow: hidden;
     margin: 0 auto;
     padding-top: clamp(3rem, 2vw, 5rem);
     margin-bottom: clamp(3rem, 5vw, 8rem);
@@ -35,8 +34,10 @@
     border-image-source: linear-gradient(180deg, #8FDAF5 0%, #15A6DD 49.79%, #2041B5 100%);
 }
 
-/* .circles{
-    display: flex;
-    gap: 0.3vw;
-    padding-right: clamp(9.25rem, 7vw, 9.5rem);
-} */
+@media screen and (max-width: 1000px) {
+
+    #events{
+      padding-left: 0;
+      padding-right: 0;
+    }
+}
