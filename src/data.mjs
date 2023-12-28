@@ -2,6 +2,7 @@ import Linkedin from './assets/Images/LinkedIn (1).svg';
 import Instagram from './assets/Images/Instagram.svg';
 import Github from './assets/Images/GitHub (1).svg';
 import Device from './assets/Images/device.png';
+import Bootcampimg from './assets/Images/bootcamps.png';
 import Phone from './assets/Images/phone.png';
 import amico1 from './assets/Images/amico.png';
 import gallery2 from './assets/Images/gallery_big.png';
@@ -658,4 +659,31 @@ export const events = {
       img: event1,
     },
   ],
+}
+
+export const Bootcampdata = {
+  Webdev : {
+    heading : "Web Dev",
+    data : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+    img : Bootcampimg,
+    tech : "Html | Css | Js | React | Node JS",
+    resourcs:[
+      {
+        name : "One shot Html Course",
+        link : "",
+      },
+      {
+        name : "One shot Css Course",
+        link : "",
+      },
+      {
+        name : "One shot React Course",
+        link : "",
+      },
+      {
+        name : "One shot Js Course",
+        link : "",
+      }
+    ]
+  },
 }
