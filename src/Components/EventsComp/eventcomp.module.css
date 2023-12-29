@@ -113,7 +113,8 @@
   margin-bottom: clamp(2rem,3vw,2.5rem);
 }
 
-.main .box1:nth-child(2), :nth-child(3){
+.main .box1:nth-child(2),
+.main .box1:nth-child(3){
   width: 100%;
 }
 
