@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: 100% 100%; */
-    height: 70vh;
+    height: clamp(32rem,60vw,32.5rem);
     display: flex;
     align-items: flex-end;
 }
@@ -11,51 +11,104 @@
     font-family: var(--titleFont);
     font-style: normal;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: clamp(5rem, 6vw, 5.25rem);
     color: var(--HighlightLogo, #DDF6FF);
-    margin-left: 5rem;
+    margin-left: clamp(5rem, 6vw, 5.25rem);
 }
 
-.innerbody>h1{
+.innerbody>h1, .resources>h1, .roadmap>h1{
     font-family:var(--titleFont);
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 5vw, 2.75rem);
 }
 
-.innerbody>h2{
+.innerbody>h2, .resources>h2, .roadmap>h2{
     font-family: var(--textFont);
     color: var(--Primary-Blue, #15A6DD);
     font-weight: 500;
 }
+
 .innerbody>p{
     font-family: var(--textFont);
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
     color: var(--Secondary-light-gray, #9AAEBC);
-    
+    padding-top: clamp(0.5rem,2vw,0.75rem);
+    width: 90%;
 }
 
-.resources>h1{
-    font-family: var(--titleFont);
-    font-weight: 700;
-    font-size: 2.5rem;
-}
-.resources>h2{
-    font-family: var(--textFont);
-    color: var(--Primary-Blue, #15A6DD);
-    font-weight: 500;
+.innerbody, .resources, .roadmap{
+    margin-top: clamp(2rem,4vw,2.25rem);
 }
 
 .links{
-    width: 80%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 20px; 
+    /* gap: 20px;  */
 }
 
-.links div>p{
+.logo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 70%;
+    height: clamp(2rem, 4vw, 2.5rem);
+    border-bottom: solid 1px black;
+}
+
+.logo img{
+    width: 7%;
+    height: auto;
+}
+
+.logo p{
     font-family: var(--textFont);
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
     color: var(--Secondary-light-gray, #9AAEBC);
+    width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .header{
+        height: clamp(8rem,15vw,8.5rem);
+    }
+    
+    .header>h1{
+        font-size: clamp(2rem, 4vw, 2.25rem);
+        margin-left: clamp(1rem, 4vw, 1.25rem);
+    }
+
+    .innerbody>h1, .resources>h1, .roadmap>h1{
+        font-size: clamp(1.5rem, 2vw, 1.75rem);
+    }
+    
+    .innerbody>h2, .resources>h2, .roadmap>h2{
+        font-size: clamp(0.8rem, 2vw, 1rem);
+    }
+    
+    .innerbody>p{
+        font-size: clamp(0.8rem, 2vw, 1rem);
+        padding-top: clamp(0.25rem,2vw,0.5rem);
+        width: 100%;
+    }
+    
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 80%;
+    }
+
+    .logo p{
+        font-size: clamp(0.8rem, 2vw, 1rem);
+    }
+
 }

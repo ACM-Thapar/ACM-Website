@@ -22,13 +22,19 @@ const BootcampComp = (prop) => {
                     <div className={styles.links}>
                     {resourcs.map((item,index)=>{
                         return(
-                            <div key={index}>
+                            <div className={styles.logo}key={index}>
+                                <img src={item.image}/> 
                                 <p>{item.name}</p>
+                                <img src={item.img}/>
                             </div>
                         )
                     }
                     )}
                     </div>
+                </div>
+                <div className={styles.roadmap}>
+                <h1>Roadmap</h1>
+                <h2>lorem ipsum dotor sit amet</h2>
                 </div>
             </div>
         </Fragment>

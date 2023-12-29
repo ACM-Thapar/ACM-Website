@@ -1,22 +1,34 @@
-import React from "react";  
+import React, { Fragment } from "react";  
 import BootcampComp from "./BootcampComp/BootcampComp";
+import Dots from "../../Components/dots/Dots";
 import styles from "./Bootcamps.module.css";
-import { Fragment } from "react";
+import {HeroData} from "../../data.mjs";
 import { Bootcampdata } from "../../data.mjs";
 const Bootcamps = () => {
-    const {Webdev} = Bootcampdata;
+    const {Webdev,title} = Bootcampdata;
+    const {headline} = HeroData;
     return(
         <Fragment>
-            <div className={styles.main}>
-            <div className={styles.header}>
-                <h1>Bootcamps</h1>
-            </div>
-            <div className={styles.body}>
-                <div className={styles.innerbody}>
-                    <BootcampComp prop={Webdev} />
+            <section id={styles.bootcamp}>
+            <div className={styles.maincontent}>
+                <div className={styles.upperpart}>
+                    <h3 className={styles.headline}>
+                        {headline}
+                    </h3>
+                    <div className={styles.circles}>
+                        <Dots />
+                    </div>
+                </div>
+                <div className={styles.header}>
+                    <h1>{title}</h1>
+                </div>
+                <div className={styles.body}>
+                    <div className={styles.innerbody}>
+                        <BootcampComp prop={Webdev} />
+                    </div>
                 </div>
             </div>
-            </div>
+            </section>
         </Fragment>
     )
 };

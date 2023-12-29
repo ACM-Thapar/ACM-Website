@@ -15,6 +15,11 @@ import hackathon from "./assets/Images/hackathon.png";
 import profile from "./assets/Images/profile.png"
 import event1 from './assets/Images/event1.png';
 import event2 from './assets/Images/event2.png';
+import html from './assets/Images/html.png';
+import css from './assets/Images/css.png';
+import Js from './assets/Images/js.png';
+import react from './assets/Images/react.png';
+import arrow from './assets/Images/arrowsolid.png';
 
 export const HeroData = {
   headline: 'Lorem ipsum dolor sit amet, consectetur',
@@ -662,6 +667,7 @@ export const events = {
 }
 
 export const Bootcampdata = {
+  title: "Bootcamps",
   Webdev : {
     heading : "Web Dev",
     data : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
@@ -669,19 +675,27 @@ export const Bootcampdata = {
     tech : "Html | Css | Js | React | Node JS",
     resourcs:[
       {
-        name : "One shot Html Course",
+        name : "One shot HTML Course",
+        image: html,
+        img: arrow,
         link : "",
       },
       {
-        name : "One shot Css Course",
+        name : "One shot CSS Course",
+        image: css,
+        img: arrow,
         link : "",
       },
       {
         name : "One shot React Course",
+        image: react,
+        img: arrow,
         link : "",
       },
       {
         name : "One shot Js Course",
+        image: Js,
+        img: arrow,
         link : "",
       }
     ]
