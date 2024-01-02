@@ -36,6 +36,18 @@
     line-height: 100%;
   }
 
+  .scroll-section p{
+    font-family: var(--textFont);
+    font-size: 1.5rem;
+    /* text-decoration: underline; */
+  }
+
+  .scroll-section-div div{
+    border-bottom: 2px solid #000000;
+    display: flex;
+    margin-top: 1rem;
+  }
+
   .scroll-section img{
     height: 20vw;
   }

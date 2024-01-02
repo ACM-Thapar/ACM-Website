@@ -684,6 +684,43 @@ export const Bootcampdata = {
         name : "One shot Js Course",
         link : "",
       }
+    ],
+    roadmap:[
+      {
+        week : "01",
+        topic : "HTML/CSS",
+        link: "",
+      },
+      {
+        week : "02",
+        topic : "HTML/CSS",
+        link: "",
+      },
+      {
+        week : "03",
+        topic : "HTML/CSS",
+        link: "",
+      },
+      {
+        week : "04",
+        topic : "HTML/CSS",
+        link: "",
+      },
+      {
+        week : "05",
+        topic : "HTML/CSS",
+        link: "",
+      },
+      {
+        week : "06",
+        topic : "HTML/CSS",
+        link: "",
+      },
+      {
+        week : "07",
+        topic : "HTML/CSS",
+        link: "",
+      }, 
     ]
   },
 }

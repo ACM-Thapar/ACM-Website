@@ -2,3 +2,36 @@
     width: 90%;
     margin: 0 auto;
 }
+.roadmap{
+    /* overflow: hidden; */
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 10px; */
+}
+
+.section{
+    /* overflow-x: hidden */
+    /* overflow-y: hidden; */
+    position: relative;
+   
+}
+.heading{margin-top: 5rem;}
+.heading h1{
+    font-family: var(--titleFont);
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: #000;
+    
+}
+
+.heading h3{
+    font-family: var(--textFont);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--Primary-Blue, #15A6DD);
+    
+    /* margin-top: 1rem; */
+}

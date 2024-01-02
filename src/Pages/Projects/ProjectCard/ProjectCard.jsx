@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import style from "./ProjectCard.module.css";
-//import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 const ProjectCard = ({project}) => {
     return ( 
         <Fragment>
