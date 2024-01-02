@@ -1,9 +1,11 @@
 import { Fragment } from "react";
 import styles from "./BootcampComp.module.css";
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 const BootcampComp = (prop) => {
     const {img,heading,tech,data,resourcs} = prop.prop;
     return ( 
         <Fragment>
+            <div className={styles.main}>
             <div className={styles.header}
             style={{
                 backgroundImage: `url(${img})`,
@@ -22,20 +24,16 @@ const BootcampComp = (prop) => {
                     <div className={styles.links}>
                     {resourcs.map((item,index)=>{
                         return(
-                            <div className={styles.logo}key={index}>
-                                <img src={item.image}/> 
+                            <div  key={index}>
                                 <p>{item.name}</p>
-                                <img src={item.img}/>
+                                <ArrowOutwardIcon />
                             </div>
                         )
                     }
                     )}
                     </div>
                 </div>
-                <div className={styles.roadmap}>
-                <h1>Roadmap</h1>
-                <h2>lorem ipsum dotor sit amet</h2>
-                </div>
+            </div>
             </div>
         </Fragment>
      );
