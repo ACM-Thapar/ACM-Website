@@ -1,5 +1,3 @@
-
-
 .section{
     display: flex;
     flex-direction: column;
@@ -46,4 +44,89 @@
 	width: inherit;
 	position: relative;
 	z-index: 5;
+}
+
+.logos, .home{
+	display: none;
+}
+
+.closeButton{
+	display: none;
+}
+
+/* .Open{
+	display: block;
+} */
+
+@media screen and (max-width: 1000px) {
+
+	.Open .navbox{
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		justify-content:center;
+		background-color: rgba(0, 0, 0, 0.95);
+	}
+
+	.navitem, .logos{
+		display: none;
+	  }
+
+	  .image{
+		display: flex;
+		position: absolute;
+		justify-content:space-between;
+		align-items:center;
+		height: 3.5rem;
+		box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0)
+	  }
+	
+	.Open .navitem {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: clamp(1rem,3vw,1.5rem);
+	  }
+
+	.home{
+		display: flex;
+	}
+
+	.navitem a{
+		color:white;
+	}
+
+	.logo{
+		display: flex;
+		align-items:center;
+		position: relative;
+	}
+
+	.Open .image{
+		display: flex;
+		position: absolute;
+		justify-content:space-between;
+		align-items:center;
+		height:clamp(4rem,10vw,4.25rem);
+	}
+
+	.logos img{
+		height: clamp(1.5rem,4vw,2rem);
+	}
+	
+	.Open .logos{
+		gap: 1vw;
+		justify-content: center;
+	}
+
+	.closeButton{
+		color: #15A6DD;
+		cursor: pointer;
+		display: flex;
+		justify-content: end;
+	}
+
+	.navitem a:hover, .navitem a:active {
+		color: #15a6dd;
+	  }
+
 }

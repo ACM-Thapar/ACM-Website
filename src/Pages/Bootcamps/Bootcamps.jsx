@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from "react";  
 import BootcampComp from "./BootcampComp/BootcampComp";
-import Dots from "../../Components/dots/Dots";
 import styles from "./Bootcamps.module.css";
-import {HeroData} from "../../data.mjs";
+import { Fragment } from "react";
 import { Bootcampdata } from "../../data.mjs";
 import Cardboot from "./CardBootcamp/Cardboot";
 import { gsap } from "gsap";

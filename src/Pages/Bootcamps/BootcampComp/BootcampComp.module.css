@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: 100% 100%; */
-    height: clamp(32rem,60vw,32.5rem);
+    height: 70vh;
     display: flex;
     /* gap: 5rem; */
     align-items: flex-end;
@@ -22,62 +22,53 @@
     font-family: var(--titleFont);
     font-style: normal;
     font-weight: bold;
-    font-size: clamp(5rem, 6vw, 5.25rem);
+    font-size: 5rem;
     color: var(--HighlightLogo, #DDF6FF);
-    margin-left: clamp(5rem, 6vw, 5.25rem);
+    margin-left: 5rem;
 }
 
-.innerbody>h1, .resources>h1, .roadmap>h1{
+.innerbody>h1{
     font-family:var(--titleFont);
     font-weight: 700;
-    font-size: clamp(2.5rem, 5vw, 2.75rem);
+    font-size: 2.5rem;
 }
 
-.innerbody>h2, .resources>h2, .roadmap>h2{
+.innerbody>h2{
+    font-family: var(--textFont);
+    color: var(--Primary-Blue, #15A6DD);
+    font-weight: 500;
+}
+.innerbody>p{
+    font-family: var(--textFont);
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--Secondary-light-gray, #9AAEBC);
+    
+}
+
+.resources>h1{
+    font-family: var(--titleFont);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.resources>h2{
     font-family: var(--textFont);
     color: var(--Primary-Blue, #15A6DD);
     font-weight: 500;
 }
 
-.innerbody>p{
-    font-family: var(--textFont);
-    font-weight: 400;
-    font-size: clamp(0.9rem, 2vw, 1.2rem);
-    color: var(--Secondary-light-gray, #9AAEBC);
-    padding-top: clamp(0.5rem,2vw,0.75rem);
-    width: 90%;
-}
-
-.innerbody, .resources, .roadmap{
-    margin-top: clamp(2rem,4vw,2.25rem);
-}
-
 .links{
-    width: 90%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 30px 100px; 
     margin-top: 2rem;
 }
 
-.logo{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    width: 70%;
-    height: clamp(2rem, 4vw, 2.5rem);
-    border-bottom: solid 1px black;
-}
-
-.logo img{
-    width: 7%;
-    height: auto;
-}
-
-.logo p{
+.links div>p{
     font-family: var(--textFont);
     font-weight: 400;
-    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    font-size: 1.2rem;
     color: var(--Secondary-light-gray, #9AAEBC);
 }
 

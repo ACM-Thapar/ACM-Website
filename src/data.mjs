@@ -1,6 +1,9 @@
 import Linkedin from './assets/Images/LinkedIn (1).svg';
 import Instagram from './assets/Images/Instagram.svg';
 import Github from './assets/Images/GitHub (1).svg';
+import Linkedinb from './assets/Images/LinkedIn-blue.svg';
+import Instagramb from './assets/Images/Instagram-blue.svg';
+import Githubb from './assets/Images/GitHub-blue.svg';
 import Device from './assets/Images/device.png';
 import Bootcampimg from './assets/Images/bootcamps.png';
 import Phone from './assets/Images/phone.png';
@@ -69,7 +72,25 @@ export const NavData = {
       navitem: "Gallery",
       href: '/Gallery',
     },
-  ]
+    {
+      navitem: "Home",
+      href: '/',
+    }
+  ],
+  logoss: [
+    {
+      img: Linkedinb,
+      alt: 'Linkedin',
+    },
+    {
+      img: Instagramb,
+      alt: 'Instagram',
+    },
+    {
+      img: Githubb,
+      alt: 'Github',
+    },
+  ],
 }
 
 
