@@ -167,10 +167,6 @@ main .info {
 }
 
 @media only screen and (max-width: 600px) {
-
-    #hero{
-        padding-top: clamp(4.5rem, 7vw, 5rem);
-    }
     main{
         flex-direction: column;
     }
