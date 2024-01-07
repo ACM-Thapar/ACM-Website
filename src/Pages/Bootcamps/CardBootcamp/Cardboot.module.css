@@ -23,19 +23,19 @@
     font-family: var(--textFont);
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2vw,1.5rem);
     color: var(--Secondary-Rich-Black, #020E13);
 }
 .card h1{
     font-family: var(--titleFont);
     font-weight: 700;
-    font-size: 4.875rem;
+    font-size: clamp(3rem, 5.5vw, 4.875rem);
     color: var(--Primary-Pure-White, #FFF); 
 }
 .card h2{
     font-family:var(--textFont);
     /* font-family: Poppins; */
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw,2rem);
     font-weight: 600;
     font-style: normal;
     color: var(--Secondary-Rich-Black, #020E13);
@@ -44,7 +44,7 @@
 .card a{
     color: var(--Primary-Pure-White, #FFF);
     font-family: var(--textFont);
-    font-size: 1.125rem;
+    font-size: clamp(0.75rem, 1.5vw, 1.125rem);
     font-weight: 400;
 }
 
@@ -84,4 +84,25 @@
     box-shadow:
     inset 0px 0px 0px 1.5px #ffffff,
     0px 0px 0px 5px #010101 ;
+}
+
+@media screen and (max-width:1000px) {
+    .main{
+        transform: rotate(90deg);
+        height: 201px;
+    width: 413px;
+    }
+    .card{
+        transform: rotate(-90deg);
+        width: 200px;
+        height: 200px;
+    }
+    .innercard{
+        width: 80%;
+    }
+    .innermain{
+        width: 62%;
+        height: 255px;
+        border-bottom: 5px solid black;
+    }
 }

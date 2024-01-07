@@ -1,12 +1,11 @@
 .main{
-    
     width: 90%;
     margin: 0 auto;
-    margin-block:4rem 6rem ;
+    margin-block:0rem 6rem ;
 }
 
 .heading{
-    font-size: clamp(3rem,5vw,4rem);
+    font-size: clamp(2rem,5vw,4rem);
     font-weight: 700;
     font-family: var(--titleFont);
     color: #15A6DD;

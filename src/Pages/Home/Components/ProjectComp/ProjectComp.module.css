@@ -1,10 +1,10 @@
-.scroll-section-outer {
+.scrollsectionouter {
     overflow: hidden;
     /* height: 70vh; */
     position: relative;
   }
   
-  .scroll-section-inner {
+  .scrollsectioninner {
     height: 100vh;
     width: 400vw;
     display: flex;
@@ -15,7 +15,7 @@
     margin-left: 10vw;
   }
   
-  .scroll-section {
+  .scrollsection {
     height: 50vh;
     width: 40vw;
     padding-inline: 1vw;
@@ -26,7 +26,7 @@
     box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0, 0.25)
   }
   
-  .scroll-section h3 {
+  .scrollsection h3 {
     
     color: #15A6DD;
     font-family: var(--textFont);
@@ -36,26 +36,59 @@
     line-height: 100%;
   }
 
-  .scroll-section p{
+  .scrollsection p{
     font-family: var(--textFont);
     font-size: 1.5rem;
     /* text-decoration: underline; */
   }
 
-  .scroll-section-div div{
+  .scrollsectiondiv div{
     border-bottom: 2px solid #000000;
     display: flex;
     margin-top: 1rem;
   }
 
-  .scroll-section img{
+  .scrollsection img{
     height: 20vw;
   }
-  .scroll-section-div{
+  .scrollsectiondiv{
     height: 20vw;
     display: flex;
     align-items: flex-start;
   }
   
 
-  
+  .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 90%;
+    margin: 4rem auto;
+    
+  }
+
+  .card>img{
+    height: 20vw;
+  }
+
+  .card{
+    display: flex;
+    /* width: clamp(5rem , 22vw , 20rem); */
+    padding: 2rem 0.25rem 0 1.5rem;
+     background: var(--Primary-Alice-Blue, #EDF9FD);
+    box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0, 0.25);
+  }
+
+  .innercard>h3{
+    font-size: clamp(0.5rem,4vw,3rem);
+    font-weight: 600;
+    font-family: var(--textFont);
+    line-height: 90%;
+    color: #15A6DD;
+  }
+
+  @media screen and (max-width:1000px) {
+    .card{
+      padding: 0.75rem 0.25rem 0 0.75rem;
+    }
+  }

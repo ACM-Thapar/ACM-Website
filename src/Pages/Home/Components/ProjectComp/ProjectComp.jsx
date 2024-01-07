@@ -1,14 +1,38 @@
-import React, { useRef, useEffect, Fragment } from "react";
+import React, { useRef, useEffect,useState, Fragment } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import "./ProjectComp.css"
+import styles from "./ProjectComp.module.css";
 import { ProjectData } from "../../../../data.mjs";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-
+const {project} = ProjectData
 function ProjectComp() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+useEffect(() => {
+  const handleResize = () => {
+    setScreenWidth(window.innerWidth);
+  };
+
+  window.addEventListener('resize', handleResize);
+
+  return () => {
+    window.removeEventListener('resize', handleResize);
+  };
+}, []);
+
+    const isWideScreen = screenWidth > 1000;
+  return (
+    <Fragment>
+      {isWideScreen && (<DesktopComponent />)}
+      {!isWideScreen && (<MobileComponent />)}  
+    </Fragment>
+  );
+}
+
+const DesktopComponent = () => {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
-  const {project} = ProjectData
+  
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -36,36 +60,56 @@ function ProjectComp() {
     };
   }, []);
 
-  return (
+  return(
     <Fragment>
-     
-    <section className="scroll-section-outer" >
+      <div className={styles.scrollsectionouter} >
     
-      <div ref={triggerRef}>
-        <div ref={sectionRef} className="scroll-section-inner" >
-          {project.slice(0,4).map ((item ,index)=> {
-            return(
-            <div className="scroll-section"  key={index}>
-            <div className="scroll-section-div"><h3>{item.name}</h3>
-            </div>
-            <img src={item.img}></img>
-            </div>
-            )
-          })}
-          <div className="scroll-section">
-            <div className="scroll-section-div" style={{height:"100%",width:"100%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-              <h3 style={{width:"100%",textAlign:"center"}}>And Many More</h3>
-              <div>
-              <p>View All</p>
-              <ArrowForwardIcon style={{color:"black",marginTop:"6px"}} />
-              </div>
+    <div ref={triggerRef}>
+      <div ref={sectionRef} className={styles.scrollsectioninner} >
+        {project.slice(0,4).map ((item ,index)=> {
+          return(
+          <div className={styles.scrollsection} key={index}>
+          <div className={styles.scrollsectiondiv}><h3>{item.name}</h3>
+          </div>
+          <img src={item.img}></img>
+          </div>
+          )
+        })}
+        <div className={styles.scrollsection}>
+          <div className={styles.scrollsectiondiv} style={{height:"100%",width:"100%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+            <h3 style={{width:"100%",textAlign:"center"}}>And Many More</h3>
+            <div>
+            <p>View All</p>
+            <ArrowForwardIcon style={{color:"black",marginTop:"6px"}} />
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
     </Fragment>
   );
-}
+};
+
+const MobileComponent = () => {
+  return(
+    <Fragment>
+      <div>
+      <div className={styles.row}>
+        {project.slice(0,4).map ((item ,index)=> {
+          return(
+          <div className={styles.card}  key={index}>
+          <div className={styles.innercard}><h3>{item.name}</h3>
+          </div>
+          <img src={item.img}></img>
+          </div>
+          )
+        })}
+        </div>
+      </div>
+    </Fragment>
+  );
+};
+
 
 export default ProjectComp;

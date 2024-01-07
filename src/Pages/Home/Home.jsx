@@ -14,32 +14,16 @@ const Home = () => {
         homeheadline: Teamdata.homeheadline,
         EB: Teamdata.EB
     };
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-    const handleResize = () => {
-    setScreenWidth(window.innerWidth);
-    };
-
-    useEffect(() => {
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-    }, []);
-
-    const isWideScreen = screenWidth > 1000;
 
     return(
-        <Fragment>
+    <div style={{paddingTop:"2rem"}}>
        <Hero />
        <Homebrand />
-       {isWideScreen && (<ProjectComp />)}
-       
+       <ProjectComp />
        <Bootmain />
        <Team teamData={EBData} />
         <Sponser />
-       </Fragment>
+    </div>
     )
 };
 

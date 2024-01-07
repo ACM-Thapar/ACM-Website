@@ -10,7 +10,9 @@ const BootcampComp = (prop) => {
             style={{
                 backgroundImage: `url(${img})`,
             }}>
-                <h1>{heading}</h1>
+                <div className={styles.overlay}>
+                <h1> {heading}</h1>
+                </div>
             </div>
             <div className={styles.body}>
                 <div className={styles.innerbody}>

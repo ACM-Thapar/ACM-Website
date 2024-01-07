@@ -1,27 +1,32 @@
 .main{
-    width: 90%;
-    margin: 0 auto;
+    padding-top: 2rem;
 }
 .roadmap{
     /* overflow: hidden; */
     display: flex;
-    height: 80vh;
+    height: 100vh;
     align-items: center;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* gap: 10px; */
+    margin-bottom: 3rem;
+    margin-left: 5rem;
 }
 
-.section{
-    /* overflow-x: hidden */
-    /* overflow-y: hidden; */
-    position: relative;
-   
+.innerbody{
+    width: 90%;
+    margin: 0 auto;
+
+
 }
-.heading{margin-top: 5rem;}
+.section{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.heading{margin-top: 5rem;width: 90%;margin-inline:auto;}
 .heading h1{
     font-family: var(--titleFont);
-    font-size: 2.625rem;
+    font-size: clamp(2rem,3.5vw,2.625rem);
     font-weight: 700;
     color: #000;
     
@@ -29,9 +34,47 @@
 
 .heading h3{
     font-family: var(--textFont);
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 500;
     color: var(--Primary-Blue, #15A6DD);
     
     /* margin-top: 1rem; */
+}
+.upperpart {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* margin-left: clamp(1rem, 6vw, 4rem); */
+    margin-bottom: clamp(1.5rem, 8vw, 5rem);
+}
+.headline {
+    margin-top: auto;
+    font-weight: 300 !important;
+    color: var(--gray);
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    /* padding-right: clamp(0.5rem, 1vw, 1rem); */
+    font-size: clamp(0.6rem, 2vw, 1.5rem);
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    display: inline-block;
+    border-image-source: linear-gradient(180deg, #8FDAF5 0%, #15A6DD 49.79%, #2041B5 100%);
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+     width: 90%;
+    margin: 0 auto;
+
+}
+
+.header>h1{
+    font-family: var(--titleFont);
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: -1.75rem;
+    /* float: right; */
+    font-size: clamp(2rem,9vw ,7rem);
+    color: var(--HighlightLogo, #DDF6FF);
 }

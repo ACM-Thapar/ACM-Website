@@ -1,0 +1,17 @@
+.main{
+    padding-top: 2rem;
+}
+
+.header{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    /* margin-bottom: -3rem; */
+}
+.header h1{ 
+    font-size: clamp(4rem, 12vw ,10rem);
+    font-weight: 600;
+    font-family: var(--titleFont);
+
+    color: var(--HighlightLogo, #DDF6FF);
+}
