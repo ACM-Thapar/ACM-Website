@@ -60,10 +60,10 @@ export const NavData = {
       navitem: "Events",
       href: '/Events',
     },
-    {
-      navitem: "Bootcamps",
-      href: '/Bootcamps',
-    },
+    // {
+    //   navitem: "Bootcamps",
+    //   href: '/Bootcamps',
+    // },
     {
       navitem: "Projects",
       href: '/Projects',
