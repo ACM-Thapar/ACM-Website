@@ -25,11 +25,11 @@ import react from './assets/Images/react.png';
 import arrow from './assets/Images/arrowsolid.png';
 
 export const HeroData = {
-  headline: 'Lorem ipsum dolor sit amet, consectetur',
+  headline: 'Innovate, Elevate, Collaborate',
   keywords: ['Innovate.', 'Elevate.', 'Collaborate.'],
   subtitle: 'ACM Thapar 2023',
   copyright: 'THAPAR ACM CHAPTER © 2023',
-  info: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.” `,
+  info: `A vibrant community of tech enthusiasts, dedicated to exploring, tackling and connecting with all things tech. `,
   logos: [
     {
       img: Linkedin,

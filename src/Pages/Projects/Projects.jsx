@@ -30,7 +30,7 @@ const Projects = () => {
             <div className={style.main}>
                 <Dots />
                 <h1>Projects</h1>
-                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet” </p>
+                <p>At ACM Thapar, we take pride in transcending the boundaries of innovation through our tech projects. Every project is evidence of our members' dedication, commitment and prowess. Explore our portfolio of cutting-edge solutions and witness how our members are making an impact in the tech world.</p>
                 <div className={style.cards}>
             {cardsToShow.map((project, index) => {
                 return(
