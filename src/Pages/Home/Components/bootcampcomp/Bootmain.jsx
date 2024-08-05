@@ -14,17 +14,14 @@ const Bootmain = () => {
                 </div>
                 <div className={styles.maininner}>
                     {bootcamps.map((item, index) => {
+                        const bootcampLink = `/bootcamps/${item.name.toLowerCase().replace(/\s+/g, '-')}`;
                         return (
                             <div className={styles.card} key={index}>
                                 <div className={styles.innercard}>
                                     <img src={item.img} alt={item.name} />
-                                    {item.name === "Web Development" ? (
-                                        <Link to="/bootcamps/web-development" className={styles.noUnderline}>
-                                            <h3>{item.name}</h3>
-                                        </Link>
-                                    ) : (
+                                    <Link to={bootcampLink} className={styles.noUnderline}>
                                         <h3>{item.name}</h3>
-                                    )}
+                                    </Link>
                                 </div>
                             </div>
                         );

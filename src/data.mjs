@@ -183,11 +183,11 @@ export const Bootcamp = {
       img : amico1
     },
     {
-      name:"AI/ML Learning",
+      name:"AI ML Learning",
       img : amico1
     },
     {
-      name:"UI/UX Classes",
+      name:"UI UX Classes",
       img : amico1
     },
     {
