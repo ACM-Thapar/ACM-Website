@@ -2,8 +2,7 @@ import { Fragment} from 'react'
 import './App.css'
 import { Route,Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
-import Alumni from './Pages/Alumni/Alumni';
-import Bootcamps from './Pages/Bootcamps/Bootcamps';
+import Alumni from './Pages/Alumni/Alumni'; 
 import Events from './Pages/Events/Events';
 import Gallery from './Pages/Gallery/Gallery';
 import Projects from './Pages/Projects/Projects';
