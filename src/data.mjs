@@ -183,11 +183,11 @@ export const Bootcamp = {
       img : amico1
     },
     {
-      name:"AI ML Learning",
+      name:"AI/ML Learning",
       img : amico1
     },
     {
-      name:"UI UX Classes",
+      name:"UI/UX Classes",
       img : amico1
     },
     {
@@ -689,73 +689,349 @@ export const events = {
 
 export const Bootcampdata = {
   title: "Bootcamps",
-  Webdev : {
-    heading : "Web Dev",
-    data : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
-    img : Bootcampimg,
-    tech : "Html | Css | Js | React | Node JS",
-    resourcs:[
+  'web-development': {
+    heading: "Web Development",
+    data: "Learn the latest web development technologies and frameworks.",
+    img: Bootcampimg,
+    tech: "HTML | CSS | JavaScript | React | Node.js",
+    resourcs: [
       {
-        name : "One shot HTML Course",
+        name: "One shot HTML Course",
         image: html,
         img: arrow,
-        link : "",
+        link: "",
       },
       {
-        name : "One shot CSS Course",
+        name: "One shot CSS Course",
         image: css,
         img: arrow,
-        link : "",
+        link: "",
       },
       {
-        name : "One shot React Course",
+        name: "One shot React Course",
         image: react,
         img: arrow,
-        link : "",
+        link: "",
       },
       {
-        name : "One shot Js Course",
+        name: "One shot JS Course",
         image: Js,
         img: arrow,
-        link : "",
+        link: "",
       }
     ],
-    roadmap:[
+    roadmap: [
       {
-        week : "01",
-        topic : "HTML/CSS",
+        week: "01",
+        topic: "HTML/CSS",
         link: "",
       },
       {
-        week : "02",
-        topic : "HTML/CSS",
+        week: "02",
+        topic: "JavaScript",
         link: "",
       },
       {
-        week : "03",
-        topic : "HTML/CSS",
+        week: "03",
+        topic: "Adv JS",
         link: "",
       },
       {
-        week : "04",
-        topic : "HTML/CSS",
+        week: "04",
+        topic: "React Intro",
         link: "",
       },
       {
-        week : "05",
-        topic : "HTML/CSS",
+        week: "05",
+        topic: "Adv React",
         link: "",
       },
       {
-        week : "06",
-        topic : "HTML/CSS",
+        week: "06",
+        topic: "Node.js",
         link: "",
       },
       {
-        week : "07",
-        topic : "HTML/CSS",
+        week: "07",
+        topic: "Full-Stack",
         link: "",
-      }, 
+      }
     ]
   },
+  'app-development': {
+    heading: "App Development",
+    data: "Dive into mobile app development for both Android and iOS.",
+    img: Bootcampimg,
+    tech: "Java | Kotlin | Flutter | Swift",
+    resourcs: [
+      {
+        name: "One shot Java Course",
+        image: html,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Kotlin Course",
+        image: css,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Flutter Course",
+        image: react,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Swift Course",
+        image: Js,
+        img: arrow,
+        link: "",
+      }
+    ],
+    roadmap: [
+      {
+        week: "01",
+        topic: "Java Basics",
+        link: "",
+      },
+      {
+        week: "02",
+        topic: "Kotlin",
+        link: "",
+      },
+      {
+        week: "03",
+        topic: "Flutter",
+        link: "",
+      },
+      {
+        week: "04",
+        topic: "Adv Flutter",
+        link: "",
+      },
+      {
+        week: "05",
+        topic: "Swift",
+        link: "",
+      },
+      {
+        week: "06",
+        topic: "Deployment",
+        link: "",
+      },
+      {
+        week: "07",
+        topic: "App Store",
+        link: "",
+      }
+    ]
+  },
+  'ai-ml-learning': {
+    heading: "AI/ML Learning",
+    data: "Master the concepts of Artificial Intelligence and Machine Learning.",
+    img: Bootcampimg,
+    tech: "Python | TensorFlow | PyTorch | Scikit-Learn",
+    resourcs: [
+      {
+        name: "One shot Python Course",
+        image: html,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot TensorFlow Course",
+        image: css,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot PyTorch Course",
+        image: react,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Scikit-Learn Course",
+        image: Js,
+        img: arrow,
+        link: "",
+      }
+    ],
+    roadmap: [
+      {
+        week: "01",
+        topic: "Python",
+        link: "",
+      },
+      {
+        week: "02",
+        topic: "Data Science",
+        link: "",
+      },
+      {
+        week: "03",
+        topic: "ML Basics",
+        link: "",
+      },
+      {
+        week: "04",
+        topic: "TensorFlow",
+        link: "",
+      },
+      {
+        week: "05",
+        topic: "Adv DL",
+        link: "",
+      },
+      {
+        week: "06",
+        topic: "NLP",
+        link: "",
+      },
+      {
+        week: "07",
+        topic: "AI Project",
+        link: "",
+      }
+    ]
+  },
+  'ui-ux-classes': {
+    heading: "UI/UX Classes",
+    data: "Learn the principles of User Interface and User Experience design.",
+    img: Bootcampimg,
+    tech: "Figma | Adobe XD | Sketch | InVision",
+    resourcs: [
+      {
+        name: "One shot Figma Course",
+        image: html,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Adobe XD Course",
+        image: css,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Sketch Course",
+        image: react,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot InVision Course",
+        image: Js,
+        img: arrow,
+        link: "",
+      }
+    ],
+    roadmap: [
+      {
+        week: "01",
+        topic: "UI Basics",
+        link: "",
+      },
+      {
+        week: "02",
+        topic: "UX Principles",
+        link: "",
+      },
+      {
+        week: "03",
+        topic: "Wireframe",
+        link: "",
+      },
+      {
+        week: "04",
+        topic: "Prototype",
+        link: "",
+      },
+      {
+        week: "05",
+        topic: "Testing",
+        link: "",
+      },
+      {
+        week: "06",
+        topic: "Design Sys",
+        link: "",
+      },
+      {
+        week: "07",
+        topic: "Portfolio",
+        link: "",
+      }
+    ]
+  },
+  'academic-classes': {
+    heading: "Academic Classes",
+    data: "Strengthen your academic knowledge with these classes.",
+    img: Bootcampimg,
+    tech: "Math | Science | History | Literature",
+    resourcs: [
+      {
+        name: "One shot Math Course",
+        image: html,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Science Course",
+        image: css,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot History Course",
+        image: react,
+        img: arrow,
+        link: "",
+      },
+      {
+        name: "One shot Literature Course",
+        image: Js,
+        img: arrow,
+        link: "",
+      }
+    ],
+    roadmap: [
+      {
+        week: "01",
+        topic: "Math Basics",
+        link: "",
+      },
+      {
+        week: "02",
+        topic: "Adv Math",
+        link: "",
+      },
+      {
+        week: "03",
+        topic: "Experiments",
+        link: "",
+      },
+      {
+        week: "04",
+        topic: "Highlights",
+        link: "",
+      },
+      {
+        week: "05",
+        topic: "Analysis",
+        link: "",
+      },
+      {
+        week: "06",
+        topic: "Projects",
+        link: "",
+      },
+      {
+        week: "07",
+        topic: "Exam Prep",
+        link: "",
+      }
+    ]
+  }
 }
