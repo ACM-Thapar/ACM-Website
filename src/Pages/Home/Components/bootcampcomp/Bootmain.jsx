@@ -6,6 +6,10 @@ import { Bootcamp } from "../../../../data.mjs";
 const Bootmain = () => {
     const { bootcamps } = Bootcamp;
 
+    const createSlug = (name) => {
+        return name.toLowerCase().replace(/\s+/g, '-').replace(/\//g, '-');
+    };
+
     return (
         <Fragment>
             <div className={styles.main}>
@@ -14,7 +18,7 @@ const Bootmain = () => {
                 </div>
                 <div className={styles.maininner}>
                     {bootcamps.map((item, index) => {
-                        const bootcampLink = `/bootcamps/${item.name.toLowerCase().replace(/\s+/g, '-')}`;
+                        const bootcampLink = `/bootcamps/${createSlug(item.name)}`;
                         return (
                             <div className={styles.card} key={index}>
                                 <div className={styles.innercard}>

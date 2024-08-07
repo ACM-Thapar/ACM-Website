@@ -75,3 +75,17 @@
         margin-bottom: -0.75rem;
     }
 }
+
+.noUnderline {
+    text-decoration: none;
+    color: inherit; 
+}
+  
+.noUnderline:visited {
+color: inherit;
+}
+  
+.noUnderline:hover {
+text-decoration: none;
+}
+  
