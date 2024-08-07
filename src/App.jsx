@@ -10,7 +10,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 // import Loader from './Components/Loader/loader';
 import TeamPage from './Pages/TeamPage/TeamPage';
-import DynamicBootcamp from './Pages/Home/Components/DynamicBootcamp/DynamicBootcamp';
+import BootcampPage from './Pages/Bootcamps/BootcampPage';
 
 function App() {
   return(
@@ -23,7 +23,7 @@ function App() {
     <Route path="/events" element={<Events />} />
     <Route path="/alumni" element={<Alumni />} />
     {/* <Route path="/bootcamps/web-development" element={<Bootcamps />} /> */}
-    <Route path="/bootcamps/:bootcampName" element={<DynamicBootcamp />} />
+    <Route path="/bootcamps/:bootcampName" element={<BootcampPage />} />
     <Route path="/gallery" element={<Gallery />} />
     <Route path="/projects" element={<Projects />} />
     <Route path="/team" element={<TeamPage />} />
