@@ -44,7 +44,7 @@ const Bootcamp = () => {
             <Dots />
           </div>
         </div>
-        <div className={styles.header}>
+        <div className={`${styles.header} ${isWideScreen ? styles.showHeader : styles.hideHeader}`}>
           <h1>{heading}</h1>
         </div>
         <div className={styles.body}>
@@ -71,30 +71,33 @@ const Bootcamp = () => {
 const DesktopComponent = ({ roadmap }) => {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 1000);
 
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
-    const pin = gsap.fromTo(
-      sectionRef.current,
-      { translateX: 0 },
-      {
-        translateX: "-100vw",
-        ease: "none",
-        duration: 1,
-        scrollTrigger: {
-          trigger: triggerRef.current,
-          start: "top top",
-          end: "2000 top",
-          scrub: 0.4,
-          pin: true,
-        },
-      }
-    );
-    return () => {
-      pin.kill();
-    };
-  }, []);
+    if (isWideScreen) {
+      const pin = gsap.fromTo(
+        sectionRef.current,
+        { translateX: 0 },
+        {
+          translateX: "-100vw",
+          ease: "none",
+          duration: 1,
+          scrollTrigger: {
+            trigger: triggerRef.current,
+            start: "top top",
+            end: "2000 top",
+            scrub: 0.4,
+            pin: true,
+          },
+        }
+      );
+      return () => {
+        pin.kill();
+      };
+    }
+  }, [isWideScreen]);
 
   return (
     <Fragment>
@@ -122,4 +125,3 @@ const MobileComponent = ({ roadmap }) => {
 };
 
 export default Bootcamp;
-  
