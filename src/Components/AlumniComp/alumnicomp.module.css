@@ -14,18 +14,24 @@
 
 .card{
     background-color: #EDF9FD;
+    border-radius: 10px;
     display: flex;
     font-family: var(--textFont);
     padding: 2rem 1rem;
-    gap: 1rem;
+    gap: 2rem;
     /* line-height: 200%; */
 }
 .card img:nth-child(1){
     height: 8rem;
+    width: 8rem;
+    border-radius: 100px;
 }
-.card img{
+
+.card .link img{
     height: 2rem;
-    margin-top: 1rem;
+    width: 2rem;
+    border-radius: 0%;
+    /* margin-top: 1rem; */
 }
 .card h3{
     font-size: 1.75rem;
