@@ -19,7 +19,7 @@ const AlumniComp = ( {alumnidata} ) => {
                             <h3>{item.name}</h3>
                             <h4>{item.position}</h4>
                             <p>{item.job}</p>
-                            <img src={Linkedin} href={item.linkedin} />
+                            <a href={item.linkedin} target="_blank" className={styles.link}><img src={Linkedin}  /></a>
                             </div>
                         </div>
                         )
