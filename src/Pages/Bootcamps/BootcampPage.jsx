@@ -54,7 +54,6 @@ const Bootcamp = () => {
           <section className={styles.section}>
             <div className={styles.heading}>
               <h1>Roadmap</h1>
-              <h3>lorem ipsum dolor sit amet</h3>
             </div>
             {isWideScreen ? (
               <DesktopComponent roadmap={roadmap} />

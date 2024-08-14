@@ -737,13 +737,13 @@ export const Bootcampdata = {
         name: "One shot HTML Course",
         image: html,
         img: arrow,
-        link: "",
+        link: "https://youtu.be/HcOc7P5BMi4?si=0KQGdfTN8XMzOdPO",
       },
       {
         name: "One shot CSS Course",
         image: css,
         img: arrow,
-        link: "",
+        link: "https://youtu.be/ESnrn1kAD4E?si=Vdvo-XNC929U4lh6",
       },
       {
         name: "One shot React Course",
@@ -866,8 +866,8 @@ export const Bootcampdata = {
     ]
   },
   'ai-ml-learning': {
-    heading: "AI/ML Learning",
-    data: "Master the concepts of Artificial Intelligence and Machine Learning.",
+    heading: "AI/ML Bootcamp",
+    data: "Students immerse themselves in the cutting edge field of machine and deep learning with our comprehensive Bootcamp. From mastering the fundamentals of algorithms and neural networks to applying advanced techniques in real-world projects, this Bootcamp offers hands-on experience in building intelligent systems",
     img: Bootcampimg,
     tech: "Python | TensorFlow | PyTorch | Scikit-Learn",
     resourcs: [
@@ -875,68 +875,68 @@ export const Bootcampdata = {
         name: "One shot Python Course",
         image: html,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/watch?v=qHJjMvHLJdg",
       },
       {
         name: "One shot TensorFlow Course",
         image: css,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/watch?v=tPYj3fFJGjk",
       },
       {
         name: "One shot PyTorch Course",
         image: react,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/watch?v=GIsg-ZUy0MY",
       },
       {
         name: "One shot Scikit-Learn Course",
         image: Js,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/watch?v=0B5eIE_1vpU",
       }
     ],
     roadmap: [
       {
         week: "01",
         topic: "Python",
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
       },
       {
         week: "02",
-        topic: "Data Science",
-        link: "",
+        topic: "Data Analysis",
+        link: "https://www.youtube.com/playlist?list=PL9n0l8rSshSnragNblKDBsT8Xu3otp3jA",
       },
       {
         week: "03",
-        topic: "ML Basics",
-        link: "",
+        topic: "Machine Learning",
+        link: "https://www.youtube.com/playlist?list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ",
       },
       {
         week: "04",
-        topic: "TensorFlow",
-        link: "",
+        topic: "Deep Learning",
+        link: "https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO",
       },
       {
         week: "05",
-        topic: "Adv DL",
-        link: "",
+        topic: "CNNs",
+        link: "https://www.youtube.com/playlist?list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu",
       },
       {
         week: "06",
-        topic: "NLP",
-        link: "",
+        topic: "RNNs",
+        link: "https://www.youtube.com/playlist?list=PLuhqtP7jdD8ARBnzj8SZwNFhwWT89fAFr",
       },
       {
         week: "07",
-        topic: "AI Project",
-        link: "",
+        topic: "Transformers",
+        link: "https://www.youtube.com/playlist?list=PLTl9hO2Oobd97qfWC40gOSU8C0iu0m2l4",
       }
     ]
   },
   'ui-ux-classes': {
     heading: "UI/UX Classes",
-    data: "Learn the principles of User Interface and User Experience design.",
+    data: "Students dive into the world of user-centered design with our UI/UX Bootcamp. From learning to create engaging and intuitive user experiences through hands-on projects, to conducting user research and developing high-fidelity prototypes using tools like Figma, the UI/UX Bootcamp is a perfect learning opportunity for creating digital products.",
     img: Bootcampimg,
     tech: "Figma | Adobe XD | Sketch | InVision",
     resourcs: [
@@ -969,37 +969,37 @@ export const Bootcampdata = {
       {
         week: "01",
         topic: "UI Basics",
-        link: "",
+        link: "https://bony-zebra-2b6.notion.site/Resources-27821140752547969f6a38b2fb357125",
       },
       {
         week: "02",
         topic: "UX Principles",
-        link: "",
+        link: "https://bony-zebra-2b6.notion.site/Week-2-a5ebca0ae9f34bbf8bd331d3c5c7b648",
       },
       {
         week: "03",
         topic: "Wireframe",
-        link: "",
+        link: "https://bony-zebra-2b6.notion.site/Week-3-05711589a80844b4923830c0c4dd169e",
       },
       {
         week: "04",
         topic: "Prototype",
-        link: "",
+        link: "https://bony-zebra-2b6.notion.site/Week-4-979fbdc4c5f94c1b928c1f4428544a85",
       },
       {
         week: "05",
         topic: "Testing",
-        link: "",
+        link: "https://bony-zebra-2b6.notion.site/Week-5-b464cc3165c145cbb14d87b2e2386d86",
       },
       {
         week: "06",
         topic: "Design Sys",
-        link: "",
+        link: "https://bony-zebra-2b6.notion.site/Week-6-d2be6158a5794d2aba610252565ca8ad",
       },
       {
         week: "07",
         topic: "Portfolio",
-        link: "",
+        link: "https://bony-zebra-2b6.notion.site/Week-7-ad50d36d146342f4926c3fd82f50aeb3",
       }
     ]
   },
