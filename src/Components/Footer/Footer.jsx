@@ -1,12 +1,10 @@
 import { Fragment } from "react";
 import styles from './Footer.module.css';
-import {HeroData} from '../../data.mjs';
-import {Bootcamp} from '../../data.mjs';
-import {ProjectData} from '../../data.mjs';
+import {HeroData, Bootcampdata, ProjectData} from '../../data.mjs';
 
 const Footer = () => {
     const {headline, keywords, copyright, subtitle, info, logos} = HeroData;
-    const {subtitle1,bootcamps} = Bootcamp;
+    const { title, ...bootcamps } = Bootcampdata;
     const {subtitle2,projectcount} = ProjectData;
 
     return ( 
@@ -21,29 +19,24 @@ const Footer = () => {
                 </div>
                 <div className={styles.outerinfo}>
                 <div className={styles.info}>
-                    {/* <div> */}
-                        <h2>{subtitle1}</h2>
-                    {/* </div> */}
-                    {/* <div> */}
-                    {bootcamps.slice(0, 5).map((item, index) => {
+                    
+                        <h2>{title}</h2>
+                    {Object.keys(bootcamps).map((key) => {
+                                const bootcamp = bootcamps[key];
                     return (
-                    <p key={index}><a href='/'>{item.name}</a></p>
+                            <p key={key}>
+                                <a href={`/bootcamps/${key}`}>{bootcamp.heading}</a>
+</p>
                     );
                     })}
-
-                    {/* </div> */}
                 </div>
                 <div className={styles.info}>
-                    {/* <div> */}
                         <h2>{subtitle2}</h2>
-                    {/* </div>
-                    <div> */}
-                    {projectcount.slice(0, 5).map ((item, index) => {
+                            {projectcount && projectcount.slice(0, 5).map((item, index) => {
                         return (
                         <p key={index}><a href='/team'>{item.name}</a></p>
                         );
                     })}
-                    {/* </div>   */}
                 </div>
                 </div>
             </div>
