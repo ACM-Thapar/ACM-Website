@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./Team.module.css";
+// import Linkedin from '../../assets/Images/LinkedIn (1).svg';
+
 
 
 const Team = ({ teamData }) => {
@@ -14,16 +16,13 @@ const Team = ({ teamData }) => {
                 {EB && EB.length > 0 && EB.map((item, index) => {
                     return (
                         <div className={style.card} key={index}>
-                            <div className={style.uppercontent}>
+                            <img src={item.img} className={style.profileimg}/>
+                            <div className={style.details}>
                                 <h3>{item.name}</h3>
                                 <h4>{item.position}</h4>
-                            </div>
-                            <div className={style.lowercontent}>
-                                <div className={style.socials}>
-                                    <img src={item.linkdin.img} alt="LinkedIn" />
-                                    <img src={item.insta.img} alt="Instagram" />
-                                </div>
-                                <img src={item.img} alt="Team Member" className={style.teamimage} />
+                            <div className={style.socials}></div>
+                                <a href={item.linkedin} target="_blank" className={style.link}><img src={item.linkdin.img}  /></a>
+                                <a href={item.insta} target="_blank" className={style.link}><img src={item.insta.img}  /></a>
                             </div>
                         </div>
                     );
@@ -31,22 +30,19 @@ const Team = ({ teamData }) => {
                 {core && core.length > 0 && core.map((item, index) => {
                     return (
                         <div className={style.card} key={index}>
-                            <div className={style.uppercontent}>
+                            <img src={item.img} className={style.profileimg}/>
+                            <div className={style.details}>
                                 <h3>{item.name}</h3>
                                 <h4>{item.position}</h4>
-                            </div>
-                            <div className={style.lowercontent}>
-                                <div className={style.socials}>
-                                    <img src={item.linkdin.img} alt="LinkedIn" />
-                                    <img src={item.insta.img} alt="Instagram" />
-                                </div>
-                                <img src={item.img} alt="Team Member" className={style.teamimage} />
+                            <div className={style.socials}></div>
+                                <a href={item.linkedin} target="_blank" className={style.link}><img src={item.linkdin.img}  /></a>
+                                <a href={item.insta} target="_blank" className={style.link}><img src={item.insta.img}  /></a>
                             </div>
                         </div>
                     );
                 })}
                 <div className={style.card}>
-                <h1><a href='/team'>Show all</a></h1>
+                <h3><a href='/team'>Show all</a></h3>
                 </div>
             </div>
         </div>

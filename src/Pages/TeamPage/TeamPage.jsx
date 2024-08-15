@@ -21,12 +21,12 @@ const TeamPage = () => {
                 marginInline:"auto",
                 padding:"3vw"
             }}>
-                <a href="/" style={{textDecoration:"none",color:"black"}}><img src={arrow} style={{
+                {/* <a href="/" style={{textDecoration:"none",color:"black"}}><img src={arrow} style={{
                     height:"100%",
                 }}></img></a>
                 <img src={dots}  style={{
                     height:"100%",
-                }}></img>
+                }}></img> */}
             </div>
             <Team teamData={EBData} />
             <Team teamData={CoreData} />
