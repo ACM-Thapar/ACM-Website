@@ -209,109 +209,187 @@ export const Teamdata = {
   coreheadline:"THE CORE",
    EB : [
     {
-      name : "Amit Goyal",
-      position : "General  Seceratary",
-      img: face,
+      name : "Jai Madhukar",
+      position : "General Secretary",
+      img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1723728926/jai_bg_-_Jai_Madhukar_-_Jai_Madhukar_lcd3kt.png",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/jai-madhukar/",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/Jai-17",
+        img: Github,
       }
     },
     {
-      name : "Mayank Gupta",
-      position : "General  Seceratary",
-      img:face,
+      name : "Utkarsh Agarwal",
+      position : "General Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723727618/utkarsh_-_Utkarsh_Agarwal_nbxuqg.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/utkarsh-agarwal-054545211/",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/Utkarsh09102004",
+        img: Github,
       }
     },
     {
-      name : "Yashvi Garg",
-      position : "Joint  Seceratary",
-      img: face,
+      name : "Aaradhya Sharma",
+      position : "Joint Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_830,h_830,ar_1:1,g_auto/v1723730577/WhatsApp_Image_2024-08-15_at_12.15.01_351891f2_-_Aaradhya_Sharma_txu4nv.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/aradhya-sharma-b94337245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/aradhyyySharrma8204",
+        img: Github,
       }
     },
     {
-      name : "Ishank Gupta",
-      position : "Joint  Seceratary",
-      img: face,
+      name : "Armeen Kaur Luthra",
+      position : "Joint Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3000,h_3000,ar_1:1/v1723729151/ArmeenPic_-_Armeen_Kaur_Luthra_buvq7n.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/armeen-kaur-luthra/",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/armeenkaur/",
+        img: Github,
       }
     },
     {
-      name : "Vasu Tohani",
-      position : "Joint  Seceratary",
-      img: face,
+      name : "Sidharth Dhawan",
+      position : "Joint Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723729801/or-pic_-_Sidharth_Dhawan_j5rf9h.png",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/sidharth-dhawan/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/sidharthd7",
+        img: Github,
+      }
+    },
+    {
+      name : "Varun Khatri",
+      position : "Joint Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3048,h_3048,ar_1:1,g_auto/v1723751546/IMG_1142_-_Varun_Khatri_csldl3.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/varun-khatri-4b2139258/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/V5run-Kh5tri",
+        img: Github,
+      }
+    },
+    {
+      name : "Ashmeet Kaur",
+      position : "Project Director",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_540,h_540,ar_1:1,g_auto/v1723731192/Ashmeet_-_Ashmeet_Kaur_lx4ihf.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/ashmeet-kaur-b0b275296/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/ashmkaur",
+        img: Github,
+      }
+    },
+    {
+      name : "Garv Kansal",
+      position : "Project Director",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1780,h_1780,ar_1:1,g_auto/v1723731995/IMG_0201_-_Garv_Kansal_p4ickg.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/garvkansal",
         img: Linkedin,
       },
       insta : {
         link:"",
-        img: Instagram,
+        img: Github,
       }
     },
+    {
+      name : "Arnav Khanduja",
+      position : "Marketing Head",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_2900,h_2900,ar_1:1,g_auto/v1723732325/IMG_7038_-_Arnav_Khanduja_f2sxqh.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/arnavkhanduja?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        img: Linkedin,
+      },
+      insta : {
+        link:"",
+        img: Github,
+      }
+    },
+    {
+      name : "Vasu Chugh",
+      position : "Alumni Cell Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723732570/vc_picture_-_Vasu_Chugh_jv2syr.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/vasu-chugh-945746200/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/YashvardhanChugh",
+        img: Github,
+      }
+    },
+    // {
+    //   name : "Vasu Tohani",
+    //   position : "Joint  Seceratary",
+    //   img: face,
+    //   linkdin : {
+    //     link:"",
+    //     img: Linkedin,
+    //   },
+    //   insta : {
+    //     link:"",
+    //     img: Instagram,
+    //   }
+    // },
    ],
    core : [
     {
-      name : "Jashan",
+      name : "Kshitiz Jain",
       position : "Core",
-      img: face,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1840,h_1840,ar_1:1,g_auto/v1723733187/photo-with-bg-edited_-_KSHITIZ_JAIN_yw5gig.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/kshitiz-jain2005/",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/kshitiz510",
+        img: Github,
       }
     },
     {
-      name : "Jashan",
+      name : "Naman Kundra",
       position : "Core",
-      img: face,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_4200,h_4200,ar_1:1/v1723733841/hhhh_-_NAMAN_KUNDRA_kw4wrz.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/naman-kundra-850209281/",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/naman777",
+        img: Github,
       }
     },
     {
-      name : "Jashan",
+      name : "Nimish Goyal",
       position : "Core",
-      img: face,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723734107/IMG_1968_-_Nimish_Goyal_gdhmfd.jpg",
       linkdin : {
-        link:"",
+        link:"http://linkedin.com/in/nimish-goyal-9483a02a2",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/nimishgoyal1",
+        img: Github,
       }
     },
     {

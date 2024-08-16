@@ -9,7 +9,7 @@
 }
 .innermain{
     height: 80%;
-    width: 80%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 15px; /* 10px column gap, 20pxrow gap */
@@ -81,5 +81,6 @@
     background-color: #8FDAF5;
 }
 .card:nth-child(even){
-    background-color:#15A6DD;
+    /* background-color:#15A6DD; */
+    background-color:#2fbaf1;
 }

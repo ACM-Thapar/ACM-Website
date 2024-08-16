@@ -21,8 +21,8 @@ const Team = ({ teamData }) => {
                                 <h3>{item.name}</h3>
                                 <h4>{item.position}</h4>
                             <div className={style.socials}></div>
-                                <a href={item.linkedin} target="_blank" className={style.link}><img src={item.linkdin.img}  /></a>
-                                <a href={item.insta} target="_blank" className={style.link}><img src={item.insta.img}  /></a>
+                                <a href={item.linkdin.link} target="_blank" className={style.link}><img src={item.linkdin.img}  /></a>
+                                <a href={item.insta.link} target="_blank" className={style.link}><img src={item.insta.img}  /></a>
                             </div>
                         </div>
                     );
@@ -35,8 +35,8 @@ const Team = ({ teamData }) => {
                                 <h3>{item.name}</h3>
                                 <h4>{item.position}</h4>
                             <div className={style.socials}></div>
-                                <a href={item.linkedin} target="_blank" className={style.link}><img src={item.linkdin.img}  /></a>
-                                <a href={item.insta} target="_blank" className={style.link}><img src={item.insta.img}  /></a>
+                                <a href={item.linkdin.link} target="_blank" className={style.link}><img src={item.linkdin.img}  /></a>
+                                <a href={item.insta.link} target="_blank" className={style.link}><img src={item.insta.img}  /></a>
                             </div>
                         </div>
                     );
