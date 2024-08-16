@@ -73,6 +73,10 @@ export const NavData = {
       href: '/Gallery',
     },
     {
+      navitem: "Team",
+      href: '/Team',
+    },
+    {
       navitem: "Home",
       href: '/',
     }
