@@ -89,6 +89,13 @@
     font-size: 1.2rem;
     color: var(--Secondary-light-gray, #9AAEBC);
 }
+.links div>a{
+    font-family: var(--textFont);
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--Secondary-light-gray, #9AAEBC);
+    text-decoration: none;
+}
 
 .links div{
     display: flex;

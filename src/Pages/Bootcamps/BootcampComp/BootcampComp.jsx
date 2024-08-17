@@ -26,8 +26,10 @@ const BootcampComp = (prop) => {
                     <div className={styles.links}>
                     {resourcs.map((item,index)=>{
                         return(
-                            <div  key={index}>
-                                <p>{item.name}</p>
+                            <div key={index}>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                    <p>{item.name}</p>
+                                </a>
                                 <ArrowOutwardIcon />
                             </div>
                         )
