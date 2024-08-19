@@ -41,7 +41,7 @@
     width: 80%;
 }
 .innercontent h1 {
-    color: #EDF9FD;
+    color: #8FDAF5;
     font-family: var(--titleFont);
     font-size: clamp(2rem, 6vw, 5rem);
     margin-bottom: clamp(-1rem, -4vw, -3rem);

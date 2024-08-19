@@ -11,19 +11,21 @@
 .main img{
     height: clamp(12rem,52vw,50rem);
     margin-bottom: 3vw;
+    width: 70%;
+    height: auto;
 }
 .headingdiv{
-    
-    width:100%;
+    /* width:100%; */
+    width:94%;
     margin-bottom:-4rem;
-    
     color: #1E1E1E;
 }
 .headingdiv  h1{
     font-family: var(--titleFont);
     font-size: clamp(4rem,10vw,9rem);
     text-align: right;
-    color:#DDF6FF;
+    
+    color:#8FDAF5;
 }
 .main button{
     background-color: #15A6DD;
