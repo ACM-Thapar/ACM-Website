@@ -41,9 +41,9 @@ const Team = ({ teamData }) => {
                         </div>
                     );
                 })}
-                <div className={style.card}>
+                {/* <div className={style.card}>
                 <h3><a href='/team'>Show all</a></h3>
-                </div>
+                </div> */}
             </div>
         </div>
     );
