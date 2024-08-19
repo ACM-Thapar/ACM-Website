@@ -527,6 +527,19 @@ export const Teamdata = {
       }
     },
     {
+      name : "Matangi Sharma",
+      position : "Core",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724095198/matangi_ylsezy.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/matangi-sharma-4b1706283/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/matangi05",
+        img: Github,
+      }
+    },
+    {
       name : "Naman Kundra",
       position : "Core",
       img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_4200,h_4200,ar_1:1/v1723733841/hhhh_-_NAMAN_KUNDRA_kw4wrz.jpg",
@@ -630,19 +643,6 @@ export const Teamdata = {
         img: Github,
       }
     },
-    // {
-    //   name : "Jashan",
-    //   position : "Core",
-    //   img: face,
-    //   linkdin : {
-    //     link:"",
-    //     img: Linkedin,
-    //   },
-    //   insta : {
-    //     link:"",
-    //     img: Instagram,
-    //   }
-    // },
     // {
     //   name : "Jashan",
     //   position : "Core",
@@ -798,20 +798,20 @@ export const gallery = {
   heading: "Gallery",
   images:[
     {
-      img1: gallery2,
-      img2: gallery0,
-      img3: gallery1,
+      img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g2_vbeqnp.jpg",
+      img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087536/g4_qj5lq2.jpg",
+      img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087996/1691988232131_zhcsq1.jpg",
     },
     {
-      img1: gallery2,
-      img2: gallery0,
-      img3: gallery1,
+      img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g3_jpwubw.jpg",
+      img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724090239/IMG_8725_stqlnv.jpg",
+      img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087486/g1_aib9mf.jpg",
     },
-    {
-      img1: gallery2,
-      img2: gallery0,
-      img3: gallery1,
-    },
+    // {
+    //   img1: gallery2,
+    //   img2: gallery0,
+    //   img3: gallery1,
+    // },
   ],
 }
 
