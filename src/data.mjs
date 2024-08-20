@@ -98,54 +98,48 @@ export const ProjectData = {
   subtitle2: 'Projects',
   project: [
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "Bitcoin Chatbot",
+      tech:  "Langchain, Chroma Database",
+      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
+      link: "https://github.com/armeenkaur/BitcoinChatbot",
+      img : Phone
+    },  {
+      name: "Thapar Time Table",
+      tech:  "React js ,Python",
+      description: "This project provides an intuitive and aesthetic web interface for Thapar University students to view, search, and personalize their semester timetables. The website parses an official Excel file released by the university, generating over 60,000 lines of data for comprehensive scheduling information.",
+      link: "https://github.com/Utkarsh09102004/TimeTable",
+      img : Phone
+    }, 
+   
+    {
+      name: "Expense Tracker ",
+      tech:  "Dart",
+      description:"This project is a starting point for a Flutter application.For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.",
+      link: "https://github.com/ACM-Thapar/Expense_Tracker_Workshop_App",
       img : Phone
     },
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "ACM GPT",
+      tech:  "Html,Css,Javascript",
+      description: "An AI app using Javascript and openAI",
+      link: "https://github.com/ACM-Thapar/acmGPT",
       img : Phone
     },
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "Acm Blockchain",
+      tech:  "Golang",
+      description: "The projects includes ACM's Thapar very own blockchain built from scratch using built from sratch using golang. The Chain follows Proof of Work consensus mechanism and works with its CLI This is a open source project and contributions are welcome from anyone who wants to contribute .",
+      link: "https://github.com/ACM-Thapar/ACM-Blockchain",
       img : Phone
     },
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "Thapar Cos Automation",
+      tech:  "Node.js,React.js,MongoDb,Docker,CI CD",
+      description: "Repository for Thapar COS Automation. Backend Build using Node.js . Web Frontend using react js . Database used MongoDB . Containerisation done using docker , docker-compose used in dev mode . CI CD pipeline enabled using Travis CI .",
+      link: "https://github.com/ACM-Thapar/Thapar-COS-Automation",
       img : Phone
     },
-    {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
-      img : Phone
-    },
-    {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
-      img : Phone
-    },
-    {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
-      img : Phone
-    },
+  
   ],
   projectcount : [
     {

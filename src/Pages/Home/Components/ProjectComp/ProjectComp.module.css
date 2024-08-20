@@ -2,6 +2,10 @@
     overflow: hidden;
     /* height: 70vh; */
     position: relative;
+
+  }
+  .githubLink{
+    text-decoration: none;
   }
   
   .scrollsectioninner {
