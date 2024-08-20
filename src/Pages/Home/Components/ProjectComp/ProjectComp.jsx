@@ -60,6 +60,10 @@ const DesktopComponent = () => {
       pin.kill();
     };
   }, []);
+  const handleViewAllClick = () => {
+    
+    window.location.href = project[project.length - 1].link;
+  };
   
 
   return (
