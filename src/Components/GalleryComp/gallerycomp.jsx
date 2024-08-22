@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css'; // Optional: Import effects
 import styles from "./gallerycomp.module.css";
 
 const galleryComp = ( {gallerydata} ) => {
@@ -14,25 +16,33 @@ const galleryComp = ( {gallerydata} ) => {
 						return(
 						<div className={styles.images} key={index}>
 							<div className={styles.left}>
-							<div style={
-								{
-									backgroundImage:`url(${item.img2})`
-								}
-							}>
+								<div className={styles.two}>
+								<LazyLoadImage
+                                    src={item.img2}
+                                    alt={`Image 2 - ${index}`}
+                                    effect="blur" // Optional: adds a blur effect while loading
+									
+                                />
 								</div>
-								<div style={
-								{
-									backgroundImage:`url(${item.img3})`
-								}
-							}>
-								</div>
+								<div className={styles.two}>
+                                <LazyLoadImage
+                                    src={item.img3}
+                                    alt={`Image 3 - ${index}`}
+                                    effect="blur" // Optional: adds a blur effect while loading
+                                   
+									/>
+									</div>
 							</div>
-							<div className={styles.right} style={
-								{
-									backgroundImage:`url(${item.img1})`
-								}}>
-								
-							</div>
+							<div className={styles.right}>
+								<div className={styles.one}>
+                                <LazyLoadImage
+                                    src={item.img1}
+                                    alt={`Image 1 - ${index}`}
+                                    effect="blur" // Optional: adds a blur effect while loading
+									
+									/>
+									</div>
+                            </div>
 						</div>
 						)
 					})}
