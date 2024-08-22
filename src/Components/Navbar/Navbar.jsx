@@ -3,6 +3,7 @@ import styles from "./navbar.module.css";
 import { NavData } from "../../data.mjs";
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const {navbar,logo,logoss} = NavData;
@@ -13,12 +14,16 @@ const Navbar = () => {
         setNavOpen(!isNavOpen);
     };
 
+    const closeNav=()=>{
+        setNavOpen(false)
+    }
+
     return ( 
         <div className={`${styles.section} ${isNavOpen ? styles.Open : ''}`}>
                 <div className={styles.image}>
-                         <a href="/">
+                         <Link to="/">
                             <img className={styles.logo} src={logo.img} alt={logo.alt} />
-                        </a>
+                        </Link>
                         <div className={styles.closeButton} onClick={toggleNav}>
                             {isNavOpen ? <MenuOpenIcon /> : <MenuIcon />}
                         </div>
@@ -28,7 +33,7 @@ const Navbar = () => {
                     {navbar.slice(5,6).map ((item, index) => {
                             return (
                                 <li className={styles.navitem} key={index}>
-                                    <a  href={item.href}>{item.navitem}</a>
+                                    <Link  to={item.href} onClick={closeNav}>{item.navitem}</Link>
                                 </li>
                             );
                     })}
@@ -37,7 +42,7 @@ const Navbar = () => {
                     {navbar.slice(0,3).map ((item, index) => {
                             return (
                                 <li className={styles.navitem} key={index}>
-                                    <a  href={item.href}>{item.navitem}</a>
+                                    <Link  to={item.href} onClick={closeNav}>{item.navitem}</Link>
                                 </li>
                             );
                     })}
@@ -47,7 +52,7 @@ const Navbar = () => {
                     {navbar.slice(3,5).map ((item, index) => {
                             return (
                                 <li className={styles.navitem} key={index}>
-                                <a  href={item.href} >{item.navitem}</a>
+                                <Link  to={item.href} onClick={closeNav}>{item.navitem}</Link>
                                 </li>
                             );
                     })}
@@ -55,9 +60,9 @@ const Navbar = () => {
                 <div className={`${styles.logos} ${styles.navitem}`} style={{flexDirection:'row'}}>
                     {logoss.map ((item, index) => {
                         return (
-                        <a href="/" key={index}>
+                        <Link to="/" key={index}>
                             <img src={item.img} alt={item.alt} />
-                         </a>
+                         </Link>
                         );
                     })}
             </div>
