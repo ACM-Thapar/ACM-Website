@@ -819,17 +819,37 @@ export const events = {
   details:[
     {
       heading: "Events",
-      subtitle: "ECLIPSE 3.0",
+      subtitle: "ECLIPSE 4.0",
       description: "Flagship Event",
-      data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
-      img: event1,
+      data:"A premier tech competition that featured an exhilarating overnight hackathon Hacklipse, innovative designathon 'Flamingo' showcasing creative excellence, rigorous Enigma competitive programming challenges, the mind-bending Sakujo quests and the intense virtual cipher-breaking of Cryptic Hunt.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724323527/img_pka8hq.jpg",
     },
     {
       heading: "Sub-Events",
+      subtitle: "SAKUJO",
+      description: "Treasure Hunt",
+      data:"Sakujo, an exciting treasure hunt, wherein participants had to team up and decipher hints, exploring the alleys of Thapar University, with every hint pointing to a new location.  Themed around 'Death Note', SAKUJO had a massive footfall, making it a huge success.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135144/20240223063610_IMG_5521_hoetev.jpg",
+    },
+    {
+      subtitle: "CRYPTIC HUNT",
+      // description: "Designathon",
+      data:"Cryptic Hunt, a 24 hour Scavenger Hunt requiring participants to solve tricky puzzles on the internet, using tools like cyphers and image steganography, with each level rewarding points. This event progresses non-linearly with the team at the top of the final leader board winning.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135135/cryptic_h8ajzm.jpg",
+    },
+    // {
+    //   heading: "Events",
+    //   subtitle: "ECLIPSE 3.0",
+    //   description: "Flagship Event",
+    //   data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
+    //   img: event1,
+    // },
+    {
+      // heading: "Sub-Events",
       subtitle: "HACKLIPSE",
       description: "Most Popular Hackathon",
       data:"Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
-      img: event2,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135136/hacklipse_etixxj.jpg",
     },
     {
       subtitle: "FLAMINGO",
@@ -841,7 +861,7 @@ export const events = {
       subtitle: "CODESPRINT",
       description: "Competitive Coding",
       data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition.",
-      img: event1,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724326264/codesprint_syc1zm.jpg",
     },
   ],
 }

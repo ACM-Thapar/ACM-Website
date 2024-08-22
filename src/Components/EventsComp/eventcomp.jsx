@@ -18,7 +18,7 @@ const EventComp = ( {eventdata} ) => {
 	return(
 		<Fragment>
 		<div className={styles.main}>
-		{details.slice(0,3).map((items,index)=>{
+		{details.slice(0,5).map((items,index)=>{
 			return(
 				<div className={styles.box1} key={index}>
                 <div className={styles.heading}>
@@ -41,8 +41,32 @@ const EventComp = ( {eventdata} ) => {
 		})}
 
 		<hr className={styles.line} />
+
+		{/* {details.slice(3,6).map((items,index)=>{
+			return(
+				<div className={styles.box1} key={index}>
+                <div className={styles.heading}>
+                    <h1>{items.heading}</h1>
+                </div>
+				<div className={styles.content}>
+					<div className={styles.innercontent}>
+               				<h3 >{items.subtitle}</h3>
+							<h6>{items.description}</h6>
+                			<p > {items.data}</p>
+                	</div>
+					<div className={styles.imagebig}>
+						<div className={styles.innerimg}>
+        						<img key={index} src={items.img}  />
+						</div>
+    				</div>
+        		</div>
+            </div>
+		)
+		})} */}
+
+		{/* <hr className={styles.line} /> */}
 			
-        {details.slice(3,4).map((items,index)=>{
+        {details.slice(5,6).map((items,index)=>{
 			return(
 				<div className={styles.box1} key={index}>
 				<div className={styles.content}>
