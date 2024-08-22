@@ -16,7 +16,7 @@ const Team = ({ teamData }) => {
                 {EB && EB.length > 0 && EB.map((item, index) => {
                     return (
                         <div className={style.card} key={index}>
-                            <img src={item.img} className={style.profileimg}/>
+                            <img src={item.img} className={style.profileimg} loading="lazy"/>
                             <div className={style.details}>
                                 <h3>{item.name}</h3>
                                 <h4>{item.position}</h4>
@@ -30,7 +30,7 @@ const Team = ({ teamData }) => {
                 {core && core.length > 0 && core.map((item, index) => {
                     return (
                         <div className={style.card} key={index}>
-                            <img src={item.img} className={style.profileimg}/>
+                            <img src={item.img} className={style.profileimg} loading="lazy"/>
                             <div className={style.details}>
                                 <h3>{item.name}</h3>
                                 <h4>{item.position}</h4>
