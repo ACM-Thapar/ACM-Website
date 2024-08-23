@@ -14,10 +14,10 @@ const ProjectCard = ({project}) => {
                     <ArrowOutwardIcon style={{color:"black",marginBottom:"-7px"}} />
                     </div>
                 </div>
-                <div className={style.image}>
+                {/* <div className={style.image}>
                     <img src={project.img} alt="project image" />
                     
-                </div>
+                </div> */}
             </div>
         </Fragment>
      );

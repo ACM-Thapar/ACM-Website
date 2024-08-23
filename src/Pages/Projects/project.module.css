@@ -5,14 +5,15 @@
 }
 
 .cards{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: column; */
     gap: 3.5rem;
 }
 .main>h1{
     font-family: var(--titleFont);
     text-align: right;
-    color: #DDF6FF;
+    color: #8FDAF5;
     font-size: clamp(3rem,12vw,10rem);
 }
 .main>p{
@@ -50,6 +51,11 @@
 }
 
 @media screen and (max-width:1000px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
     .main>h1{
         text-align: left;
     }

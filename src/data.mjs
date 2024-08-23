@@ -102,12 +102,6 @@ export const ProjectData = {
   subtitle2: 'Projects',
   project: [
     {
-      name: "Bitcoin Chatbot",
-      tech:  "Langchain, Chroma Database",
-      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
-      link: "https://github.com/armeenkaur/BitcoinChatbot",
-      img : Phone
-    },  {
       name: "Thapar Time Table",
       tech:  "React js ,Python",
       description: "This project provides an intuitive and aesthetic web interface for Thapar University students to view, search, and personalize their semester timetables. The website parses an official Excel file released by the university, generating over 60,000 lines of data for comprehensive scheduling information.",
@@ -129,6 +123,13 @@ export const ProjectData = {
       link: "https://github.com/ACM-Thapar/acmGPT",
       img : Phone
     },
+    {
+      name: "Bitcoin Chatbot",
+      tech:  "Langchain, Chroma Database",
+      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
+      link: "https://github.com/armeenkaur/BitcoinChatbot",
+      img : Phone
+    }, 
     {
       name: "Acm Blockchain",
       tech:  "Golang",
