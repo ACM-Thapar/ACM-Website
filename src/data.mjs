@@ -907,7 +907,7 @@ export const Bootcampdata = {
       },
       {
         week: "03",
-        topic: "Node.js/Express.js",
+        topic: "Node.js/ Express.js",
         link: "https://www.youtube.com/watch?v=ohIAiuHMKMI&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo",
       },
       {
@@ -966,32 +966,32 @@ export const Bootcampdata = {
     roadmap: [
       {
         week: "01",
-        topic: "Java Basics",
+        topic: "Introduction to Flutter",
         link: "",
       },
       {
         week: "02",
-        topic: "Kotlin",
+        topic: "Widgets and Layouts",
         link: "",
       },
       {
         week: "03",
-        topic: "Flutter",
+        topic: "Navigation and Routing",
         link: "",
       },
       {
         week: "04",
-        topic: "Adv Flutter",
+        topic: "State Management",
         link: "",
       },
       {
         week: "05",
-        topic: "Swift",
+        topic: "Forms, Validation, and User Inputs",
         link: "",
       },
       {
         week: "06",
-        topic: "Deployment",
+        topic: "Networking and API Integration",
         link: "",
       },
       {
@@ -1141,70 +1141,70 @@ export const Bootcampdata = {
   },
   'academic-classes': {
     heading: "Academic Classes",
-    data: "Strengthen your academic knowledge with these classes.",
+    data: "Students dive deep into the core of computer science with our DSA (Data Structures and Algorithms) Bootcamp. This intensive program is designed to equip participants with a strong foundation in essential data structures and algorithms. Through hands-on coding exercises and real-world problem-solving, students will learn to optimize their code for efficiency and scalability",
     img: Bootcampimg,
-    tech: "Math | Science | History | Literature",
+    tech: "Data Structures | Algorithms",
     resourcs: [
       {
-        name: "One shot Math Course",
+        name: "DSA Sheet by Love Babbar",
         image: html,
         img: arrow,
-        link: "",
+        link: "https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/",
       },
       {
-        name: "One shot Science Course",
+        name: "Striver's DSA Sheet",
         image: css,
         img: arrow,
-        link: "",
+        link: "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
       },
       {
-        name: "One shot History Course",
+        name: "Algoprep 151 Qs",
         image: react,
         img: arrow,
-        link: "",
+        link: "https://docs.google.com/spreadsheets/d/1kyHfGGaLTzWspcqMUUS5Httmip7t8LJB0P-uPrRLGos/edit?pli=1&gid=0#gid=0",
       },
       {
-        name: "One shot Literature Course",
+        name: "DSA Sheet by Arsh",
         image: Js,
         img: arrow,
-        link: "",
+        link: "https://docs.google.com/spreadsheets/d/1MGVBJ8HkRbCnU6EQASjJKCqQE8BWng4qgL0n3vCVOxE/edit?gid=0#gid=0",
       }
     ],
     roadmap: [
       {
         week: "01",
-        topic: "Math Basics",
-        link: "",
+        topic: "Basics",
+        link: "https://docs.google.com/presentation/d/1cPlci7K7-7ONClmc41Awlrp1Adp0A0Ws/edit?usp=sharing&ouid=117868515780097825872&rtpof=true&sd=true",
       },
       {
         week: "02",
-        topic: "Adv Math",
-        link: "",
+        topic: "Arrays",
+        link: "https://docs.google.com/document/d/1oEyLoPJ_kxr6PFsZkWHZCFbCLFgn3Oh0AzSB3GQo3kw/edit?usp=sharing",
       },
       {
         week: "03",
-        topic: "Experiments",
-        link: "",
+        topic: "Time & Space Complexity",
+        link: "https://drive.google.com/file/d/1EF7yNSMhFTAf85FKEXjqbX14jitVyAVR/view?usp=sharing",
       },
       {
         week: "04",
-        topic: "Highlights",
-        link: "",
+        topic: "STL",
+        link: "https://docs.google.com/document/d/1oEyLoPJ_kxr6PFsZkWHZCFbCLFgn3Oh0AzSB3GQo3kw/edit?usp=sharing",
       },
       {
         week: "05",
-        topic: "Analysis",
-        link: "",
+        topic: "Stacks and Queues",
+        link: "https://docs.google.com/document/d/1oEyLoPJ_kxr6PFsZkWHZCFbCLFgn3Oh0AzSB3GQo3kw/edit?usp=sharing",
       },
       {
         week: "06",
-        topic: "Projects",
-        link: "",
+        topic: "Linked Lists",
+        link: "https://drive.google.com/file/d/187ycx2OtloTgPXuxKDLAm9xEsvztWYJN/view?usp=sharing",
       },
       {
         week: "07",
-        topic: "Exam Prep",
-        link: "",
+        topic: "Binary search",
+        link: "https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm",
       }
     ]
   }

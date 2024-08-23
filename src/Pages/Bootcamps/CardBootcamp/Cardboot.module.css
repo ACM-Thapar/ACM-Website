@@ -35,6 +35,7 @@
 .card h2{
     font-family:var(--textFont);
     /* font-family: Poppins; */
+    text-align: center;
     font-size: clamp(1.5rem, 3vw,2rem);
     font-weight: 600;
     font-style: normal;
