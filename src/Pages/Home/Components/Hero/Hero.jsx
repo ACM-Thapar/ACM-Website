@@ -67,7 +67,7 @@ const Hero = () => {
             <div className={styles.logos}>
               {logos.map ((item, index) => {
                 return (
-                  <a href="/" key={index}>
+                  <a href={item.link} target="_blank" key={index}>
                     <img src={item.img} alt={item.alt} />
                   </a>
                 );

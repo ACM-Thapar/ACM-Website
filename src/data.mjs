@@ -34,14 +34,17 @@ export const HeroData = {
     {
       img: Linkedin,
       alt: 'Linkedin',
+      link: "https://www.linkedin.com/company/thapar-acm-student-chapter/mycompany/",
     },
     {
       img: Instagram,
       alt: 'Instagram',
+      link: "https://www.instagram.com/acmthapar/",
     },
     {
       img: Github,
       alt: 'Github',
+      link: "https://github.com/ACM-Thapar",
     },
   ],
 };
@@ -102,12 +105,6 @@ export const ProjectData = {
   subtitle2: 'Projects',
   project: [
     {
-      name: "Bitcoin Chatbot",
-      tech:  "Langchain, Chroma Database",
-      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
-      link: "https://github.com/armeenkaur/BitcoinChatbot",
-      img : Phone
-    },  {
       name: "Thapar Time Table",
       tech:  "React js ,Python",
       description: "This project provides an intuitive and aesthetic web interface for Thapar University students to view, search, and personalize their semester timetables. The website parses an official Excel file released by the university, generating over 60,000 lines of data for comprehensive scheduling information.",
@@ -129,6 +126,13 @@ export const ProjectData = {
       link: "https://github.com/ACM-Thapar/acmGPT",
       img : Phone
     },
+    {
+      name: "Bitcoin Chatbot",
+      tech:  "Langchain, Chroma Database",
+      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
+      link: "https://github.com/armeenkaur/BitcoinChatbot",
+      img : Phone
+    }, 
     {
       name: "Acm Blockchain",
       tech:  "Golang",
@@ -793,13 +797,19 @@ export const gallery = {
   images:[
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g2_vbeqnp.jpg",
+      date1: "4 April, 2024",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087536/g4_qj5lq2.jpg",
+      date2: "4 April, 2024",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087996/1691988232131_zhcsq1.jpg",
+      date3: "4 April, 2024",
     },
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g3_jpwubw.jpg",
+      date1: "4 April, 2024",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724090239/IMG_8725_stqlnv.jpg",
+      date2: "4 April, 2024",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087486/g1_aib9mf.jpg",
+      date3: "4 April, 2024",
     },
     // {
     //   img1: gallery2,
@@ -813,17 +823,37 @@ export const events = {
   details:[
     {
       heading: "Events",
-      subtitle: "ECLIPSE 3.0",
+      subtitle: "ECLIPSE 4.0",
       description: "Flagship Event",
-      data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
-      img: event1,
+      data:"A premier tech competition that featured an exhilarating overnight hackathon Hacklipse, innovative designathon 'Flamingo' showcasing creative excellence, rigorous Enigma competitive programming challenges, the mind-bending Sakujo quests and the intense virtual cipher-breaking of Cryptic Hunt.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724323527/img_pka8hq.jpg",
     },
     {
       heading: "Sub-Events",
+      subtitle: "SAKUJO",
+      description: "Treasure Hunt",
+      data:"Sakujo, an exciting treasure hunt, wherein participants had to team up and decipher hints, exploring the alleys of Thapar University, with every hint pointing to a new location.  Themed around 'Death Note', SAKUJO had a massive footfall, making it a huge success.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135144/20240223063610_IMG_5521_hoetev.jpg",
+    },
+    {
+      subtitle: "CRYPTIC HUNT",
+      // description: "Designathon",
+      data:"Cryptic Hunt, a 24 hour Scavenger Hunt requiring participants to solve tricky puzzles on the internet, using tools like cyphers and image steganography, with each level rewarding points. This event progresses non-linearly with the team at the top of the final leader board winning.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135135/cryptic_h8ajzm.jpg",
+    },
+    // {
+    //   heading: "Events",
+    //   subtitle: "ECLIPSE 3.0",
+    //   description: "Flagship Event",
+    //   data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
+    //   img: event1,
+    // },
+    {
+      // heading: "Sub-Events",
       subtitle: "HACKLIPSE",
       description: "Most Popular Hackathon",
       data:"Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
-      img: event2,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135136/hacklipse_etixxj.jpg",
     },
     {
       subtitle: "FLAMINGO",
@@ -835,7 +865,7 @@ export const events = {
       subtitle: "CODESPRINT",
       description: "Competitive Coding",
       data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition.",
-      img: event1,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724326264/codesprint_syc1zm.jpg",
     },
   ],
 }
