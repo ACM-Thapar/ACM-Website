@@ -34,14 +34,17 @@ export const HeroData = {
     {
       img: Linkedin,
       alt: 'Linkedin',
+      link: "https://www.linkedin.com/company/thapar-acm-student-chapter/mycompany/",
     },
     {
       img: Instagram,
       alt: 'Instagram',
+      link: "https://www.instagram.com/acmthapar/",
     },
     {
       img: Github,
       alt: 'Github',
+      link: "https://github.com/ACM-Thapar",
     },
   ],
 };
@@ -794,13 +797,19 @@ export const gallery = {
   images:[
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g2_vbeqnp.jpg",
+      date1: "4 April, 2024",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087536/g4_qj5lq2.jpg",
+      date2: "4 April, 2024",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087996/1691988232131_zhcsq1.jpg",
+      date3: "4 April, 2024",
     },
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g3_jpwubw.jpg",
+      date1: "4 April, 2024",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724090239/IMG_8725_stqlnv.jpg",
+      date2: "4 April, 2024",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087486/g1_aib9mf.jpg",
+      date3: "4 April, 2024",
     },
     // {
     //   img1: gallery2,

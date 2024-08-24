@@ -24,6 +24,7 @@
     font-size: clamp(2.5rem,10vw,8rem);
     text-align: right;
     color:#8FDAF5;
+    padding-top: 2rem;
 }
 
 .card{
