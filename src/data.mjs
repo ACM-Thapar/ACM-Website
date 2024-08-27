@@ -844,9 +844,9 @@ export const Bootcampdata = {
   title: "Bootcamps",
   'web-development': {
     heading: "Web Development",
-    data: "Students embark on a dynamic journey into web development with our MERN Stack Bootcamp. This immersive experience takes participants from the basics of front-end design to the complexities of back-end development through hands on projects, .",
+    data: "Students embark on a dynamic journey into web development with our MERN Stack Bootcamp. This immersive experience takes participants from the basics of front-end design to the complexities of back-end development through hands on projects.",
     img: Bootcampimg,
-    tech: "HTML | CSS | JavaScript | React | Node.js",
+    tech: "HTML | CSS | JavaScript | React | Node.js | Express.js",
     resourcs: [
       {
         name: "One shot HTML Course",
@@ -913,70 +913,70 @@ export const Bootcampdata = {
   },
   'app-development': {
     heading: "App Development",
-    data: "Dive into mobile app development for both Android and iOS.",
+    data: "Students embark on an exciting journey into app development with our Flutter Bootcamp. This immersive experience guides participants from the fundamentals of UI/UX design to the intricacies of building cross-platform applications through hands-on projects.",
     img: Bootcampimg,
-    tech: "Java | Kotlin | Flutter | Swift",
+    tech: "Dart | Flutter",
     resourcs: [
       {
-        name: "One shot Java Course",
+        name: "One shot Dart Course",
         image: html,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/watch?v=Ej_Pcr4uC2Q",
       },
       {
-        name: "One shot Kotlin Course",
+        name: "Flutter playlist",
         image: css,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfGLShoW0vVX_tcyT8u1Y3E",
       },
       {
-        name: "One shot Flutter Course",
+        name: "Firebase playlist",
         image: react,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLjVLYmrlmjGeA6_i1WOallrMbTzZtBcp8",
       },
       {
-        name: "One shot Swift Course",
+        name: "Deployment",
         image: Js,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLq83k-ITj6lSEhobRX2E94fNSZRs1Uwtm",
       }
     ],
     roadmap: [
       {
         week: "01",
         topic: "Introduction to Flutter",
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLlxmoA0rQ-LyHW9voBdNo4gEEIh0SjG-q",
       },
       {
         week: "02",
         topic: "Widgets and Layouts",
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLkL1Ztu9DMS6Ox13y3-G9E6NqX3fLiihv",
       },
       {
         week: "03",
         topic: "Navigation and Routing",
-        link: "",
+        link: "https://www.youtube.com/watch?v=zxmWMpkUJpI&ab_channel=dbestechube",
       },
       {
         week: "04",
         topic: "State Management",
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLFyjjoCMAPtzn7tFLRV3eny7G74LnlMRt",
       },
       {
         week: "05",
-        topic: "Forms, Validation, and User Inputs",
-        link: "",
+        topic: "Validation and User Inputs",
+        link: "https://www.youtube.com/watch?v=GFKqoIAPd0Q&ab_channel=dbestech",
       },
       {
         week: "06",
-        topic: "Networking and API Integration",
+        topic: "API Integration",
         link: "",
       },
       {
         week: "07",
-        topic: "App Store",
-        link: "",
+        topic: "Database Integration",
+        link: "https://www.youtube.com/watch?v=hiZcVbyukBo&pp=ygUaTG9jYWwgRGF0YSB",
       }
     ]
   },
