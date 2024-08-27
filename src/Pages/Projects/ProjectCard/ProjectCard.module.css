@@ -1,12 +1,14 @@
+
 .main{
     background-color: #EDF9FD;
     display: flex;
     overflow: hidden;
-    align-items: end;
+    /* align-items: end; */
+    align-items: center;
+    justify-content: center;
     font-family: var(--textFont);
-    padding-inline: 3rem;
+    /* padding-inline: 3rem; */
     box-shadow: 2.661px 3.991px 9.978px 0px rgba(0, 0, 0, 0.25);
-    align-items: end;
 }
 
 .details>h3{
@@ -30,11 +32,12 @@
     font-weight: 600;
     text-decoration: none;
     color: #020E13;
-    font-size: clamp(1rem , 1.5vw,1.125rem);
+    font-size: clamp(1.3rem , 1.5vw,1.125rem);
 }
 .details{
     padding-block: 3rem ;
-    width: 60%;
+    /* width: 60%; */
+    width: 80%;
     display:flex;
     flex-direction: column  ;
 }
