@@ -15,6 +15,7 @@ const Bootmain = () => {
             <div className={styles.main}>
                 <div className={styles.headingdiv}>
                     <h1>Bootcamps</h1>
+                    <br></br> <br></br>
                 </div>
                 <div className={styles.maininner}>
                     {bootcamps.map((item, index) => {
