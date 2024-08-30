@@ -48,4 +48,8 @@
         margin-bottom: -1.5rem;
     }
     
+    .main img{
+        width: 95%;
+        height: auto;
+    }
 }

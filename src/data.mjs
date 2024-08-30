@@ -34,14 +34,17 @@ export const HeroData = {
     {
       img: Linkedin,
       alt: 'Linkedin',
+      link: "https://www.linkedin.com/company/thapar-acm-student-chapter/mycompany/",
     },
     {
       img: Instagram,
       alt: 'Instagram',
+      link: "https://www.instagram.com/acmthapar/",
     },
     {
       img: Github,
       alt: 'Github',
+      link: "https://github.com/ACM-Thapar",
     },
   ],
 };
@@ -102,54 +105,49 @@ export const ProjectData = {
   subtitle2: 'Projects',
   project: [
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "Thapar Time Table",
+      tech:  "React js ,Python",
+      description: "This project provides an intuitive and aesthetic web interface for Thapar University students to view, search, and personalize their semester timetables. The website parses an official Excel file released by the university, generating over 60,000 lines of data for comprehensive scheduling information.",
+      link: "https://github.com/Utkarsh09102004/TimeTable",
+      img : Phone
+    }, 
+   
+    {
+      name: "Expense Tracker ",
+      tech:  "Dart",
+      description:"This project is a starting point for a Flutter application.For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.",
+      link: "https://github.com/ACM-Thapar/Expense_Tracker_Workshop_App",
       img : Phone
     },
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "ACM GPT",
+      tech:  "Html,Css,Javascript",
+      description: "An AI app using Javascript and openAI",
+      link: "https://github.com/ACM-Thapar/acmGPT",
       img : Phone
     },
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "Bitcoin Chatbot",
+      tech:  "Langchain, Chroma Database",
+      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
+      link: "https://github.com/armeenkaur/BitcoinChatbot",
+      img : Phone
+    }, 
+    {
+      name: "Acm Blockchain",
+      tech:  "Golang",
+      description: "The projects includes ACM's Thapar very own blockchain built from scratch using built from sratch using golang. The Chain follows Proof of Work consensus mechanism and works with its CLI This is a open source project and contributions are welcome from anyone who wants to contribute .",
+      link: "https://github.com/ACM-Thapar/ACM-Blockchain",
       img : Phone
     },
     {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
+      name: "Thapar Cos Automation",
+      tech:  "Node.js,React.js,MongoDb,Docker,CI CD",
+      description: "Repository for Thapar COS Automation. Backend Build using Node.js . Web Frontend using react js . Database used MongoDB . Containerisation done using docker , docker-compose used in dev mode . CI CD pipeline enabled using Travis CI .",
+      link: "https://github.com/ACM-Thapar/Thapar-COS-Automation",
       img : Phone
     },
-    {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
-      img : Phone
-    },
-    {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
-      img : Phone
-    },
-    {
-      name: "Webdev Guide",
-      tech:  "HTML , CSS",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-      link: "",
-      img : Phone
-    },
+  
   ],
   projectcount : [
     {
@@ -799,13 +797,19 @@ export const gallery = {
   images:[
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g2_vbeqnp.jpg",
+      date1: "4 April, 2024",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087536/g4_qj5lq2.jpg",
+      date2: "4 April, 2024",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087996/1691988232131_zhcsq1.jpg",
+      date3: "4 April, 2024",
     },
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g3_jpwubw.jpg",
+      date1: "4 April, 2024",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724090239/IMG_8725_stqlnv.jpg",
+      date2: "4 April, 2024",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087486/g1_aib9mf.jpg",
+      date3: "4 April, 2024",
     },
     // {
     //   img1: gallery2,
@@ -819,17 +823,37 @@ export const events = {
   details:[
     {
       heading: "Events",
-      subtitle: "ECLIPSE 3.0",
+      subtitle: "ECLIPSE 4.0",
       description: "Flagship Event",
-      data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
-      img: event1,
+      data:"A premier tech competition that featured an exhilarating overnight hackathon Hacklipse, innovative designathon 'Flamingo' showcasing creative excellence, rigorous Enigma competitive programming challenges, the mind-bending Sakujo quests and the intense virtual cipher-breaking of Cryptic Hunt.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724323527/img_pka8hq.jpg",
     },
     {
       heading: "Sub-Events",
+      subtitle: "SAKUJO",
+      description: "Treasure Hunt",
+      data:"Sakujo, an exciting treasure hunt, wherein participants had to team up and decipher hints, exploring the alleys of Thapar University, with every hint pointing to a new location.  Themed around 'Death Note', SAKUJO had a massive footfall, making it a huge success.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135144/20240223063610_IMG_5521_hoetev.jpg",
+    },
+    {
+      subtitle: "CRYPTIC HUNT",
+      // description: "Designathon",
+      data:"Cryptic Hunt, a 24 hour Scavenger Hunt requiring participants to solve tricky puzzles on the internet, using tools like cyphers and image steganography, with each level rewarding points. This event progresses non-linearly with the team at the top of the final leader board winning.",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135135/cryptic_h8ajzm.jpg",
+    },
+    // {
+    //   heading: "Events",
+    //   subtitle: "ECLIPSE 3.0",
+    //   description: "Flagship Event",
+    //   data:"Eclipse 3.0, transcended boundaries with a tech extravaganza featuring a high-octane hackathon, intense Kaggle Wars, mind-bending Enigma challenges, and the vibrant Flamingo showcase.",
+    //   img: event1,
+    // },
+    {
+      // heading: "Sub-Events",
       subtitle: "HACKLIPSE",
       description: "Most Popular Hackathon",
       data:"Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
-      img: event2,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724135136/hacklipse_etixxj.jpg",
     },
     {
       subtitle: "FLAMINGO",
@@ -841,7 +865,7 @@ export const events = {
       subtitle: "CODESPRINT",
       description: "Competitive Coding",
       data:"An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition.",
-      img: event1,
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724326264/codesprint_syc1zm.jpg",
     },
   ],
 }
@@ -850,9 +874,9 @@ export const Bootcampdata = {
   title: "Bootcamps",
   'web-development': {
     heading: "Web Development",
-    data: "Students embark on a dynamic journey into web development with our MERN Stack Bootcamp. This immersive experience takes participants from the basics of front-end design to the complexities of back-end development through hands on projects, .",
+    data: "Students embark on a dynamic journey into web development with our MERN Stack Bootcamp. This immersive experience takes participants from the basics of front-end design to the complexities of back-end development through hands on projects.",
     img: Bootcampimg,
-    tech: "HTML | CSS | JavaScript | React | Node.js",
+    tech: "HTML | CSS | JavaScript | React | Node.js | Express.js",
     resourcs: [
       {
         name: "One shot HTML Course",
@@ -892,7 +916,7 @@ export const Bootcampdata = {
       },
       {
         week: "03",
-        topic: "Node.js/Express.js",
+        topic: "Node.js/ Express.js",
         link: "https://www.youtube.com/watch?v=ohIAiuHMKMI&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo",
       },
       {
@@ -919,70 +943,70 @@ export const Bootcampdata = {
   },
   'app-development': {
     heading: "App Development",
-    data: "Dive into mobile app development for both Android and iOS.",
+    data: "Students embark on an exciting journey into app development with our Flutter Bootcamp. This immersive experience guides participants from the fundamentals of UI/UX design to the intricacies of building cross-platform applications through hands-on projects.",
     img: Bootcampimg,
-    tech: "Java | Kotlin | Flutter | Swift",
+    tech: "Dart | Flutter",
     resourcs: [
       {
-        name: "One shot Java Course",
+        name: "One shot Dart Course",
         image: html,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/watch?v=Ej_Pcr4uC2Q",
       },
       {
-        name: "One shot Kotlin Course",
+        name: "Flutter playlist",
         image: css,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfGLShoW0vVX_tcyT8u1Y3E",
       },
       {
-        name: "One shot Flutter Course",
+        name: "Firebase playlist",
         image: react,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLjVLYmrlmjGeA6_i1WOallrMbTzZtBcp8",
       },
       {
-        name: "One shot Swift Course",
+        name: "Deployment",
         image: Js,
         img: arrow,
-        link: "",
+        link: "https://www.youtube.com/playlist?list=PLq83k-ITj6lSEhobRX2E94fNSZRs1Uwtm",
       }
     ],
     roadmap: [
       {
         week: "01",
-        topic: "Java Basics",
-        link: "",
+        topic: "Introduction to Flutter",
+        link: "https://www.youtube.com/playlist?list=PLlxmoA0rQ-LyHW9voBdNo4gEEIh0SjG-q",
       },
       {
         week: "02",
-        topic: "Kotlin",
-        link: "",
+        topic: "Widgets and Layouts",
+        link: "https://www.youtube.com/playlist?list=PLkL1Ztu9DMS6Ox13y3-G9E6NqX3fLiihv",
       },
       {
         week: "03",
-        topic: "Flutter",
-        link: "",
+        topic: "Navigation and Routing",
+        link: "https://www.youtube.com/watch?v=zxmWMpkUJpI&ab_channel=dbestechube",
       },
       {
         week: "04",
-        topic: "Adv Flutter",
-        link: "",
+        topic: "State Management",
+        link: "https://www.youtube.com/playlist?list=PLFyjjoCMAPtzn7tFLRV3eny7G74LnlMRt",
       },
       {
         week: "05",
-        topic: "Swift",
-        link: "",
+        topic: "Validation and User Inputs",
+        link: "https://www.youtube.com/watch?v=GFKqoIAPd0Q&ab_channel=dbestech",
       },
       {
         week: "06",
-        topic: "Deployment",
+        topic: "API Integration",
         link: "",
       },
       {
         week: "07",
-        topic: "App Store",
-        link: "",
+        topic: "Database Integration",
+        link: "https://www.youtube.com/watch?v=hiZcVbyukBo&pp=ygUaTG9jYWwgRGF0YSB",
       }
     ]
   },
@@ -1126,70 +1150,70 @@ export const Bootcampdata = {
   },
   'academic-classes': {
     heading: "Academic Classes",
-    data: "Strengthen your academic knowledge with these classes.",
+    data: "Students dive deep into the core of computer science with our DSA (Data Structures and Algorithms) Bootcamp. This intensive program is designed to equip participants with a strong foundation in essential data structures and algorithms. Through hands-on coding exercises and real-world problem-solving, students will learn to optimize their code for efficiency and scalability",
     img: Bootcampimg,
-    tech: "Math | Science | History | Literature",
+    tech: "Data Structures | Algorithms",
     resourcs: [
       {
-        name: "One shot Math Course",
+        name: "DSA Sheet by Love Babbar",
         image: html,
         img: arrow,
-        link: "",
+        link: "https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/",
       },
       {
-        name: "One shot Science Course",
+        name: "Striver's DSA Sheet",
         image: css,
         img: arrow,
-        link: "",
+        link: "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
       },
       {
-        name: "One shot History Course",
+        name: "Algoprep 151 Qs",
         image: react,
         img: arrow,
-        link: "",
+        link: "https://docs.google.com/spreadsheets/d/1kyHfGGaLTzWspcqMUUS5Httmip7t8LJB0P-uPrRLGos/edit?pli=1&gid=0#gid=0",
       },
       {
-        name: "One shot Literature Course",
+        name: "DSA Sheet by Arsh",
         image: Js,
         img: arrow,
-        link: "",
+        link: "https://docs.google.com/spreadsheets/d/1MGVBJ8HkRbCnU6EQASjJKCqQE8BWng4qgL0n3vCVOxE/edit?gid=0#gid=0",
       }
     ],
     roadmap: [
       {
         week: "01",
-        topic: "Math Basics",
-        link: "",
+        topic: "Basics",
+        link: "https://docs.google.com/presentation/d/1cPlci7K7-7ONClmc41Awlrp1Adp0A0Ws/edit?usp=sharing&ouid=117868515780097825872&rtpof=true&sd=true",
       },
       {
         week: "02",
-        topic: "Adv Math",
-        link: "",
+        topic: "Arrays",
+        link: "https://docs.google.com/document/d/1oEyLoPJ_kxr6PFsZkWHZCFbCLFgn3Oh0AzSB3GQo3kw/edit?usp=sharing",
       },
       {
         week: "03",
-        topic: "Experiments",
-        link: "",
+        topic: "Time & Space Complexity",
+        link: "https://drive.google.com/file/d/1EF7yNSMhFTAf85FKEXjqbX14jitVyAVR/view?usp=sharing",
       },
       {
         week: "04",
-        topic: "Highlights",
-        link: "",
+        topic: "STL",
+        link: "https://docs.google.com/document/d/1oEyLoPJ_kxr6PFsZkWHZCFbCLFgn3Oh0AzSB3GQo3kw/edit?usp=sharing",
       },
       {
         week: "05",
-        topic: "Analysis",
-        link: "",
+        topic: "Stacks and Queues",
+        link: "https://docs.google.com/document/d/1oEyLoPJ_kxr6PFsZkWHZCFbCLFgn3Oh0AzSB3GQo3kw/edit?usp=sharing",
       },
       {
         week: "06",
-        topic: "Projects",
-        link: "",
+        topic: "Linked Lists",
+        link: "https://drive.google.com/file/d/187ycx2OtloTgPXuxKDLAm9xEsvztWYJN/view?usp=sharing",
       },
       {
         week: "07",
-        topic: "Exam Prep",
-        link: "",
+        topic: "Binary search",
+        link: "https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm",
       }
     ]
   }

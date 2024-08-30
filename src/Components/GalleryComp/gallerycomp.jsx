@@ -16,6 +16,7 @@ const galleryComp = ( {gallerydata} ) => {
 						return(
 						<div className={styles.images} key={index}>
 							<div className={styles.left}>
+
 								<div className={styles.two}>
 								<LazyLoadImage
                                     src={item.img2}
@@ -32,6 +33,7 @@ const galleryComp = ( {gallerydata} ) => {
                                    
 									/>
 									</div>
+
 							</div>
 							<div className={styles.right}>
 								<div className={styles.one}>

@@ -45,7 +45,7 @@ const Footer = () => {
                 <div className={styles.logos}>
                     {logos.map ((item, index) => {
                         return (
-                        <Link to="/" key={index}>
+                        <Link to={item.link} key={index}>
                             <img src={item.img} alt={item.alt} />
                          </Link>
                         );
