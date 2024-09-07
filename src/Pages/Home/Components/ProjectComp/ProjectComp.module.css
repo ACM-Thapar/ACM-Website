@@ -6,6 +6,7 @@
   }
   .githubLink{
     text-decoration: none;
+    color: #15a6dd;
   }
   
   .scrollsectioninner {
@@ -84,7 +85,7 @@
   }
 
   .innercard>h3{
-    font-size: clamp(0.5rem,4vw,3rem);
+    font-size: clamp(0.25rem,2vw,3rem);
     font-weight: 600;
     font-family: var(--textFont);
     line-height: 90%;
@@ -94,5 +95,12 @@
   @media screen and (max-width:1000px) {
     .card{
       padding: 0.75rem 0.25rem 0 0.75rem;
+    }
+    .scrollsectiondiv h3{
+      font-size: 1.5rem;
+    }
+    .innercard h3{
+      font-size: 0.75rem;
+      margin-right: 10px;
     }
   }
