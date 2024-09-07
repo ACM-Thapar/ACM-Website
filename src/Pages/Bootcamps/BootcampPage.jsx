@@ -12,6 +12,10 @@ import { useParams } from 'react-router-dom';
 const Bootcamp = () => {
   const { bootcampName } = useParams();
   const bootcamp = Bootcampdata[bootcampName];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
   if (!bootcamp) {
     return <div>Bootcamp not found</div>;

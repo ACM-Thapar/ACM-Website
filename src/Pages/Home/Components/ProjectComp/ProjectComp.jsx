@@ -5,12 +5,13 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import styles from "./ProjectComp.module.css";
 import { ProjectData } from "../../../../data.mjs";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { useNavigate } from "react-router-dom";
 
 const { project } = ProjectData;
 
 function ProjectComp() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
+  const navigate = useNavigate();
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
@@ -33,6 +34,7 @@ function ProjectComp() {
 }
 
 const DesktopComponent = () => {
+  const navigate = useNavigate();
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
@@ -61,8 +63,7 @@ const DesktopComponent = () => {
     };
   }, []);
   const handleViewAllClick = () => {
-    
-    window.location.href = project[project.length - 1].link;
+    navigate("/Projects");
   };
   
 
