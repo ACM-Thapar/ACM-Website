@@ -434,6 +434,32 @@ export const Teamdata = {
       }
     },
     {
+      name : "Arpita Singh",
+      position : "Core",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418881/IMG-20230805-WA0072_2_evlymt.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/arpita-singh-746920286/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/arpitasingh2004",
+        img: Github,
+      }
+    },
+    {
+      name : "Aryan Gupta",
+      position : "Core",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1200,h_1200,ar_1:1/v1726418882/WhatsApp_Image_2024-09-13_at_16.47.30_fa5cba9b_tnygyx.jpg",
+      linkdin : {
+        link:"http://www.linkedin.com/in/aryan-gupta-17ba3a243",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/aryang081",
+        img: Github,
+      }
+    },
+    {
       name : "Atin Gupta",
       position : "Core",
       img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1723895206/IMG_3637_-_ATIN_GUPTA_ikhjkq.jpg",
@@ -692,7 +718,7 @@ export const alumnid = {
       // position:"Ex - Gen. Sec.",
       job:"Placed at JP Morgan Chase & Co.",
       linkedin : "https://www.linkedin.com/in/mahek-khowala/",
-      img:"https://media.licdn.com/dms/image/sync/v2/C5627AQHo3JkhzMXX2A/articleshare-shrink_800/articleshare-shrink_800/0/1712033479461?e=1723982400&v=beta&t=IZGwZ2T9Vpo9Pvqde348mlhEtJvxoOLg4UTQeq2MOBk",
+      img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1724520945/mahek_khowala_xccpwi.jpg",
     },
     {
       name:"Aniket Biswas",
@@ -797,19 +823,19 @@ export const gallery = {
   images:[
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g2_vbeqnp.jpg",
-      date1: "4 April, 2024",
+      date1: "Orientation '23",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087536/g4_qj5lq2.jpg",
-      date2: "4 April, 2024",
+      date2: "Induction",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087996/1691988232131_zhcsq1.jpg",
-      date3: "4 April, 2024",
+      date3: "Python Workshop, Frosh Week",
     },
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g3_jpwubw.jpg",
-      date1: "4 April, 2024",
+      date1: "Sakujo",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724090239/IMG_8725_stqlnv.jpg",
-      date2: "4 April, 2024",
+      date2: "Eclipse 4.0",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087486/g1_aib9mf.jpg",
-      date3: "4 April, 2024",
+      date3: "Orientation '23",
     },
     // {
     //   img1: gallery2,
