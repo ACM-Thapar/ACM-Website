@@ -7,12 +7,15 @@ import { gsap } from "gsap";
 import { HeroData } from "../../data.mjs";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Dots from "../../Components/dots/Dots";
-import { useParams } from 'react-router-dom';
+import { useParams } from "react-router-dom";
 
 const Bootcamp = () => {
   const { bootcampName } = useParams();
   const bootcamp = Bootcampdata[bootcampName];
-  
+
+  //
+
+
   if (!bootcamp) {
     return <div>Bootcamp not found</div>;
   }
@@ -26,10 +29,10 @@ const Bootcamp = () => {
       setScreenWidth(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -44,7 +47,11 @@ const Bootcamp = () => {
             <Dots />
           </div>
         </div>
-        <div className={`${styles.header} ${isWideScreen ? styles.showHeader : styles.hideHeader}`}>
+        <div
+          className={`${styles.header} ${
+            isWideScreen ? styles.showHeader : styles.hideHeader
+          }`}
+        >
           <h1>{heading}</h1>
         </div>
         <div className={styles.body}>
@@ -103,7 +110,12 @@ const DesktopComponent = ({ roadmap }) => {
       <div ref={triggerRef}>
         <div ref={sectionRef} className={styles.roadmap}>
           {roadmap.map((item, index) => (
-            <Cardboot key={index} week={item.week} topic={item.topic} link={item.link} />
+            <Cardboot
+              key={index}
+              week={item.week}
+              topic={item.topic}
+              link={item.link}
+            />
           ))}
         </div>
       </div>
@@ -116,7 +128,12 @@ const MobileComponent = ({ roadmap }) => {
     <Fragment>
       <div style={{ marginTop: "10rem" }}>
         {roadmap.map((item, index) => (
-          <Cardboot key={index} week={item.week} topic={item.topic} link={item.link} />
+          <Cardboot
+            key={index}
+            week={item.week}
+            topic={item.topic}
+            link={item.link}
+          />
         ))}
       </div>
     </Fragment>

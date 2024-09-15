@@ -6,6 +6,7 @@
   }
   .githubLink{
     text-decoration: none;
+    color: #15a6dd;
   }
   
   .scrollsectioninner {
@@ -90,8 +91,8 @@
     box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0, 0.25);
   }
 
-  .innercard h3{
-    font-size: clamp(0.5rem,4vw,3rem);
+  .innercard>h3{
+    font-size: clamp(0.25rem,2vw,3rem);
     font-weight: 600;
     font-family: var(--textFont);
     line-height: 90%;
@@ -101,16 +102,12 @@
   @media screen and (max-width:1000px) {
     .card{
       padding: 0.75rem 0.25rem 0 0.75rem;
-      /* font-family: var(--textFont);
-      color: #15A6DD;
-      font-size: 0.8rem; */
     }
-/* 
+    .scrollsectiondiv h3{
+      font-size: 1.5rem;
+    }
     .innercard h3{
-      font-size: clamp(0.5rem,4vw,3rem);
-      font-weight: 600;
-      font-family: var(--textFont);
-      line-height: 90%;
-      color: #15A6DD;
-    } */
+      font-size: 0.75rem;
+      margin-right: 10px;
+    }
   }

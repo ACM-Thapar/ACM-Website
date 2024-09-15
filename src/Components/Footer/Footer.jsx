@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import styles from './Footer.module.css';
 import {HeroData, Bootcampdata, ProjectData} from '../../data.mjs';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const {headline, keywords, copyright, subtitle, info, logos} = HeroData;
@@ -25,7 +26,7 @@ const Footer = () => {
                                 const bootcamp = bootcamps[key];
                     return (
                             <p key={key}>
-                                <a href={`/bootcamps/${key}`}>{bootcamp.heading}</a>
+                                <Link to={`/bootcamps/${key}`}>{bootcamp.heading}</Link>
 </p>
                     );
                     })}
@@ -44,9 +45,9 @@ const Footer = () => {
                 <div className={styles.logos}>
                     {logos.map ((item, index) => {
                         return (
-                        <a href={item.link} target="_blank" key={index}>
+                        <Link to={item.link} key={index}>
                             <img src={item.img} alt={item.alt} />
-                         </a>
+                         </Link>
                         );
                     })}
                     </div>
