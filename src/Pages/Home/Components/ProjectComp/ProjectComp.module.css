@@ -29,6 +29,7 @@
     /* gap:10px; */
     overflow: hidden;
     align-items: end;
+    justify-content: space-between;
     box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0, 0.25)
   }
   

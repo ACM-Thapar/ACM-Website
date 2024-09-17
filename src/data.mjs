@@ -23,6 +23,16 @@ import css from './assets/Images/css.png';
 import Js from './assets/Images/js.png';
 import react from './assets/Images/react.png';
 import arrow from './assets/Images/arrowsolid.png';
+import appdev from './assets/Images/appdev.svg';
+import webdev from './assets/Images/webdev.svg';
+import aiml from './assets/Images/aiml.svg';
+import uiux from './assets/Images/uiux.svg';
+import academic from './assets/Images/academic.svg';
+import more from './assets/Images/more.svg';
+import pr1 from './assets/Images/pr1.svg';
+import pr2 from './assets/Images/pr2.svg';
+import pr3 from './assets/Images/pr3.svg';
+import pr4 from './assets/Images/pr4.svg';
 
 export const HeroData = {
   headline: 'Innovate, Elevate, Collaborate',
@@ -109,7 +119,7 @@ export const ProjectData = {
       tech:  "React js ,Python",
       description: "This project provides an intuitive and aesthetic web interface for Thapar University students to view, search, and personalize their semester timetables. The website parses an official Excel file released by the university, generating over 60,000 lines of data for comprehensive scheduling information.",
       link: "https://github.com/Utkarsh09102004/TimeTable",
-      img : Phone
+      img : pr1
     }, 
    
     {
@@ -117,21 +127,21 @@ export const ProjectData = {
       tech:  "Dart",
       description:"This project is a starting point for a Flutter application.For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.",
       link: "https://github.com/ACM-Thapar/Expense_Tracker_Workshop_App",
-      img : Phone
+      img : pr2
     },
     {
       name: "ACM GPT",
       tech:  "Html,Css,Javascript",
       description: "An AI app using Javascript and openAI",
       link: "https://github.com/ACM-Thapar/acmGPT",
-      img : Phone
+      img : pr3
     },
     {
       name: "Bitcoin Chatbot",
       tech:  "Langchain, Chroma Database",
       description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
       link: "https://github.com/armeenkaur/BitcoinChatbot",
-      img : Phone
+      img : pr4
     }, 
     {
       name: "Acm Blockchain",
@@ -178,27 +188,27 @@ export const Bootcamp = {
   bootcamps : [
     {
       name:"Web Development",
-      img : amico1
+      img : webdev
     },
     {
       name:"App Development",
-      img : amico1
+      img : appdev
     },
     {
       name:"AI/ML Learning",
-      img : amico1
+      img : aiml
     },
     {
       name:"UI/UX Classes",
-      img : amico1
+      img : uiux
     },
     {
       name:"Academic Classes",
-      img : amico1
+      img : academic
     },
     {
       name:"And More!!! ",
-      img : amico1
+      img : more
     },
   ]
 }
@@ -259,6 +269,19 @@ export const Teamdata = {
       },
       insta : {
         link:"https://github.com/armeenkaur/",
+        img: Github,
+      }
+    },
+    {
+      name : "Siddhant",
+      position : "Joint Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418887/DSC09630_u90b5v.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/siddhant-kamble/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/WakeUpSidd",
         img: Github,
       }
     },
@@ -477,12 +500,12 @@ export const Teamdata = {
       position : "Core",
       img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723895284/Photo_-_BHAUMIK_k56sre.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/bhaumik-48125b2a7/",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/Bhaumik181",
+        img: Github,
       }
     },
     {
