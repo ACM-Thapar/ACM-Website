@@ -33,6 +33,8 @@ import pr1 from './assets/Images/pr1.svg';
 import pr2 from './assets/Images/pr2.svg';
 import pr3 from './assets/Images/pr3.svg';
 import pr4 from './assets/Images/pr4.svg';
+import pr5 from './assets/Images/pr5.svg';
+import pr6 from './assets/Images/pr6.svg';
 
 export const HeroData = {
   headline: 'Innovate, Elevate, Collaborate',
@@ -121,14 +123,6 @@ export const ProjectData = {
       link: "https://github.com/Utkarsh09102004/TimeTable",
       img : pr1
     }, 
-   
-    {
-      name: "Expense Tracker ",
-      tech:  "Dart",
-      description:"This project is a starting point for a Flutter application.For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.",
-      link: "https://github.com/ACM-Thapar/Expense_Tracker_Workshop_App",
-      img : pr2
-    },
     {
       name: "ACM GPT",
       tech:  "Html,Css,Javascript",
@@ -137,26 +131,33 @@ export const ProjectData = {
       img : pr3
     },
     {
-      name: "Bitcoin Chatbot",
-      tech:  "Langchain, Chroma Database",
-      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
-      link: "https://github.com/armeenkaur/BitcoinChatbot",
-      img : pr4
-    }, 
-    {
       name: "Acm Blockchain",
       tech:  "Golang",
       description: "The projects includes ACM's Thapar very own blockchain built from scratch using built from sratch using golang. The Chain follows Proof of Work consensus mechanism and works with its CLI This is a open source project and contributions are welcome from anyone who wants to contribute .",
       link: "https://github.com/ACM-Thapar/ACM-Blockchain",
-      img : Phone
+      img : pr5
     },
     {
       name: "Thapar Cos Automation",
       tech:  "Node.js,React.js,MongoDb,Docker,CI CD",
       description: "Repository for Thapar COS Automation. Backend Build using Node.js . Web Frontend using react js . Database used MongoDB . Containerisation done using docker , docker-compose used in dev mode . CI CD pipeline enabled using Travis CI .",
       link: "https://github.com/ACM-Thapar/Thapar-COS-Automation",
-      img : Phone
+      img : pr6
     },
+    {
+      name: "Expense Tracker ",
+      tech:  "Dart",
+      description:"This project is a starting point for a Flutter application.For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.",
+      link: "https://github.com/ACM-Thapar/Expense_Tracker_Workshop_App",
+      img : pr2
+    },
+    {
+      name: "Bitcoin Chatbot",
+      tech:  "Langchain, Chroma Database",
+      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
+      link: "https://github.com/armeenkaur/BitcoinChatbot",
+      img : pr4
+    }, 
   
   ],
   projectcount : [
@@ -561,6 +562,19 @@ export const Teamdata = {
       }
     },
     {
+      name : "Kavya Aggarwal",
+      position : "Core",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_778,h_778,ar_1:1,g_auto/v1727068532/k_vdldx1.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/kavya-aggarwal-08b358291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/KavyaAgg18",
+        img: Github,
+      }
+    },
+    {
       name : "Kshitiz Jain",
       position : "Core",
       img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1840,h_1840,ar_1:1,g_auto/v1723733187/photo-with-bg-edited_-_KSHITIZ_JAIN_yw5gig.jpg",
@@ -576,7 +590,7 @@ export const Teamdata = {
     {
       name : "Matangi Sharma",
       position : "Core",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724095198/matangi_ylsezy.jpg",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1727069334/photo_e709b6.jpg",
       linkdin : {
         link:"https://www.linkedin.com/in/matangi-sharma-4b1706283/",
         img: Linkedin,
