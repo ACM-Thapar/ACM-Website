@@ -58,6 +58,7 @@
     }
     
     .innercontent p{
+        padding-top: 8px;
         width: 90%;
     }
     .innercontent h1{

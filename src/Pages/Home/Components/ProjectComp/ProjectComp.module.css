@@ -26,8 +26,10 @@
     padding-inline: 1vw;
     background-color: #EDF9FD;
     display: flex;
+    /* gap:10px; */
     overflow: hidden;
     align-items: end;
+    justify-content: space-between;
     box-shadow: 2.660855770111084px 3.991283655166626px 9.978209495544434px rgba(0, 0, 0, 0.25)
   }
   
@@ -37,8 +39,14 @@
     font-family: var(--textFont);
     font-size: 3rem;
     font-weight: 600;
-    width: 40%;
+    /* width: 40%; */
     line-height: 100%;
+  }
+
+  .scrollsection h5{
+    color: grey;
+    font-family: var(--textFont);
+    font-size: clamp(0.2rem,3vw,1.5rem);
   }
 
   .scrollsection p{
@@ -72,7 +80,7 @@
     
   }
 
-  .card>img{
+  .card img{
     height: 20vw;
   }
 

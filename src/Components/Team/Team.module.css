@@ -35,6 +35,7 @@
     padding: 2rem 1rem;
     gap: 2rem;
     /* line-height: 200%; */
+    align-items: center;
 }
 .card img:nth-child(1){
     height: 8rem;

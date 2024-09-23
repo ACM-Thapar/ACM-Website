@@ -23,6 +23,18 @@ import css from './assets/Images/css.png';
 import Js from './assets/Images/js.png';
 import react from './assets/Images/react.png';
 import arrow from './assets/Images/arrowsolid.png';
+import appdev from './assets/Images/appdev.svg';
+import webdev from './assets/Images/webdev.svg';
+import aiml from './assets/Images/aiml.svg';
+import uiux from './assets/Images/uiux.svg';
+import academic from './assets/Images/academic.svg';
+import more from './assets/Images/more.svg';
+import pr1 from './assets/Images/pr1.svg';
+import pr2 from './assets/Images/pr2.svg';
+import pr3 from './assets/Images/pr3.svg';
+import pr4 from './assets/Images/pr4.svg';
+import pr5 from './assets/Images/pr5.svg';
+import pr6 from './assets/Images/pr6.svg';
 
 export const HeroData = {
   headline: 'Innovate, Elevate, Collaborate',
@@ -109,44 +121,43 @@ export const ProjectData = {
       tech:  "React js ,Python",
       description: "This project provides an intuitive and aesthetic web interface for Thapar University students to view, search, and personalize their semester timetables. The website parses an official Excel file released by the university, generating over 60,000 lines of data for comprehensive scheduling information.",
       link: "https://github.com/Utkarsh09102004/TimeTable",
-      img : Phone
+      img : pr1
     }, 
-   
-    {
-      name: "Expense Tracker ",
-      tech:  "Dart",
-      description:"This project is a starting point for a Flutter application.For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.",
-      link: "https://github.com/ACM-Thapar/Expense_Tracker_Workshop_App",
-      img : Phone
-    },
     {
       name: "ACM GPT",
       tech:  "Html,Css,Javascript",
       description: "An AI app using Javascript and openAI",
       link: "https://github.com/ACM-Thapar/acmGPT",
-      img : Phone
+      img : pr3
     },
-    {
-      name: "Bitcoin Chatbot",
-      tech:  "Langchain, Chroma Database",
-      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
-      link: "https://github.com/armeenkaur/BitcoinChatbot",
-      img : Phone
-    }, 
     {
       name: "Acm Blockchain",
       tech:  "Golang",
       description: "The projects includes ACM's Thapar very own blockchain built from scratch using built from sratch using golang. The Chain follows Proof of Work consensus mechanism and works with its CLI This is a open source project and contributions are welcome from anyone who wants to contribute .",
       link: "https://github.com/ACM-Thapar/ACM-Blockchain",
-      img : Phone
+      img : pr5
     },
     {
       name: "Thapar Cos Automation",
       tech:  "Node.js,React.js,MongoDb,Docker,CI CD",
       description: "Repository for Thapar COS Automation. Backend Build using Node.js . Web Frontend using react js . Database used MongoDB . Containerisation done using docker , docker-compose used in dev mode . CI CD pipeline enabled using Travis CI .",
       link: "https://github.com/ACM-Thapar/Thapar-COS-Automation",
-      img : Phone
+      img : pr6
     },
+    {
+      name: "Expense Tracker ",
+      tech:  "Dart",
+      description:"This project is a starting point for a Flutter application.For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.",
+      link: "https://github.com/ACM-Thapar/Expense_Tracker_Workshop_App",
+      img : pr2
+    },
+    {
+      name: "Bitcoin Chatbot",
+      tech:  "Langchain, Chroma Database",
+      description: "Its an LLM customized on that bitcoin pdf.Its like chatgpt specially trained on a topic",
+      link: "https://github.com/armeenkaur/BitcoinChatbot",
+      img : pr4
+    }, 
   
   ],
   projectcount : [
@@ -178,27 +189,27 @@ export const Bootcamp = {
   bootcamps : [
     {
       name:"Web Development",
-      img : amico1
+      img : webdev
     },
     {
       name:"App Development",
-      img : amico1
+      img : appdev
     },
     {
       name:"AI/ML Learning",
-      img : amico1
+      img : aiml
     },
     {
       name:"UI/UX Classes",
-      img : amico1
+      img : uiux
     },
     {
       name:"Academic Classes",
-      img : amico1
+      img : academic
     },
     {
       name:"And More!!! ",
-      img : amico1
+      img : more
     },
   ]
 }
@@ -259,6 +270,19 @@ export const Teamdata = {
       },
       insta : {
         link:"https://github.com/armeenkaur/",
+        img: Github,
+      }
+    },
+    {
+      name : "Siddhant",
+      position : "Joint Secretary",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418887/DSC09630_u90b5v.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/siddhant-kamble/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/WakeUpSidd",
         img: Github,
       }
     },
@@ -434,6 +458,32 @@ export const Teamdata = {
       }
     },
     {
+      name : "Arpita Singh",
+      position : "Core",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418881/IMG-20230805-WA0072_2_evlymt.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/arpita-singh-746920286/",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/arpitasingh2004",
+        img: Github,
+      }
+    },
+    {
+      name : "Aryan Gupta",
+      position : "Core",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1200,h_1200,ar_1:1/v1726418882/WhatsApp_Image_2024-09-13_at_16.47.30_fa5cba9b_tnygyx.jpg",
+      linkdin : {
+        link:"http://www.linkedin.com/in/aryan-gupta-17ba3a243",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/aryang081",
+        img: Github,
+      }
+    },
+    {
       name : "Atin Gupta",
       position : "Core",
       img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1723895206/IMG_3637_-_ATIN_GUPTA_ikhjkq.jpg",
@@ -451,12 +501,12 @@ export const Teamdata = {
       position : "Core",
       img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723895284/Photo_-_BHAUMIK_k56sre.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/bhaumik-48125b2a7/",
         img: Linkedin,
       },
       insta : {
-        link:"",
-        img: Instagram,
+        link:"https://github.com/Bhaumik181",
+        img: Github,
       }
     },
     {
@@ -512,6 +562,19 @@ export const Teamdata = {
       }
     },
     {
+      name : "Kavya Aggarwal",
+      position : "Core",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_778,h_778,ar_1:1,g_auto/v1727068532/k_vdldx1.jpg",
+      linkdin : {
+        link:"https://www.linkedin.com/in/kavya-aggarwal-08b358291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        img: Linkedin,
+      },
+      insta : {
+        link:"https://github.com/KavyaAgg18",
+        img: Github,
+      }
+    },
+    {
       name : "Kshitiz Jain",
       position : "Core",
       img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1840,h_1840,ar_1:1,g_auto/v1723733187/photo-with-bg-edited_-_KSHITIZ_JAIN_yw5gig.jpg",
@@ -527,7 +590,7 @@ export const Teamdata = {
     {
       name : "Matangi Sharma",
       position : "Core",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724095198/matangi_ylsezy.jpg",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1727069334/photo_e709b6.jpg",
       linkdin : {
         link:"https://www.linkedin.com/in/matangi-sharma-4b1706283/",
         img: Linkedin,
@@ -692,7 +755,7 @@ export const alumnid = {
       // position:"Ex - Gen. Sec.",
       job:"Placed at JP Morgan Chase & Co.",
       linkedin : "https://www.linkedin.com/in/mahek-khowala/",
-      img:"https://media.licdn.com/dms/image/sync/v2/C5627AQHo3JkhzMXX2A/articleshare-shrink_800/articleshare-shrink_800/0/1712033479461?e=1723982400&v=beta&t=IZGwZ2T9Vpo9Pvqde348mlhEtJvxoOLg4UTQeq2MOBk",
+      img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1724520945/mahek_khowala_xccpwi.jpg",
     },
     {
       name:"Aniket Biswas",
@@ -797,19 +860,19 @@ export const gallery = {
   images:[
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g2_vbeqnp.jpg",
-      date1: "4 April, 2024",
+      date1: "Orientation '23",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087536/g4_qj5lq2.jpg",
-      date2: "4 April, 2024",
+      date2: "Induction",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087996/1691988232131_zhcsq1.jpg",
-      date3: "4 April, 2024",
+      date3: "Python Workshop, Frosh Week",
     },
     {
       img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g3_jpwubw.jpg",
-      date1: "4 April, 2024",
+      date1: "Sakujo",
       img2: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724090239/IMG_8725_stqlnv.jpg",
-      date2: "4 April, 2024",
+      date2: "Eclipse 4.0",
       img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087486/g1_aib9mf.jpg",
-      date3: "4 April, 2024",
+      date3: "Orientation '23",
     },
     // {
     //   img1: gallery2,

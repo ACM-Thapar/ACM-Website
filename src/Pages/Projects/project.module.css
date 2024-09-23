@@ -5,9 +5,10 @@
 }
 
 .cards{
-    display: grid;
+    /* display: grid; */
+    display: flex;
     grid-template-columns: 1fr 1fr;
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 3.5rem;
 }
 .main>h1{

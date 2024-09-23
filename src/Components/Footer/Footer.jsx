@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     const {headline, keywords, copyright, subtitle, info, logos} = HeroData;
     const { title, ...bootcamps } = Bootcampdata;
-    const {subtitle2,projectcount} = ProjectData;
+    const {subtitle2,project} = ProjectData;
 
     return ( 
         <Fragment>
@@ -33,9 +33,9 @@ const Footer = () => {
                 </div>
                 <div className={styles.info}>
                         <h2>{subtitle2}</h2>
-                            {projectcount && projectcount.slice(0, 5).map((item, index) => {
+                            {project && project.slice(0, 5).map((item, index) => {
                         return (
-                        <p key={index}><a href='/team'>{item.name}</a></p>
+                        <p key={index}><a href={item.link}>{item.name}</a></p>
                         );
                     })}
                 </div>
