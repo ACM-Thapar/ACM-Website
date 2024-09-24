@@ -39,8 +39,8 @@ import pr6 from './assets/Images/pr6.svg';
 export const HeroData = {
   headline: 'Innovate, Elevate, Collaborate',
   keywords: ['Innovate.', 'Elevate.', 'Collaborate.'],
-  subtitle: 'ACM Thapar 2023',
-  copyright: 'THAPAR ACM CHAPTER © 2023',
+  subtitle: 'ACM Thapar 2024',
+  copyright: 'THAPAR ACM CHAPTER © 2024',
   info: `A vibrant community of tech enthusiasts, dedicated to exploring, tackling and connecting with all things tech. `,
   logos: [
     {
