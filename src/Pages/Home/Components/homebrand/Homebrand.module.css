@@ -13,6 +13,8 @@
 }
 
 .image img{
+    height: 480px;
+    width: auto;
     position: absolute;
     box-shadow: 34px -39px 0px 4px rgba(143,218,245,0.75);
     -webkit-box-shadow: 34px -39px 0px 4px rgba(143,218,245,0.75);

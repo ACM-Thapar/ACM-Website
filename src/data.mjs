@@ -14,7 +14,7 @@ import gallery1 from './assets/Images/gallery1.png';
 import project from "./assets/Images/project.svg";
 import face from './assets/Images/sample.png';
 import logo from './assets/Images/logo.png';
-import hackathon from "./assets/Images/hackathon.png";
+import hackathon from "./assets/Images/hack.png";
 import profile from "./assets/Images/profile.png"
 import event1 from './assets/Images/event1.png';
 import event2 from './assets/Images/event2.png';
