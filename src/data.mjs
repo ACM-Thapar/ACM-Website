@@ -455,7 +455,7 @@ export const Teamdata = {
       position : "Core",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762292149/me_-_marvin_u0uom7.jpg",
       linkdin : {
-        link:"www.linkedin.com/in/ aanya-agarwal-14052006agg",
+        link:"www.linkedin.com/in/aanya-agarwal-14052006agg",
         img: Linkedin,
       },
       insta : {
@@ -494,11 +494,11 @@ export const Teamdata = {
       position : "Core",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762293526/IMG_20250501_182521_-_Chitvi_Joshi_cr1bc1.jpg",
       linkdin : {
-        link:"https://github.com/ChitviJoshi",
+        link:"https://www.linkedin.com/in/chitvi-joshi-2985ab324",
         img: Linkedin,
       },
       insta : {
-        link:"https://www.linkedin.com/in/chitvi-joshi-2985ab324",
+        link:"https://github.com/ChitviJoshi",
         img: Github,
       }
     },
