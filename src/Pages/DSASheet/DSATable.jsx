@@ -63,7 +63,7 @@ const DifficultyChip = ({ difficulty }) => {
 const MobileProblemCard = ({ row, status, toggleStatus }) => (
   <Box 
     sx={{
-      p: 3,
+      p: 2.5,
       borderBottom: '1px solid #f0f0f0',
       backgroundColor: status.completed ? 'rgba(21, 166, 221, 0.03)' : '#fff',
       transition: 'all 0.2s ease',
@@ -73,21 +73,23 @@ const MobileProblemCard = ({ row, status, toggleStatus }) => (
       '&:last-child': { borderBottom: 'none' }
     }}
   >
-    <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2, mb: 2 }}>
+    {/* Checkbox and Title Row */}
+    <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 1.5, mb: 2 }}>
       <Checkbox
         checked={status.completed}
         onChange={() => toggleStatus(row.id)}
-        icon={<RadioButtonUncheckedIcon sx={{ color: '#d0d0d0', fontSize: 28 }} />}
-        checkedIcon={<CheckCircleIcon sx={{ color: '#15A6DD', fontSize: 28 }} />}
+        icon={<RadioButtonUncheckedIcon sx={{ color: '#d0d0d0', fontSize: 24 }} />}
+        checkedIcon={<CheckCircleIcon sx={{ color: '#15A6DD', fontSize: 24 }} />}
         sx={{ 
           p: 0, 
-          mt: 0.25,
+          mt: 0.5,
+          flexShrink: 0,
           '& .MuiSvgIcon-root': {
             transition: 'all 0.2s ease'
           }
         }}
       />
-      <Box sx={{ flex: 1 }}>
+      <Box sx={{ flex: 1, minWidth: 0 }}>
         <Link
           href={row.link}
           target="_blank"
@@ -96,11 +98,12 @@ const MobileProblemCard = ({ row, status, toggleStatus }) => (
           sx={{ 
             color: '#020E13',
             fontWeight: '600',
-            fontSize: '1rem',
+            fontSize: '0.95rem',
             fontFamily: 'Poppins, sans-serif',
             display: 'block',
-            mb: 1.5,
             transition: 'color 0.2s ease',
+            wordBreak: 'break-word',
+            lineHeight: 1.5,
             '&:hover': { 
               color: '#15A6DD'
             }
@@ -108,61 +111,77 @@ const MobileProblemCard = ({ row, status, toggleStatus }) => (
         >
           {row.problem}
         </Link>
-        <DifficultyChip difficulty={row.difficulty} />
       </Box>
     </Box>
     
-    <Stack direction="row" spacing={1.5} sx={{ mt: 2.5 }}>
-      {(row.resource_plus || row.resource_free) && (
-        <Tooltip title="View Resource" arrow>
+    {/* Difficulty and Action Buttons Row */}
+    <Box sx={{ 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'space-between',
+      gap: 2,
+      pl: 4.5  // Align with the text above (checkbox width + gap)
+    }}>
+      <DifficultyChip difficulty={row.difficulty} />
+      
+      <Stack direction="row" spacing={1.5}>
+        {(row.resource_plus || row.resource_free) && (
+          <Tooltip title="View Resource" arrow>
+            <IconButton
+              component="a"
+              href={row.resource_plus || row.resource_free}
+              target="_blank"
+              size="small"
+              sx={{ 
+                color: '#15A6DD',
+                bgcolor: 'rgba(21, 166, 221, 0.08)',
+                borderRadius: '50%',
+                width: 40,
+                height: 40,
+                p: 0,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                transition: 'all 0.2s ease',
+                '&:hover': {
+                  bgcolor: 'rgba(21, 166, 221, 0.15)',
+                  transform: 'scale(1.1)'
+                }
+              }}
+            >
+              <ArticleIcon sx={{ fontSize: 20 }} />
+            </IconButton>
+          </Tooltip>
+        )}
+        
+        <Tooltip title="Practice on LeetCode" arrow>
           <IconButton
-            href={row.resource_plus || row.resource_free}
+            component="a"
+            href={row.link}
             target="_blank"
             size="small"
             sx={{ 
-              color: '#15A6DD',
-              bgcolor: 'rgba(21, 166, 221, 0.08)',
-              borderRadius: 2,
-              px: 2,
-              py: 1,
-              fontSize: '0.875rem',
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 500,
+              color: '#2041B5',
+              bgcolor: 'rgba(32, 65, 181, 0.08)',
+              borderRadius: '50%',
+              width: 40,
+              height: 40,
+              p: 0,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              transition: 'all 0.2s ease',
               '&:hover': {
-                bgcolor: 'rgba(21, 166, 221, 0.15)'
+                bgcolor: 'rgba(32, 65, 181, 0.15)',
+                transform: 'scale(1.1)'
               }
             }}
           >
-            <ArticleIcon fontSize="small" sx={{ mr: 0.5 }} />
-            Resource
+            <CodeIcon sx={{ fontSize: 20 }} />
           </IconButton>
         </Tooltip>
-      )}
-      
-      <Tooltip title="Practice Now" arrow>
-        <IconButton
-          href={row.link}
-          target="_blank"
-          size="small"
-          sx={{ 
-            color: '#2041B5',
-            bgcolor: 'rgba(32, 65, 181, 0.08)',
-            borderRadius: 2,
-            px: 2,
-            py: 1,
-            fontSize: '0.875rem',
-            fontFamily: 'Poppins, sans-serif',
-            fontWeight: 500,
-            '&:hover': {
-              bgcolor: 'rgba(32, 65, 181, 0.15)'
-            }
-          }}
-        >
-          <CodeIcon fontSize="small" sx={{ mr: 0.5 }} />
-          Practice
-        </IconButton>
-      </Tooltip>
-    </Stack>
+      </Stack>
+    </Box>
   </Box>
 );
 
