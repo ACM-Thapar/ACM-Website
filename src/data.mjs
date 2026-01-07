@@ -255,7 +255,7 @@ export const Teamdata = {
     {
       name : "Kashish Gupta",
       position : "Finance Secretary",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1723893036/IMG_4007_-_KASHISH_GUPTA_oicejb.jpg",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1767821550/kashish_-_Kashish_Gupta_ekdmru.jpg",
       linkdin : {
         link:"https://www.linkedin.com/in/kashish-gupta-34205a288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         img: Linkedin,
@@ -268,7 +268,7 @@ export const Teamdata = {
     {
       name : "Aaditya Jain",
       position : "Joint Secretary",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1723893302/IMG_20240810_195547023_3_-_AADITYA_JAIN_oik0mb.jpg",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/1000168972_8_-_aaditya_jain_a03add.jpg",
       linkdin : {
         link:"https://www.linkedin.com/in/aaditya-jain-7a3666247/",
         img: Linkedin,
@@ -281,7 +281,7 @@ export const Teamdata = {
     {
       name : "Vansh Gupta",
       position : "Joint Secretary",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3100,h_3100,ar_1:1/v1723894712/my_photo_-_VANSH_GUPTA_pjaksb.jpg",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/vpic_pehimi.jpg",
       linkdin : {
         link:"https://www.linkedin.com/in/vansh-gupta-4269001b5/",
         img: Linkedin,
