@@ -561,11 +561,11 @@ export const Teamdata = {
       position : "Core",
       img: "https://res.cloudinary.com/dfraq6spc/image/upload/v1764069865/4cf99197-e5f7-4790-80dd-7fb4f2821499_blj2eh.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/hrideya-sharma-97861b330/",
         img: Linkedin,
       },
       insta : {
-        link:"",
+        link:"https://github.com/hrideya163",
         img: Github,
       }
     },
@@ -609,19 +609,6 @@ export const Teamdata = {
       }
     },
     {
-      name : "Lavdeep Singh",
-      position : "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762400971/IMG-20251105-WA0113_-_Lavdeep_Singh_hko8oc.jpg",
-      linkdin : {
-        link:"https://www.linkedin.com/in/lavdeep-singh-109802210/",
-        img: Linkedin,
-      },
-      insta : {
-        link:"https://github.com/LavdeepSingh23",
-        img: Github,
-      }
-    },
-    {
       name : "Manvi Gajrani",
       position : "Core",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762291436/497d881c-d1e1-4cbf-b7b0-f00d547522f9_-_Manvi_Gajrani_wx7yqx.jpg",
@@ -644,19 +631,6 @@ export const Teamdata = {
       },
       insta : {
         link:"https://github.com/mohanarora3",
-        img: Github,
-      }
-    },
-    {
-      name : "Navjot Singh",
-      position : "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762720592/1000044337_2_1__Original_-_Navjot_Singh_hksv6f.png",
-      linkdin : {
-        link:"https://www.linkedin.com/in/singhnavjot20",
-        img: Linkedin,
-      },
-      insta : {
-        link:"https://github.com/NavjotSingh20",
         img: Github,
       }
     },
@@ -743,7 +717,7 @@ export const Teamdata = {
       position : "Core",
       img: "https://res.cloudinary.com/dfraq6spc/image/upload/v1764204363/IMG_20251125_175343_mtdiu6.jpg",
       linkdin : {
-        link:"",
+        link:"https://www.linkedin.com/in/yasshaswee-mishra-6a04b936b",
         img: Linkedin,
       },
       insta : {
