@@ -372,7 +372,7 @@ export const Teamdata = {
     {
       name : "Aneesh Grover",
       position : "Community Collaboration Lead",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1800,h_1800,ar_1:1,g_auto/v1723894901/aneesh_di_sohni_photo_-_ANEESH_GROVER_dwa3dq.jpg",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/aneesh_eb_wlwsbg.jpg",
       linkdin : {
         link:"https://www.linkedin.com/in/aneesh-grover",
         img: Linkedin,
