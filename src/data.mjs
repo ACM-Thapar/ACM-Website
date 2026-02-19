@@ -33,8 +33,8 @@ import induction from './assets/Images/induction.png';
 export const HeroData = {
   headline: 'Innovate, Elevate, Collaborate',
   keywords: ['Innovate.', 'Elevate.', 'Collaborate.'],
-  subtitle: 'ACM Thapar 2025',
-  copyright: 'THAPAR ACM CHAPTER © 2025',
+  subtitle: 'ACM Thapar 2026',
+  copyright: 'THAPAR ACM CHAPTER © 2026',
   info: `A vibrant community of tech enthusiasts, dedicated to exploring, tackling and connecting with all things tech. `,
   logos: [
     {
