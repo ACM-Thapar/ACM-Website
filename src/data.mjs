@@ -762,13 +762,22 @@ export const homebrand = {
 }
 
 export const alumnid = {
-  heading1: "2025-26",
-  heading2: "2024-25",
-  heading3: "2023-24",
-  heading4: "2022-23",
-  heading5: "2021-22",
-  heading6: "2020-21",
-  data25: [
+  heading1 : "2025-26",
+  heading2 : "2024-25",
+  heading3 : "2023-24",
+  heading4 : "2022-23",
+  heading5 : "2021-22",
+  heading6 : "2020-21",
+  data26 :[
+    {
+      name:"Jai Madhukar",
+      // position:"Gen. Sec.",
+      job:"Placed at Meesho",
+      linkedin : "",
+      img:"",
+    },
+  ], 
+  data25 :[
     {
       name: "Mayank Gupta",
       // position:"Ex - Gen. Sec.",

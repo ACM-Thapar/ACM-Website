@@ -5,6 +5,10 @@ import { alumnid } from "../../data.mjs";
 import Dots from "../../Components/dots/Dots";
 
 const Alumni = () => {
+    const alumni26 = {
+        heading: alumnid.heading1,
+        data: alumnid.data26,
+    }
     const alumni25 = {
         heading: alumnid.heading2,
         data: alumnid.data25,
@@ -31,6 +35,7 @@ const Alumni = () => {
         <div className={styles.header}>
             <h1>Alumni</h1>
         </div>
+        <AlumniComp alumnidata={alumni26} />
         <AlumniComp alumnidata={alumni25} />
         <AlumniComp alumnidata={alumni24} />
         <AlumniComp alumnidata={alumni23} />
