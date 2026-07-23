@@ -930,7 +930,7 @@ export const alumnid = {
       // position:"Ex - (not mentioned)",
       job: "Placed at Amazon, Offers from Barclays",
       linkedin: "https://www.linkedin.com/in/rochak-ranjan-b14742172/",
-      img: "ttps://res.cloudinary.com/duvxjznus/image/upload/ar_1:1,c_crop,g_north_west/rochak_ranjan_p5n8w3_uj5mcv.png",
+      img: "https://res.cloudinary.com/duvxjznus/image/upload/ar_1:1,c_crop,g_north_west/rochak_ranjan_p5n8w3_uj5mcv.png",
     },
     {
       name: "Ayush Kumar Singh",
