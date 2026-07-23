@@ -867,7 +867,7 @@ export const alumnid = {
       // position:"Ex - Joint Sec.",
       job: "Placed at Deloitte",
       linkedin: "https://www.linkedin.com/in/vasutohani/",
-      img: "https://res.cloudinary.com/dkpjtsstt/image/upload/v1762098763/vasu_pnhn1w.jpg",
+      img: "https://res.cloudinary.com/duvxjznus/image/upload/v1784822813/vasu_pnhn1w_yd6sf7.jpg",
     },
     {
       name: "Komal Dua",
@@ -930,7 +930,7 @@ export const alumnid = {
       // position:"Ex - (not mentioned)",
       job: "Placed at Amazon, Offers from Barclays",
       linkedin: "https://www.linkedin.com/in/rochak-ranjan-b14742172/",
-      img: "https://res.cloudinary.com/dkpjtsstt/image/upload/v1762100130/rochak_ranjan_p5n8w3.png",
+      img: "https://res.cloudinary.com/duvxjznus/image/upload/v1784822475/rochak_ranjan_p5n8w3_jswcmv.png",
     },
     {
       name: "Ayush Kumar Singh",
@@ -944,7 +944,7 @@ export const alumnid = {
       // position:"Ex - Social Media Lead",
       job: "Placed at Erricson, Internship at amazon",
       linkedin: "https://www.linkedin.com/in/prisha-chadha/",
-      img: "https://res.cloudinary.com/dkpjtsstt/image/upload/v1762100569/prisha_chadha_pvbn3h.png",
+      img: "https://res.cloudinary.com/duvxjznus/image/upload/v1784822711/copy_of_prisha_chadha_pvbn3h_z8j9oe.png",
     },
   ],
   data24: [
