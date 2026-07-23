@@ -457,7 +457,7 @@ export const Teamdata = {
       position: "Core",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762292149/me_-_marvin_u0uom7.jpg",
       linkdin: {
-        link: "www.linkedin.com/in/ aanya-agarwal-14052006agg",
+        link: "www.linkedin.com/in/aanya-agarwal-14052006agg",
         img: Linkedin,
       },
       insta: {
@@ -496,11 +496,11 @@ export const Teamdata = {
       position: "Core",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762293526/IMG_20250501_182521_-_Chitvi_Joshi_cr1bc1.jpg",
       linkdin: {
-        link: "https://github.com/ChitviJoshi",
+        link: "https://www.linkedin.com/in/chitvi-joshi-2985ab324",
         img: Linkedin,
       },
       insta: {
-        link: "https://www.linkedin.com/in/chitvi-joshi-2985ab324",
+        link: "https://github.com/ChitviJoshi",
         img: Github,
       }
     },
@@ -779,14 +779,14 @@ export const alumnid = {
     {
       name:"Utkarsh Agarwal",
       // position:"Ex -Gen. Sec.",
-      job:"Intern at Cred",
+      job:"Intern at CRED",
       linkedin : "https://www.linkedin.com/in/utkarsh-agarwal-054545211/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1723727618/utkarsh_-_Utkarsh_Agarwal_nbxuqg.jpg",
     },
     {
       name:"Aaradhya Sharma",
       // position:"Ex -Joint Sec.",
-      job:"Placed at ZS associates",
+      job:"Placed at ZS Associates",
       linkedin : "https://www.linkedin.com/in/aaradhya-sharma-b94337245/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_830,h_830,ar_1:1,g_auto/v1723730577/WhatsApp_Image_2024-08-15_at_12.15.01_351891f2_-_Aaradhya_Sharma_txu4nv.jpg",
     },
@@ -800,21 +800,21 @@ export const alumnid = {
     {
       name:"Armeen Kaur Luthra",
       // position:"Ex -Joint. Sec.",
-      job:"Intern at Make my trip",
+      job:"Intern at MakeMyTrip",
       linkedin : "https://www.linkedin.com/in/armeen-kaur-luthra/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3000,h_3000,ar_1:1/v1723729151/ArmeenPic_-_Armeen_Kaur_Luthra_buvq7n.jpg",
     },
     {
       name:"Sidharth Dhawan",
       // position:"Ex -Joint. Sec.",
-      job:"Placed at ZS associates",
+      job:"Placed at ZS Associates",
       linkedin : "https://www.linkedin.com/in/sidharth-dhawan/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1723729801/or-pic_-_Sidharth_Dhawan_j5rf9h.png",
     },
     {
       name:"Varun Khatri",
       // position:"Ex -Joint. Sec.",
-      job:"Placed at SEW",
+      job:"Placed at ZS Associates",
       linkedin : "https://www.linkedin.com/in/varun-khatri-4b2139258/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3048,h_3048,ar_1:1,g_auto/v1723751546/IMG_1142_-_Varun_Khatri_csldl3.jpg",
     },
@@ -835,7 +835,7 @@ export const alumnid = {
     {
       name:"Ashmeet Kaur",
       // position:"Ex - Project Director",
-      job:"Intern at Zhealth",
+      job:"Intern at zHealth",
       linkedin : "https://www.linkedin.com/in/ashmeet-kaur-b0b275296/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_540,h_540,ar_1:1,g_auto/v1723731192/Ashmeet_-_Ashmeet_Kaur_lx4ihf.jpg",
     },
