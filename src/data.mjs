@@ -779,7 +779,7 @@ export const alumnid = {
     {
       name:"Utkarsh Agarwal",
       // position:"Ex -Gen. Sec.",
-      job:"Intern at CRED",
+      job:"Intern at CRED, Offers from Salescode.ai",
       linkedin : "https://www.linkedin.com/in/utkarsh-agarwal-054545211/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1723727618/utkarsh_-_Utkarsh_Agarwal_nbxuqg.jpg",
     },
@@ -793,7 +793,7 @@ export const alumnid = {
     {
       name:"Siddhant ",
       // position:"Ex -Joint. Sec.",
-      job:"Placed at Brahma AI Systems",
+      job:"Placed at Brahma AI Systems, Offers from Deloitte",
       linkedin : "https://www.linkedin.com/in/siddhant-kamble/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418887/DSC09630_u90b5v.jpg",
     },
@@ -814,9 +814,15 @@ export const alumnid = {
     {
       name:"Varun Khatri",
       // position:"Ex -Joint. Sec.",
-      job:"Placed at ZS Associates",
+      job:"Placed at ZS Associates, Offers from SEW",
       linkedin : "https://www.linkedin.com/in/varun-khatri-4b2139258/",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3048,h_3048,ar_1:1,g_auto/v1723751546/IMG_1142_-_Varun_Khatri_csldl3.jpg",
+    },
+    {
+      name:"Jashanpreet Singh",
+      job:"Placed at Optum, Interned at Yum!",
+      linkedin : "https://www.linkedin.com/in/json-y/",
+      img:"https://res.cloudinary.com/dp8uze2fi/image/upload/v1784898712/images_vchvv1.jpg",
     },
     {
       name:"Garv Kansal",
@@ -828,7 +834,7 @@ export const alumnid = {
     {
       name:"Arnav Khanduja",
       // position:"Ex -Marketing Head",
-      job:"Placed at Amazon",
+      job:"Placed at Amazon, Offers from Samsung R&D Institute",
       linkedin : "https://www.linkedin.com/in/arnavkhanduja?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_2900,h_2900,ar_1:1,g_auto/v1723732325/IMG_7038_-_Arnav_Khanduja_f2sxqh.jpg",
     },
@@ -853,6 +859,12 @@ export const alumnid = {
       img : "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784878639/1746812475177_cm0psv.jpg"
     },
     {
+      name: "Akshita Mittal",
+      job : "Placed at Amazon",
+      linkedin: "https://www.linkedin.com/in/akshita-mittal01/",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784898286/1741800277100_wtbtlw.jpg"
+    },
+    {
       name: "Swapnil Gumber",
       job : "Placed at GrowthArc",
       linkedin: "https://www.linkedin.com/in/swapnilgumber/",
@@ -863,7 +875,7 @@ export const alumnid = {
       job : "Placed at Zscaler",
       linkedin: "https://www.linkedin.com/in/sidgureja/",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784897005/1781212613725_npi0ki.jpg"
-    }
+    },
   ], 
   data25 :[
     {
