@@ -450,43 +450,57 @@ const DSASheet = () => {
                       background: lecturePercentage === 100 
                         ? 'linear-gradient(135deg, rgba(76, 175, 80, 0.05) 0%, rgba(255,255,255,1) 100%)'
                         : 'linear-gradient(135deg, #FAFAFA 0%, #FFFFFF 100%)',
-                      minHeight: 70,
+                      minHeight: { xs: 80, md: 70 },
                       '&.Mui-expanded': {
                         borderBottom: '2px solid #15A6DD',
-                        minHeight: 70
+                        minHeight: { xs: 80, md: 70 }
                       },
                       '& .MuiAccordionSummary-content': {
                         margin: '16px 0',
-                        alignItems: 'center'
+                        alignItems: 'flex-start'
                       }
                     }}
                   >
-                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', pr: 2 }}>
-                      <Box sx={{ flex: 1 }}>
+                    <Box sx={{ width: '100%', pr: { xs: 1, md: 2 } }}>
+                      <Typography 
+                        sx={{ 
+                          fontWeight: 600,
+                          fontFamily: 'Poppins, sans-serif',
+                          fontSize: { xs: '0.95rem', sm: '1.05rem', md: '1.125rem' },
+                          color: '#020E13',
+                          mb: { xs: 1.5, md: 0.5 },
+                          lineHeight: 1.3,
+                          wordBreak: 'break-word'
+                        }}
+                      >
+                        {lecture.title}
+                      </Typography>
+                      <Box sx={{ 
+                        display: 'flex', 
+                        flexDirection: { xs: 'column', sm: 'row' },
+                        alignItems: { xs: 'flex-start', sm: 'center' }, 
+                        gap: { xs: 1, sm: 2 }
+                      }}>
                         <Typography 
+                          variant="caption" 
                           sx={{ 
-                            fontWeight: 600,
+                            color: '#9AAEBC',
                             fontFamily: 'Poppins, sans-serif',
-                            fontSize: { xs: '1rem', sm: '1.125rem' },
-                            color: '#020E13',
-                            mb: 0.5
+                            fontSize: { xs: '0.8rem', sm: '0.875rem' },
+                            whiteSpace: 'nowrap'
                           }}
                         >
-                          {lecture.title}
+                          {lectureCompleted}/{lectureTotal} completed
                         </Typography>
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-                          <Typography 
-                            variant="caption" 
-                            sx={{ 
-                              color: '#9AAEBC',
-                              fontFamily: 'Poppins, sans-serif',
-                              fontSize: '0.875rem'
-                            }}
-                          >
-                            {lectureCompleted}/{lectureTotal} completed
-                          </Typography>
+                        <Box sx={{ 
+                          display: 'flex', 
+                          alignItems: 'center', 
+                          gap: 1.5,
+                          width: { xs: '100%', sm: 'auto' }
+                        }}>
                           <Box sx={{ 
-                            width: 100,
+                            width: { xs: '100%', sm: 100 },
+                            maxWidth: 150,
                             height: 4,
                             borderRadius: 2,
                             bgcolor: '#e8e8e8',
@@ -504,7 +518,9 @@ const DSASheet = () => {
                             sx={{ 
                               color: '#15A6DD',
                               fontWeight: 600,
-                              fontFamily: 'Poppins, sans-serif'
+                              fontFamily: 'Poppins, sans-serif',
+                              fontSize: { xs: '0.8rem', sm: '0.875rem' },
+                              whiteSpace: 'nowrap'
                             }}
                           >
                             {lecturePercentage}%
