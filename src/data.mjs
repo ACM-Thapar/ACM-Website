@@ -857,6 +857,12 @@ export const alumnid = {
       job : "Placed at GrowthArc",
       linkedin: "https://www.linkedin.com/in/swapnilgumber/",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784878689/1779087802541_l8gydx.png"
+    },
+    {
+      name: "Siddhant Gureja",
+      job : "Placed at Zscaler",
+      linkedin: "https://www.linkedin.com/in/sidgureja/",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784897005/1781212613725_npi0ki.jpg"
     }
   ], 
   data25 :[
