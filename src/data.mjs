@@ -846,6 +846,18 @@ export const alumnid = {
       linkedin : "https://www.linkedin.com/in/vikaskumargarg01/",
       img:"https://res.cloudinary.com/duvxjznus/image/upload/v1784819123/Vikas_Kumar_Garg_wmdnth.jpg",
     },
+    {
+      name: "Avishi Singh Parihaar",
+      job : "Intern at ZS Associates",
+      linkedin: "https://www.linkedin.com/in/avishisingh/",
+      img : "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784878639/1746812475177_cm0psv.jpg"
+    },
+    {
+      name: "Swapnil Gumber",
+      job : "Placed at GrowthArc",
+      linkedin: "https://www.linkedin.com/in/swapnilgumber/",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784878689/1779087802541_l8gydx.png"
+    }
   ], 
   data25 :[
     {
