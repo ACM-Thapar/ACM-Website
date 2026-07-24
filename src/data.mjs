@@ -836,7 +836,7 @@ export const alumnid = {
       name:"Ashmeet Kaur",
       // position:"Ex - Project Director",
       job:"Intern at zHealth",
-      linkedin : "https://www.linkedin.com/in/ashmeet-kaur-b0b275296/",
+      linkedin : "https://www.linkedin.com/in/ashmeet-kaur-073042258?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_540,h_540,ar_1:1,g_auto/v1723731192/Ashmeet_-_Ashmeet_Kaur_lx4ihf.jpg",
     },
     {
