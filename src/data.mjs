@@ -26,7 +26,7 @@ import pr5 from './assets/Images/pr5.svg';
 import pr6 from './assets/Images/pr6.svg';
 import pr7 from './assets/Images/pr7.png';
 import orientation from './assets/Images/orientation.png';
-import hack from './assets/Images/hack.png';
+import hack from './assets/Images/hack.jpeg';
 import induction from './assets/Images/induction.png';
 
 
@@ -227,76 +227,89 @@ export const Teamdata = {
   coreheadline: "THE CORE",
   EB: [
     {
-      name: "Armaan Jagirdar",
-      position: "General Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1763241205/51f00f6b-c7c9-42ce-9664-8bc7d414fefa_xyfhcd.jpg",
+      name: "Vansh Wadhwa",
+      position: "EB Advisor",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646711/IMG_20251030_211808_-_Vansh_Wadhwa_qyvpfp.png",
       linkdin: {
-        link: "https://www.linkedin.com/in/armaan-jagirdar-183b47285/",
+        link: "https://www.linkedin.com/in/vansh-wadhwa-/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Armaan457",
+        link: "https://github.com/vanshwadhwa24",
         img: Github,
       }
     },
     {
-      name: "Ansh Madaan",
+      name: "Raghav Garg",
       position: "General Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1759956962/5c70bccb-59ba-432d-b37d-35f8e78293aa_-_ANSH_MADAAN_a5hx0d.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646709/IMG_1972_-_Raghav_Garg.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/ansh-madaan-5362b92a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        link: "https://www.linkedin.com/in/raghav-garg-96a369317/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Anshm1234",
+        link: "https://github.com/raghav-garg8",
         img: Github,
       }
     },
     {
-      name: "Kashish Gupta",
+      name: "Yashmit Vaish",
+      position: "General Secretary",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646713/WhatsApp_Image_2025-11-03_at_10.52.43_b22b4235_-_Yashmit_Vaish_yfkjfz.jpg",
+      linkdin: {
+        link: "https://www.linkedin.com/in/yashmit-vaish-9184a1315/",
+        img: Linkedin,
+      },
+      insta: {
+        link: "http://github.com/Yashmitvaish",
+        img: Github,
+      }
+    },
+    {
+      name: "Gourav Madaan",
       position: "Finance Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1767821550/kashish_-_Kashish_Gupta_ekdmru.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646709/IMG_1761.HEIC_2_1_-_Gourav.heic",
       linkdin: {
-        link: "https://www.linkedin.com/in/kashish-gupta-34205a288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        link: "https://www.linkedin.com/in/gourav-madaan-6b1a97246/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Kashish101204",
+        link: "https://github.com/Gourav1805",
         img: Github,
       }
     },
     {
-      name: "Aaditya Jain",
+      name: "Mohan Arora",
       position: "Joint Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/1000168972_8_-_aaditya_jain_a03add.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646715/IMG_1102_-_Mohan_Arora.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/aaditya-jain-7a3666247/",
+        link: "https://www.linkedin.com/in/mohan-arora-980b75324/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Aaditya060",
+        link: "https://github.com/mohanarora3",
         img: Github,
       }
     },
     {
-      name: "Vansh Gupta",
+      name: "Gauransh Arora",
       position: "Joint Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/vpic_pehimi.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646711/IMG-20251105-WA0000_2_-_Gauransh_Arora.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/vansh-gupta-4269001b5/",
+        link: "https://www.linkedin.com/in/gauransh-arora/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Vansh-7",
+        link: "https://github.com/Gauransh-Arora",
         img: Github,
       }
     },
     {
-      name: "Kshitiz Jain",
+      name: "Harshit Jain",
       position: "Joint Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1759957095/20250622_212737_1_-_KSHITIZ_JAIN_zm896z.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646709/IMG_7010_-_Harshit_Jain.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/kshitiz-jain2005/",
+        link: "https://www.linkedin.com/in/harshit-jain-528151403/",
         img: Linkedin,
       },
       insta: {
@@ -305,11 +318,24 @@ export const Teamdata = {
       }
     },
     {
-      name: "Keval Ambani",
+      name: "Manvi Gajrani",
       position: "Joint Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1759693004/IMG_20250909_091519_046_-_Keval_Ambani_v1mw0k.webp",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646710/IMG_9474_-_Manvi_Gajrani.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/keval-ambani-9ba99532a/",
+        link: "https://www.linkedin.com/in/manvi-gajrani-755786328/",
+        img: Linkedin,
+      },
+      insta: {
+        link: "https://github.com/manviii345",
+        img: Github,
+      }
+    },
+    {
+      name: "Garvita Gupta",
+      position: "Joint Secretary",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646699/19230b81-1686-444e-a718-b8bb084fbcfb_-_Ayushi_Aggarwal_nthhlf.jpg",
+      linkdin: {
+        link: "https://www.linkedin.com/in/garvita-gupta-0b8962311/",
         img: Linkedin,
       },
       insta: {
@@ -318,24 +344,50 @@ export const Teamdata = {
       }
     },
     {
-      name: "Vinayak Jain",
-      position: "Lead of Operations",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1759693063/IMG_20250818_134317_-_Vinayak_Jain_kjzkax.jpg",
+      name: "Vandit Gupta",
+      position: "Outreach Secretary",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646706/IMG_5092_-_Vandit_Gupta.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/vinayak-jain-21b493298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        link: "https://www.linkedin.com/in/vandit-gupta-7537502a5/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Vinayak55jain",
+        link: "https://github.com/VanditGupta0",
         img: Github,
       }
     },
     {
-      name: "Yajat Pahuja",
-      position: "Alumni Cell Secretary",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1759853121/f60f07f0-197e-475d-8e2e-c02df256b419_v9iee0.jpg",
+      name: "Kumari Manya",
+      position: "Design Secretary",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646711/picturee_-_Kumari_Manya.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/yajat-pahuja-275a30275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        link: "https://www.linkedin.com/in/kmanya/",
+        img: Linkedin,
+      },
+      insta: {
+        link: "https://github.com/manyakayz",
+        img: Github,
+      }
+    },
+    {
+      name: "Aashna Mittal",
+      position: "Event Secretary",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646715/IMG_2115_-_Aashna_Mittal.jpg",
+      linkdin: {
+        link: "https://www.linkedin.com/in/aashna-mittal-41b3a633a/",
+        img: Linkedin,
+      },
+      insta: {
+        link: "https://github.com/aashnamittal",
+        img: Github,
+      }
+    },
+    {
+      name: "Kasvi Bansal",
+      position: "Event Secretary",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786724284/IMG_20251103_105426_-_Kasvi_Bansal_nahxuq.jpg",
+      linkdin: {
+        link: "https://www.linkedin.com/in/kasvi-bansal-18b563309/",
         img: Linkedin,
       },
       insta: {
@@ -344,96 +396,19 @@ export const Teamdata = {
       }
     },
     {
-      name: "Bhupesh Kumar",
-      position: "Development Lead",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/IMG_3310_-_N00B_GaMeR_fm7l1m.jpg",
+      name: " Rudraksh Chugh",
+      position: "Tech Secretary",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646708/IMG_5190_-_Rudraksh_Chugh.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/bhupesh-k-185327366/",
+        link: "https://www.linkedin.com/in/rudraksh-chugh/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Bhup-GitHUB",
+        link: "https://github.com/RudrakshChugh",
         img: Github,
       }
     },
-    {
-      name: "Matangi Sharma",
-      position: "UI/UX Lead",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1727069334/photo_e709b6.jpg",
-      linkdin: {
-        link: "https://www.linkedin.com/in/matangi-sharma-4b1706283/",
-        img: Linkedin,
-      },
-      insta: {
-        link: "https://github.com/matangi05",
-        img: Github,
-      }
-    },
-    {
-      name: "Aneesh Grover",
-      position: "Community Collaboration Lead",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/aneesh_eb_wlwsbg.jpg",
-      linkdin: {
-        link: "https://www.linkedin.com/in/aneesh-grover",
-        img: Linkedin,
-      },
-      insta: {
-        link: "https://github.com/Aneesh-382005",
-        img: Github,
-      }
-    },
-    {
-      name: "Gurleen Kaur",
-      position: "Head of Collaboration & Outreach",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/IMG_20251009_214931_-_Gurleen_Kaur_gi91vo.jpg",
-      linkdin: {
-        link: "https://www.linkedin.com/in/gurleen-kaur-60b966278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: Linkedin,
-      },
-      insta: {
-        link: "https://github.com/gurleenkaur164",
-        img: Github,
-      }
-    },
-    {
-      name: "Arpita Singh",
-      position: "Social Media Lead",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418881/IMG-20230805-WA0072_2_evlymt.jpg",
-      linkdin: {
-        link: "https://www.linkedin.com/in/arpita-singh-746920286/",
-        img: Linkedin,
-      },
-      insta: {
-        link: "https://github.com/arpitasingh2004",
-        img: Github,
-      }
-    },
-    {
-      name: "Aryan Gupta",
-      position: "Director of Communications",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/3ED81CF4-D8F8-4EF5-A9F1-E37507A9CBCB_-_ARYAN_GUPTA_izykj8.jpg",
-      linkdin: {
-        link: "http://www.linkedin.com/in/aryan-gupta-17ba3a243",
-        img: Linkedin,
-      },
-      insta: {
-        link: "https://github.com/aryang081",
-        img: Github,
-      }
-    },
-    {
-      name: "Rishita Singh",
-      position: "AI/ML Lead",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1760029407/IMG-20240828-WA0042_-_rishita_singh_xaun9l.jpg",
-      linkdin: {
-        link: "https://www.linkedin.com/in/rishita-singh-6b0187237/",
-        img: Linkedin,
-      },
-      insta: {
-        link: "https://github.com/Rishita-06",
-        img: Github,
-      }
-    },
+
 
     // {
     //   name : "Vasu Tohani",
@@ -453,288 +428,275 @@ export const Teamdata = {
 
 
     {
-      name: "Aanya Agarwal",
+      name: "Aakarshan Verma ",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762292149/me_-_marvin_u0uom7.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698461/20260101_032435_-_Aakarshan_Verma.jpg",
       linkdin: {
-        link: "www.linkedin.com/in/aanya-agarwal-14052006agg",
+        link: "https://www.linkedin.com/in/aakarshanverma03?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/aanyaagarwal1",
+        link: "https://github.com/AakarshanVerma0311",
         img: Github,
       }
     },
     {
-      name: "Ayushi Aggarwal",
+      name: "Ankita Sharma",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762400180/IMG_8962_-_Ayushi_Aggarwal_bxjpef.png",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698456/anki_blue_-_Ankita_Sharma.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/ayushi-aggarwal-89bb77371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        link: "https://www.linkedin.com/in/ankita-sharma-544446378?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Ayushi1462",
+        link: "https://github.com/Ankitasharma2007",
         img: Github,
       }
     },
     {
-      name: "Bhoomi Mahna",
+      name: "Arnesh Chakrabarti ",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762291373/20251013_190954_-_Bhoomi_Mahna_q1urcp.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786699000/Screenshot_20260813-161120_-_Arnesh_Chakrabarti.png",
       linkdin: {
-        link: "https://www.linkedin.com/in/bhoomi-mahna-721061329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        link: "https://www.linkedin.com/in/arnesh-chakrabarti-a922a02a7",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/BhoomiMahna",
+        link: "https://github.com/ArneshC88",
         img: Github,
       }
     },
     {
-      name: "Chitvi Joshi",
+      name: "Dhairya Kumar",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762293526/IMG_20250501_182521_-_Chitvi_Joshi_cr1bc1.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698464/Dhairya_-_Dhairya_Kumar.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/chitvi-joshi-2985ab324",
+        link: "https://www.linkedin.com/in/dhairya-kumar-a1b0183aa/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/ChitviJoshi",
+        link: "https://github.com/dhairyakumar6210-master",
         img: Github,
       }
     },
     {
-      name: "Diya Garg",
+      name: "Divyansh Lalotra",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762291888/IMG-20251030-WA0026_-_Diya_Garg_avkgyb.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698463/divyansh_photo_acm_-_Divyansh_Lalotra.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/diyagarg16/",
+        link: "https://www.linkedin.com/in/divyansh-lalotra-89145137a/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/diya0116",
+        link: "https://github.com/nej1gotnochill",
         img: Github,
       }
     },
     {
-      name: "Garvita",
+      name: "Hardik jain",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762400868/19230b81-1686-444e-a718-b8bb084fbcfb_-_Ayushi_Aggarwal_nthhlf.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698474/IMG_20260805_110745_-_Hardik_Jain.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/garvita-gupta-0b8962311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        link: "https://www.linkedin.com/in/hardik-jain-a6748a358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Garvitaa1908",
+        link: "https://github.com/Hardik-droid",
         img: Github,
       }
     },
     {
-      name: "Gauransh Arora",
+      name: "Keshav Singla",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762322278/WhatsApp_Image_2025-11-05_at_00.06.36_f0526caf_-_Gauransh_lh5d28.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698461/IMG-20250814-WA0009_-_Keshav_Singla.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/gauransh-arora/",
+        link: "https://www.linkedin.com/in/keshav-singla-6b1a9530b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Gauransh-Arora",
+        link: "https://github.com/keshav065",
         img: Github,
       }
     },
     {
-      name: "Gourav",
+      name: "Manan",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762293320/IMG_3286_dmbq9r.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698463/20260418_202715_-_Manan.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/gourav-madaan-6b1a97246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        link: "https://www.linkedin.com/in/beastcodz",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Gourav1805",
+        link: "https://github.com/beastcodz",
         img: Github,
       }
     },
     {
-      name: "Hrideya",
+      name: "Nethra Lawania",
       position: "Core",
-      img: "https://res.cloudinary.com/dfraq6spc/image/upload/v1764069865/4cf99197-e5f7-4790-80dd-7fb4f2821499_blj2eh.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698460/f5a6f67f-d81c-435b-82f7-be05a5abd772_-_Nethra_Lawania.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/hrideya-sharma-97861b330/",
+        link: "https://www.linkedin.com/in/nethra-lawania-515120391?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/hrideya163",
+        link: "https://github.com/",
         img: Github,
       }
     },
     {
-      name: "Kasvi Bansal",
+      name: "Palak Bagla",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762291769/IMG_20251103_105426_-_Kasvi_Bansal_nahxuq.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786724081/0c0a063e-bf68-4f49-9535-979007d30032.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/kasvi-bansal-18b563309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        link: "https://www.linkedin.com/in/palak-bagla-2019692bb?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/KasviBansal",
+        link: "https://github.com/palakbagla1001-ux",
         img: Github,
       }
     },
     {
-      name: "Kavya Singal",
+      name: "Pratham Goyal",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762293453/IMG_20251103_135254_-_Monika_Singal_b2tk2s.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698884/WhatsApp_Image_2026-08-05_at_12.56.26_AM.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/kavya-singal-6b956b320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        link: "https://www.linkedin.com/in/pratham-goyal007",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Kavya305",
+        link: "https://github.com/PrathamGoel07",
         img: Github,
       }
     },
     {
-      name: "Lakshay Jain",
+      name: "Priyal Gupta",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762291966/photo_2025-07-21_23-39-43_-_Dreamy_Crafts_nkhypa.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698459/IMG_4488_-_Priyal_Gupta.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/lakshay-jainn/",
+        link: "https://www.linkedin.com/in/priyal-gupta-56927237a",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/helodreamcumtrue",
+        link: "https://github.com/priyalgupta9",
         img: Github,
       }
     },
     {
-      name: "Manvi Gajrani",
+      name: "Raghav Kumar",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762291436/497d881c-d1e1-4cbf-b7b0-f00d547522f9_-_Manvi_Gajrani_wx7yqx.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698455/1000196493_-_Raghav_Kumar.jpg",
       linkdin: {
-        link: "https://linkedin.com/in/manvi-gajrani-755786328",
+        link: "https://www.linkedin.com/in/raghav0482?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/manviii345",
+        link: "https://github.com/Raghav0482",
         img: Github,
       }
     },
     {
-      name: "Mohan Arora",
+      name: "Saesha Khanna",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762399995/IMG_1133_-_Mohan_Arora_zkivud.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698458/7BDB2484-C2AA-4E2A-AC5F-EF91E60EF794_-_Saesha_Khanna.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/mohan-arora-980b75324/",
+        link: "http://linkedin.com/in/saesha-khanna-",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/mohanarora3",
+        link: "https://github.com/SaeshaKhanna",
         img: Github,
       }
     },
     {
-      name: "Raghav Garg",
+      name: "Sanvi Taneja",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762293033/IMG_8759_-_Raghav_Garg_sri9h6.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698442/sanvi_taneja_photo_-_Sanvi_Taneja.jpg",
       linkdin: {
-        link: "www.linkedin.com/in/raghav-garg-96a369317",
+        link: "https://www.linkedin.com/in/sanvi-taneja-90265727a?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/raghav-garg8",
+        link: "https://github.com/tanejasanvi",
         img: Github,
       }
     },
     {
-      name: "Rudraksh Chugh",
+      name: "Simarpreet Kaur ",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762292510/Rudraksh_withbg_-_Rudraksh_Chugh_swdnoa.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786742293/b5d089d2-bf82-444a-886e-a09e698639bf_-_Simarpreet_Kaur.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/rudraksh-chugh/",
+        link: "http://linkedin.com/in/Simarpreet-Kaur",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/RudrakshChugh",
+        link: "https://github.com/simarpreetkaur",
         img: Github,
       }
     },
     {
-      name: "Sanjam Wadhwa",
+      name: "Skandh Garg",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762293607/c181f2f0-64bf-46b4-8a37-d1a7b3705ddb_-_Saj_Wa_q9fpgw.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698468/5733BCC9-901B-4989-8108-6B4FDF10A5E6_-_Skandh_Garg.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/sanjam-wadhwa-853985334/",
+        link: "https://www.linkedin.com/in/skandh-garg-489a4a371?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/idklol22",
+        link: "https://github.com",
         img: Github,
       }
     },
     {
-      name: "Vandit Gupta",
+      name: "Soham Aggarwal ",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762720760/with_bg_-_Vandit_Gupta_yxldyf.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698469/Gemini_Generated_Image_7n3zd27n3zd27n3z_-_Soham_Aggarwal.png",
       linkdin: {
-        link: "www.linkedin.com/in/vandit-gupta-7537502a5",
+        link: "https://www.linkedin.com/in/sohamaggarwal/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/Valar06",
+        link: "https://github.com/sohamaggarwal007",
         img: Github,
       }
     },
     {
-      name: "Vansh Wadhwa",
+      name: "Sushant Gagneja",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/IMG_20251030_211808_-_Vansh_Wadhwa_qyvpfp.png",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786716790/3b6b4065-db02-4d71-9027-fb4b5c0e7f19.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/vansh-wadhwa/",
+        link: "https://www.linkedin.com/in/sushant-gagneja-sg1310/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/vanshwadhwa24",
+        link: "https://github.com/SushantGagneja",
         img: Github,
       }
     },
     {
-      name: "Vignesh Jain",
+      name: "Vansh Jaiswal ",
       position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762292684/IMG_3970_-_Vignesh_Jain_javoif.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698430/WhatsApp_Image_2026-08-13_at_5.07.08_PM_-_Vansh_Jaiswal.jpg",
       linkdin: {
-        link: "http://linkedin.com/in/vignesh-jain-887ab4321",
+        link: "https://www.linkedin.com/in/vj121vj/",
         img: Linkedin,
       },
       insta: {
-        link: "https://github.com/vigneshjain",
+        link: "https://github.com/Draco437",
         img: Github,
       }
     },
     {
-      name: "Yasshaswee",
+      name: "Vinesh Aggarwal",
       position: "Core",
-      img: "https://res.cloudinary.com/dfraq6spc/image/upload/v1764204363/IMG_20251125_175343_mtdiu6.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786698442/20240623_145025_-_Vinesh_Aggarwal.jpg",
       linkdin: {
-        link: "https://www.linkedin.com/in/yasshaswee-mishra-6a04b936b",
+        link: "https://www.linkedin.com/in/vinesh-aggarwal-12732937a",
         img: Linkedin,
       },
       insta: {
-        link: "",
-        img: Github,
-      }
-    },
-    {
-      name: "Yashmit Vaish",
-      position: "Core",
-      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1762291705/WhatsApp_Image_2025-11-03_at_10.52.43_b22b4235_-_Yashmit_Vaish_yfkjfz.jpg",
-      linkdin: {
-        link: "https://www.linkedin.com/in/yashmit-vaish-9184a1315/",
-        img: Linkedin,
-      },
-      insta: {
-        link: "github.com/YashmitVaish",
+        link: "https://github.com/Vinesh0409",
         img: Github,
       }
     }
@@ -762,122 +724,122 @@ export const homebrand = {
 }
 
 export const alumnid = {
-  heading1 : "2025-26",
-  heading2 : "2024-25",
-  heading3 : "2023-24",
-  heading4 : "2022-23",
-  heading5 : "2021-22",
-  heading6 : "2020-21",
-  data26 :[
+  heading1: "2025-26",
+  heading2: "2024-25",
+  heading3: "2023-24",
+  heading4: "2022-23",
+  heading5: "2021-22",
+  heading6: "2020-21",
+  data26: [
     {
-      name:"Jai Madhukar",
+      name: "Jai Madhukar",
       // position:"Ex -Gen. Sec.",
-      job:"Placed at Meesho",
-      linkedin : "https://www.linkedin.com/in/jai-madhukar/",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1723728926/jai_bg_-_Jai_Madhukar_-_Jai_Madhukar_lcd3kt.png",
+      job: "Placed at Meesho",
+      linkedin: "https://www.linkedin.com/in/jai-madhukar/",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723728926/jai_bg_-_Jai_Madhukar_-_Jai_Madhukar_lcd3kt.png",
     },
     {
-      name:"Utkarsh Agarwal",
+      name: "Utkarsh Agarwal",
       // position:"Ex -Gen. Sec.",
-      job:"Intern at CRED, Offers from Salescode.ai",
-      linkedin : "https://www.linkedin.com/in/utkarsh-agarwal-054545211/",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1723727618/utkarsh_-_Utkarsh_Agarwal_nbxuqg.jpg",
+      job: "Intern at CRED, Offers from Salescode.ai",
+      linkedin: "https://www.linkedin.com/in/utkarsh-agarwal-054545211/",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723727618/utkarsh_-_Utkarsh_Agarwal_nbxuqg.jpg",
     },
     {
-      name:"Aaradhya Sharma",
+      name: "Aaradhya Sharma",
       // position:"Ex -Joint Sec.",
-      job:"Placed at ZS Associates",
-      linkedin : "https://www.linkedin.com/in/aaradhya-sharma-b94337245/",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_830,h_830,ar_1:1,g_auto/v1723730577/WhatsApp_Image_2024-08-15_at_12.15.01_351891f2_-_Aaradhya_Sharma_txu4nv.jpg",
+      job: "Placed at ZS Associates",
+      linkedin: "https://www.linkedin.com/in/aaradhya-sharma-b94337245/",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_830,h_830,ar_1:1,g_auto/v1723730577/WhatsApp_Image_2024-08-15_at_12.15.01_351891f2_-_Aaradhya_Sharma_txu4nv.jpg",
     },
     {
-      name:"Siddhant ",
+      name: "Siddhant ",
       // position:"Ex -Joint. Sec.",
-      job:"Placed at Brahma AI Systems, Offers from Deloitte",
-      linkedin : "https://www.linkedin.com/in/siddhant-kamble/",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418887/DSC09630_u90b5v.jpg",
+      job: "Placed at Brahma AI Systems, Offers from Deloitte",
+      linkedin: "https://www.linkedin.com/in/siddhant-kamble/",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,ar_1:1/v1726418887/DSC09630_u90b5v.jpg",
     },
     {
-      name:"Armeen Kaur Luthra",
+      name: "Armeen Kaur Luthra",
       // position:"Ex -Joint. Sec.",
-      job:"Intern at MakeMyTrip",
-      linkedin : "https://www.linkedin.com/in/armeen-kaur-luthra/",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3000,h_3000,ar_1:1/v1723729151/ArmeenPic_-_Armeen_Kaur_Luthra_buvq7n.jpg",
+      job: "Placed at MakeMyTrip",
+      linkedin: "https://www.linkedin.com/in/armeen-kaur-luthra/",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3000,h_3000,ar_1:1/v1723729151/ArmeenPic_-_Armeen_Kaur_Luthra_buvq7n.jpg",
     },
     {
-      name:"Sidharth Dhawan",
+      name: "Sidharth Dhawan",
       // position:"Ex -Joint. Sec.",
-      job:"Placed at ZS Associates",
-      linkedin : "https://www.linkedin.com/in/sidharth-dhawan/",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/v1723729801/or-pic_-_Sidharth_Dhawan_j5rf9h.png",
+      job: "Placed at ZS Associates",
+      linkedin: "https://www.linkedin.com/in/sidharth-dhawan/",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1723729801/or-pic_-_Sidharth_Dhawan_j5rf9h.png",
     },
     {
-      name:"Varun Khatri",
+      name: "Varun Khatri",
       // position:"Ex -Joint. Sec.",
-      job:"Placed at ZS Associates, Offers from SEW",
-      linkedin : "https://www.linkedin.com/in/varun-khatri-4b2139258/",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3048,h_3048,ar_1:1,g_auto/v1723751546/IMG_1142_-_Varun_Khatri_csldl3.jpg",
+      job: "Placed at ZS Associates, Offers from SEW",
+      linkedin: "https://www.linkedin.com/in/varun-khatri-4b2139258/",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_3048,h_3048,ar_1:1,g_auto/v1723751546/IMG_1142_-_Varun_Khatri_csldl3.jpg",
     },
     {
-      name:"Jashanpreet Singh",
-      job:"Placed at Optum, Interned at Yum!",
-      linkedin : "https://www.linkedin.com/in/json-y/",
-      img:"https://res.cloudinary.com/dp8uze2fi/image/upload/v1784898712/images_vchvv1.jpg",
+      name: "Jashanpreet Singh",
+      job: "Placed at Optum, Interned at Yum!",
+      linkedin: "https://www.linkedin.com/in/json-y/",
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784898712/images_vchvv1.jpg",
     },
     {
-      name:"Garv Kansal",
+      name: "Garv Kansal",
       // position:"Ex -Project Director",
-      job:"Placed at Renesas Electronic",
-      linkedin : "https://www.linkedin.com/in/garvkansal",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1780,h_1780,ar_1:1,g_auto/v1723731995/IMG_0201_-_Garv_Kansal_p4ickg.jpg",
+      job: "Placed at Renesas Electronic",
+      linkedin: "https://www.linkedin.com/in/garvkansal",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_1780,h_1780,ar_1:1,g_auto/v1723731995/IMG_0201_-_Garv_Kansal_p4ickg.jpg",
     },
     {
-      name:"Arnav Khanduja",
+      name: "Arnav Khanduja",
       // position:"Ex -Marketing Head",
-      job:"Placed at Amazon, Offers from Samsung R&D Institute",
-      linkedin : "https://www.linkedin.com/in/arnavkhanduja?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_2900,h_2900,ar_1:1,g_auto/v1723732325/IMG_7038_-_Arnav_Khanduja_f2sxqh.jpg",
+      job: "Placed at Amazon, Offers from Samsung R&D Institute",
+      linkedin: "https://www.linkedin.com/in/arnavkhanduja?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_2900,h_2900,ar_1:1,g_auto/v1723732325/IMG_7038_-_Arnav_Khanduja_f2sxqh.jpg",
     },
     {
-      name:"Ashmeet Kaur",
+      name: "Ashmeet Kaur",
       // position:"Ex - Project Director",
-      job:"Intern at zHealth",
-      linkedin : "https://www.linkedin.com/in/ashmeet-kaur-073042258?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      img:"https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_540,h_540,ar_1:1,g_auto/v1723731192/Ashmeet_-_Ashmeet_Kaur_lx4ihf.jpg",
+      job: "Intern at zHealth",
+      linkedin: "https://www.linkedin.com/in/ashmeet-kaur-073042258?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      img: "https://res.cloudinary.com/dpfqalryd/image/upload/c_crop,w_540,h_540,ar_1:1,g_auto/v1723731192/Ashmeet_-_Ashmeet_Kaur_lx4ihf.jpg",
     },
     {
-      name:"Vikas Kumar Garg",
+      name: "Vikas Kumar Garg",
       // position:"Ex - PR and Outreach Secretary",
-      job:"Placed at Futures First",
-      linkedin : "https://www.linkedin.com/in/vikaskumargarg01/",
-      img:"https://res.cloudinary.com/duvxjznus/image/upload/v1784819123/Vikas_Kumar_Garg_wmdnth.jpg",
+      job: "Placed at Futures First",
+      linkedin: "https://www.linkedin.com/in/vikaskumargarg01/",
+      img: "https://res.cloudinary.com/duvxjznus/image/upload/v1784819123/Vikas_Kumar_Garg_wmdnth.jpg",
     },
     {
       name: "Avishi Singh Parihaar",
-      job : "Intern at ZS Associates",
+      job: "Intern at ZS Associates",
       linkedin: "https://www.linkedin.com/in/avishisingh/",
-      img : "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784878639/1746812475177_cm0psv.jpg"
+      img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784878639/1746812475177_cm0psv.jpg"
     },
     {
       name: "Akshita Mittal",
-      job : "Placed at Amazon",
+      job: "Placed at Amazon",
       linkedin: "https://www.linkedin.com/in/akshita-mittal01/",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784898286/1741800277100_wtbtlw.jpg"
     },
     {
       name: "Swapnil Gumber",
-      job : "Placed at GrowthArc",
+      job: "Placed at GrowthArc",
       linkedin: "https://www.linkedin.com/in/swapnilgumber/",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784878689/1779087802541_l8gydx.png"
     },
     {
       name: "Siddhant Gureja",
-      job : "Placed at Zscaler",
+      job: "Placed at Zscaler",
       linkedin: "https://www.linkedin.com/in/sidgureja/",
       img: "https://res.cloudinary.com/dp8uze2fi/image/upload/v1784897005/1781212613725_npi0ki.jpg"
     },
-  ], 
-  data25 :[
+  ],
+  data25: [
     {
       name: "Mayank Gupta",
       // position:"Ex - Gen. Sec.",
@@ -1152,20 +1114,20 @@ export const gallery = {
   heading: "Gallery",
   images: [
     {
-      img1: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087537/g2_vbeqnp.jpg",
-      date1: "Orientation '23",
-      img2: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762172926/Screenshot_2025-11-03_175723_jm5swk.png",
-      date2: "Hackspire",
-      img3: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762174021/Screenshot_2025-11-03_181614_ub18qz.png",
-      date3: "Induction",
+      img1: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786739321/IMG_2147.heic",
+      date1: "Orientation '25",
+      img2: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786739395/IMG_3465.jpg",
+      date2: "Eclpise 6.0",
+      img3: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786740063/20260804_182023.jpg",
+      date3: "Web Dev WS",
     },
     {
-      img1: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762174474/Screenshot_2025-11-03_182339_km042x.png",
-      date1: "Orientation '25",
-      img2: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762444719/eclipse_cxlt0r.jpg",
-      date2: "Eclipse 5.0",
-      img3: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724087486/g1_aib9mf.jpg",
-      date3: "Orientation '23",
+      img1: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786740443/PXL_20251029_135453540.jpg",
+      date1: "Induction 2025",
+      img2: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786739438/IMG_7485.heic",
+      date2: "Eclipse_team 6.0",
+      img3: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762174474/Screenshot_2025-11-03_182339_km042x.png",
+      date3: "Orientation '25",
     },
     // {
     //   img1: gallery2,
@@ -1179,10 +1141,10 @@ export const events = {
   details: [
     {
       heading: "Events",
-      subtitle: "ECLIPSE 5.0",
+      subtitle: "ECLIPSE 6.0",
       description: "Flagship Event",
-      data: "A premier tech competition that featured an exhilarating overnight hackathon Hacklipse, innovative designathon 'Flamingo' showcasing creative excellence, rigorous Enigma competitive programming challenges, the mind-bending Treasure Hunt and the intense virtual cipher-breaking of Cryptic Hunt.",
-      img: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762444719/eclipse_cxlt0r.jpg",
+      data: "A premier 24-hour hackathon that brought together 500+ students across 117 teams to turn bold ideas into real-world solutions across AI, Distributed Systems, EdTech, and LegalTech; backed by expert mentorship, industry insights, and an environment built for collaboration, innovation, and impact.",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786726823/WhatsApp_Image_2026-08-14_at_22.09.38.jpg",
     },
     {
       heading: "Sub-Events",
@@ -1210,7 +1172,7 @@ export const events = {
       subtitle: "HACKLIPSE",
       description: "Most Popular Hackathon",
       data: "Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
-      img: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762443990/hackspire_e39hue.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786727053/IMG_2898.heic",
     },
     {
       subtitle: "FLAMINGO",
@@ -1220,16 +1182,16 @@ export const events = {
     },
     {
       // heading: "Events",
-      subtitle: "IDEATHON",
-      description: "Innovation Challenge",
-      data: "Ideathon is a creativity-driven competition where innovators brainstorm and pitch impactful ideas to solve real-world challenges",
-      img: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762094375/WhatsApp_Image_2025-11-02_at_20.08.54_4c2002be_kdjnz6.jpg",
+      subtitle: "Feature Creep Chaos",
+      description: "Saturnalia x ACM",
+      data: "A one-day coding and innovation challenge that put participants through three intense rounds of ideation, execution, and building—turning creative concepts into working solutions under pressure, and testing their problem-solving, coding, and presentation skills.",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786726821/IMG_3057.heic"
     },
     {
       subtitle: "CODESPRINT",
       description: "Competitive Coding",
       data: "An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition.",
-      img: "https://res.cloudinary.com/dpfqalryd/image/upload/v1724326264/codesprint_syc1zm.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786727213/IMG_3529.heic",
     },
     {
       subtitle: "ORIENTATION",
