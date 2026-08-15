@@ -50,9 +50,8 @@ const Bootcamp = () => {
           </div>
         </div>
         <div
-          className={`${styles.header} ${
-            isWideScreen ? styles.showHeader : styles.hideHeader
-          }`}
+          className={`${styles.header} ${isWideScreen ? styles.showHeader : styles.hideHeader
+            }`}
         >
           <h1>{heading}</h1>
         </div>
@@ -85,24 +84,26 @@ const DesktopComponent = ({ roadmap }) => {
 
   useEffect(() => {
     if (isWideScreen) {
-      const pin = gsap.fromTo(
-        sectionRef.current,
-        { translateX: 0 },
-        {
-          translateX: "-100vw",
-          ease: "none",
-          duration: 1,
-          scrollTrigger: {
-            trigger: triggerRef.current,
-            start: "top top",
-            end: "2000 top",
-            scrub: 0.4,
-            pin: true,
-          },
-        }
-      );
+      let ctx = gsap.context(() => {
+        gsap.fromTo(
+          sectionRef.current,
+          { translateX: 0 },
+          {
+            translateX: "-100vw",
+            ease: "none",
+            duration: 1,
+            scrollTrigger: {
+              trigger: triggerRef.current,
+              start: "top top",
+              end: "2000 top",
+              scrub: 0.4,
+              pin: true,
+            },
+          }
+        );
+      });
       return () => {
-        pin.kill();
+        ctx.revert();
       };
     }
   }, [isWideScreen]);
