@@ -28,7 +28,7 @@
     font-family: var(--titleFont);
     font-size: clamp(2rem,3.5vw,2.625rem);
     font-weight: 700;
-    color: #000;
+    color: var(--black);
     
 }
 
@@ -36,7 +36,7 @@
     font-family: var(--textFont);
     font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 500;
-    color: var(--Primary-Blue, #15A6DD);
+    color: var(--Primary-Blue, var(--blue));
     
     /* margin-top: 1rem; */
 }
@@ -58,7 +58,7 @@
     border-width: 0 0 3px 0;
     border-style: solid;
     display: inline-block;
-    border-image-source: linear-gradient(180deg, #8FDAF5 0%, #15A6DD 49.79%, #2041B5 100%);
+    border-image-source: linear-gradient(180deg, var(--p-blue) 0%, var(--blue) 49.79%, #2041B5 100%);
 }
 
 .header{

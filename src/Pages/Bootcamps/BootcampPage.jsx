@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect, Fragment } from "react";
+import SEO from "../../Components/SEO";
 import BootcampComp from "./BootcampComp/BootcampComp";
 import styles from "./BootcampPage.module.css";
 import { Bootcampdata } from "../../data.mjs";
@@ -40,6 +41,7 @@ const Bootcamp = () => {
 
   return (
     <Fragment>
+      <SEO title={`${heading} Bootcamp`} description={`Explore the ${heading} bootcamp resources and roadmap.`} />
       <div className={styles.main}>
         <div className={styles.upperpart}>
           <h3 className={styles.headline}>{headline}</h3>
@@ -48,9 +50,8 @@ const Bootcamp = () => {
           </div>
         </div>
         <div
-          className={`${styles.header} ${
-            isWideScreen ? styles.showHeader : styles.hideHeader
-          }`}
+          className={`${styles.header} ${isWideScreen ? styles.showHeader : styles.hideHeader
+            }`}
         >
           <h1>{heading}</h1>
         </div>
@@ -83,24 +84,26 @@ const DesktopComponent = ({ roadmap }) => {
 
   useEffect(() => {
     if (isWideScreen) {
-      const pin = gsap.fromTo(
-        sectionRef.current,
-        { translateX: 0 },
-        {
-          translateX: "-100vw",
-          ease: "none",
-          duration: 1,
-          scrollTrigger: {
-            trigger: triggerRef.current,
-            start: "top top",
-            end: "2000 top",
-            scrub: 0.4,
-            pin: true,
-          },
-        }
-      );
+      let ctx = gsap.context(() => {
+        gsap.fromTo(
+          sectionRef.current,
+          { translateX: 0 },
+          {
+            translateX: "-100vw",
+            ease: "none",
+            duration: 1,
+            scrollTrigger: {
+              trigger: triggerRef.current,
+              start: "top top",
+              end: "2000 top",
+              scrub: 0.4,
+              pin: true,
+            },
+          }
+        );
+      });
       return () => {
-        pin.kill();
+        ctx.revert();
       };
     }
   }, [isWideScreen]);

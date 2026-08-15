@@ -31,7 +31,7 @@ body[data-blog-theme="dark"] .navbox {
 .navitem{
 	font-family: var(--textFont);
 	font-weight: 500;
-	color: #020E13;
+	color: var(--black);
 	display: flex;
 	gap: 2vw;
 	align-items: center;
@@ -44,7 +44,7 @@ body[data-blog-theme="dark"] .navitem {
 
 .navitem a{
 	text-decoration: none;
-	color:#020E13;
+	color:var(--black);
 	transition: color 0.3s ease;
 }
 
@@ -154,7 +154,7 @@ body[data-blog-theme="dark"] .navitem a {
 	}
 
 	.closeButton{
-		color: #15A6DD;
+		color: var(--blue);
 		cursor: pointer;
 		display: flex;
 		justify-content: end;
@@ -162,7 +162,7 @@ body[data-blog-theme="dark"] .navitem a {
 	}
 
 	.navitem a:hover, .navitem a:active {
-		color: #15a6dd;
+		color: var(--blue);
 	  }
 
 }

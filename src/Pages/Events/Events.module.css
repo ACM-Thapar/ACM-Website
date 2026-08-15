@@ -37,7 +37,7 @@
     display: inline-block;
    
      
-    border-image-source: linear-gradient(180deg, #8FDAF5 0%, #15A6DD 49.79%, #2041B5 100%);
+    border-image-source: linear-gradient(180deg, var(--p-blue) 0%, var(--blue) 49.79%, #2041B5 100%);
 }
 
 @media screen and (max-width: 1000px) {

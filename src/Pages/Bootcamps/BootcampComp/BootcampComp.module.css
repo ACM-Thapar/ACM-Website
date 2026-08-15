@@ -54,7 +54,7 @@
 
 .innerbody>h2{
     font-family: var(--textFont);
-    color: var(--Primary-Blue, #15A6DD);
+    color: var(--Primary-Blue, var(--blue));
     font-weight: 500;
     font-size: clamp(1.25rem, 3vw,2rem);
 }
@@ -62,7 +62,7 @@
     font-family: var(--textFont);
     font-weight: 400;
     font-size: clamp(0.75rem , 2vw, 1.2rem);
-    color: var(--Secondary-light-gray, #9AAEBC);
+    color: var(--Secondary-light-gray, var(--gray));
     
 }
 
@@ -73,7 +73,7 @@
 }
 .resources>h2{
     font-family: var(--textFont);
-    color: var(--Primary-Blue, #15A6DD);
+    color: var(--Primary-Blue, var(--blue));
     font-weight: 500;
     font-size: clamp(1.25rem, 3vw,2rem);
 }
@@ -90,19 +90,19 @@
     font-family: var(--textFont);
     font-weight: 400;
     font-size: 1.2rem;
-    color: var(--Secondary-light-gray, #9AAEBC);
+    color: var(--Secondary-light-gray, var(--gray));
 }
 .links div>a{
     font-family: var(--textFont);
     font-weight: 400;
     font-size: 1.2rem;
-    color: var(--Secondary-light-gray, #9AAEBC);
+    color: var(--Secondary-light-gray, var(--gray));
     text-decoration: none;
 }
 
 .links div{
     display: flex;
-    border-bottom: 1px solid #9AAEBC;
+    border-bottom: 1px solid var(--gray);
     justify-content: space-between;
 }
 

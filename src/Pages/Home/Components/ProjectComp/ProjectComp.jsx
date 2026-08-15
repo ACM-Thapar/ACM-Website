@@ -40,26 +40,28 @@ const DesktopComponent = () => {
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
-    const pin = gsap.fromTo(
-      sectionRef.current,
-      {
-        translateX: 0,
-      },
-      {
-        translateX: "-150vw",
-        ease: "none",
-        duration: 1,
-        scrollTrigger: {
-          trigger: triggerRef.current,
-          start: "top top",
-          end: "2000 top",
-          scrub: 0.6,
-          pin: true,
+    let ctx = gsap.context(() => {
+      gsap.fromTo(
+        sectionRef.current,
+        {
+          translateX: 0,
         },
-      }
-    );
+        {
+          translateX: "-150vw",
+          ease: "none",
+          duration: 1,
+          scrollTrigger: {
+            trigger: triggerRef.current,
+            start: "top top",
+            end: "2000 top",
+            scrub: 0.6,
+            pin: true,
+          },
+        }
+      );
+    });
     return () => {
-      pin.kill();
+      ctx.revert();
     };
   }, []);
   const handleViewAllClick = () => {

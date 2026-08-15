@@ -1,4 +1,5 @@
-import React, { Fragment,useState,useEffect} from "react";
+import React, { Fragment, useState, useEffect } from "react";
+import SEO from "../../Components/SEO";
 import Hero from "./Components/Hero/Hero";
 // import Projects from "../Projects/Projects";
 import ProjectComp from "./Components/ProjectComp/ProjectComp";
@@ -17,12 +18,13 @@ const Home = () => {
 
     return(
     <div style={{paddingTop:"2rem"}}>
+       <SEO title="Home" description="Welcome to ACM Thapar Student Chapter. Innovate, Elevate, Collaborate." />
        <Hero />
        <Homebrand />
        <ProjectComp />
        <Bootmain />
        <Team teamData={EBData} />
-        <Sponser />
+       <Sponser />
     </div>
     )
 };

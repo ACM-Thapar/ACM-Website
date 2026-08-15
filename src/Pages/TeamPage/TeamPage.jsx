@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import SEO from "../../Components/SEO";
 import Team from "../../Components/Team/Team";
 import { Teamdata } from "../../data.mjs";
 import arrow from '../../assets/Images/arrow.png'
@@ -14,6 +15,7 @@ const TeamPage = () => {
     };
     return ( 
         <Fragment>
+            <SEO title="Team" description="Meet the Executive Board and Core members of ACM Thapar." />
             <div style={{
                 display:"flex",
                 justifyContent:"space-between",

@@ -1,4 +1,5 @@
 import React, { useState,Fragment } from "react";
+import SEO from "../../Components/SEO";
 import { ProjectData } from "../../data.mjs";
 import style from "./project.module.css";
 import ProjectCard from "./ProjectCard/ProjectCard";
@@ -27,6 +28,7 @@ const Projects = () => {
       };
     return(
         <Fragment>
+            <SEO title="Projects" description="Explore our portfolio of cutting-edge solutions built by ACM Thapar members." />
             <div className={style.main}>
                 <Dots />
                 <h1>Projects</h1>
