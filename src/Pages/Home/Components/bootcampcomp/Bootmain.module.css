@@ -10,7 +10,7 @@
     font-family: var(--titleFont);
     font-size: clamp(3.5rem,10vw,8rem);
     text-align: right;
-    color:#8FDAF5;
+    color:var(--p-blue);
 }
 .innercard{
     height: clamp(5rem,14vw,12rem);

@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import SEO from "../../Components/SEO";
 import EventComp from "../../Components/EventsComp/eventcomp";
 import Dots from "../../Components/dots/Dots";
 // import { events } from "../../data.mjs";
@@ -11,6 +12,7 @@ import Sponser from "../../Components/Sponser/Sponser";
 
     return(
         <Fragment>
+            <SEO title="Events" description="Explore our flagship events, hackathons, and sub-events like Hacklipse, Flamingo, and CodeSprint." />
             <section id={styles.events}>
                 <div className={styles.maincontent}>
                     <div className={styles.upperpart}>

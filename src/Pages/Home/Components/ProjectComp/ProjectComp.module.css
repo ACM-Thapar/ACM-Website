@@ -6,7 +6,7 @@
   }
   .githubLink{
     text-decoration: none;
-    color: #15a6dd;
+    color: var(--blue);
   }
   
   .scrollsectioninner {
@@ -35,7 +35,7 @@
   
   .scrollsection h3 {
     
-    color: #15A6DD;
+    color: var(--blue);
     font-family: var(--textFont);
     font-size: 3rem;
     font-weight: 600;
@@ -56,7 +56,7 @@
   }
 
   .scrollsectiondiv div{
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--black);
     display: flex;
     margin-top: 1rem;
   }
@@ -97,7 +97,7 @@
     font-weight: 600;
     font-family: var(--textFont);
     line-height: 90%;
-    color: #15A6DD;
+    color: var(--blue);
   }
 
   @media screen and (max-width:1000px) {

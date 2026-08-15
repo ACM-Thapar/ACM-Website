@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import SEO from "../../Components/SEO";
 import { BlogData } from "../../data.mjs";
 import Dots from "../../Components/dots/Dots";
 import styles from './Blogs.module.css';
@@ -30,6 +31,7 @@ const BlogsContent = () => {
 
     return (
         <Fragment>
+            <SEO title="Blogs" description="Discover the latest insights, tutorials, and stories from the ACM Thapar community." />
             <section id={styles.blogs} data-blog-theme={theme}>
                 <div className={styles.maincontent}>
                     <div className={styles.upperpart}>

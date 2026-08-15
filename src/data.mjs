@@ -268,7 +268,7 @@ export const Teamdata = {
     {
       name: "Gourav Madaan",
       position: "Finance Secretary",
-      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786646709/IMG_1761.HEIC_2_1_-_Gourav.heic",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786780997/IMG_1761.HEIC_2_1_-_Gourav.jpg",
       linkdin: {
         link: "https://www.linkedin.com/in/gourav-madaan-6b1a97246/",
         img: Linkedin,
@@ -812,7 +812,7 @@ export const alumnid = {
       // position:"Ex - PR and Outreach Secretary",
       job: "Placed at Futures First",
       linkedin: "https://www.linkedin.com/in/vikaskumargarg01/",
-      img: "https://res.cloudinary.com/duvxjznus/image/upload/v1784819123/Vikas_Kumar_Garg_wmdnth.jpg",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786782267/WhatsApp_Image_2026-08-15_at_13.13.57.jpg",
     },
     {
       name: "Avishi Singh Parihaar",
@@ -1114,7 +1114,7 @@ export const gallery = {
   heading: "Gallery",
   images: [
     {
-      img1: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786739321/IMG_2147.heic",
+      img1: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786781213/IMG_2147.jpg",
       date1: "Orientation '25",
       img2: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786739395/IMG_3465.jpg",
       date2: "Eclpise 6.0",
@@ -1122,9 +1122,9 @@ export const gallery = {
       date3: "Web Dev WS",
     },
     {
-      img1: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786740443/PXL_20251029_135453540.jpg",
-      date1: "Induction 2025",
-      img2: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786739438/IMG_7485.heic",
+      img1: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786782248/5166a842-d209-40e7-9c06-516cefe0552c.jpg",
+      date1: "FY Induction '25",
+      img2: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786781608/IMG_7485.jpg",
       date2: "Eclipse_team 6.0",
       img3: "https://res.cloudinary.com/dvk962s9o/image/upload/v1762174474/Screenshot_2025-11-03_182339_km042x.png",
       date3: "Orientation '25",
@@ -1172,7 +1172,7 @@ export const events = {
       subtitle: "HACKLIPSE",
       description: "Most Popular Hackathon",
       data: "Hacklipse, our standout hackathon, is an immersive 24-hour coding marathon where participants unleash their coding prowess and creativity, it is a dynamic blend of innovation, problem-solving, and memorable moments.",
-      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786727053/IMG_2898.heic",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786781885/IMG_2898.jpg",
     },
     {
       subtitle: "FLAMINGO",
@@ -1185,13 +1185,13 @@ export const events = {
       subtitle: "Feature Creep Chaos",
       description: "Saturnalia x ACM",
       data: "A one-day coding and innovation challenge that put participants through three intense rounds of ideation, execution, and building—turning creative concepts into working solutions under pressure, and testing their problem-solving, coding, and presentation skills.",
-      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786726821/IMG_3057.heic"
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786781883/IMG_3057.jpg"
     },
     {
       subtitle: "CODESPRINT",
       description: "Competitive Coding",
       data: "An intra society event, providing a dynamic platform where members engage in intense coding sessions, showcasing their problem-solving abilities and fostering a spirit of friendly competition.",
-      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786727213/IMG_3529.heic",
+      img: "https://res.cloudinary.com/c30h7o2k/image/upload/v1786781886/IMG_3529.jpg",
     },
     {
       subtitle: "ORIENTATION",

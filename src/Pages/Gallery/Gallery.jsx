@@ -1,4 +1,5 @@
 import React, { Fragment, useLayoutEffect } from "react";
+import SEO from "../../Components/SEO";
 import GalleryComp from "../../Components/GalleryComp/gallerycomp";
 import Dots from "../../Components/dots/Dots";
 import { gallery } from "../../data.mjs";
@@ -17,6 +18,7 @@ const Gallery = () => {
 
   return (
     <Fragment>
+      <SEO title="Gallery" description="Take a look at the memorable moments and highlights from our chapter events." />
       <section id={styles.gallery}>
         <div className={styles.maincontent}>
           <div className={styles.upperpart}>

@@ -12,7 +12,7 @@
 }
 
 .details>h3{
-    color: #15A6DD;
+    color: var(--blue);
     font-weight: 500;
     font-size: clamp(1rem,1.5vw,1.25rem);
 }
@@ -31,7 +31,7 @@
     /* font-family: Inter; */
     font-weight: 600;
     text-decoration: none;
-    color: #020E13;
+    color: var(--black);
     font-size: clamp(1.3rem , 1.5vw,1.125rem);
 }
 .details{

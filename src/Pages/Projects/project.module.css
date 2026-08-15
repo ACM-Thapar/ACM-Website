@@ -14,12 +14,12 @@
 .main>h1{
     font-family: var(--titleFont);
     text-align: right;
-    color: #8FDAF5;
+    color: var(--p-blue);
     font-size: clamp(3rem,12vw,10rem);
 }
 .main>p{
     font-family: var(--textFont);
-    color: #9AAEBC;
+    color: var(--gray);
     font-size: clamp(0.75rem,2vw,1.5rem);
     font-weight: 400;
     margin-bottom: 2rem;
@@ -41,13 +41,13 @@
 }
 
 .buttons>button:nth-child(1){
-    background-color: #15A6DD;
-    color: #FFF;
+    background-color: var(--blue);
+    color: var(--white);
     font-size: clamp(0.8rem,2vw,1.5rem);
 }
 .buttons>button:nth-child(2){
     background: #DDF6FF;
-    color: #15A6DD;
+    color: var(--blue);
     font-size: clamp(0.8rem,2vw,1.5rem);
 }
 

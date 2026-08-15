@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect, Fragment } from "react";
+import SEO from "../../Components/SEO";
 import BootcampComp from "./BootcampComp/BootcampComp";
 import styles from "./BootcampPage.module.css";
 import { Bootcampdata } from "../../data.mjs";
@@ -40,6 +41,7 @@ const Bootcamp = () => {
 
   return (
     <Fragment>
+      <SEO title={`${heading} Bootcamp`} description={`Explore the ${heading} bootcamp resources and roadmap.`} />
       <div className={styles.main}>
         <div className={styles.upperpart}>
           <h3 className={styles.headline}>{headline}</h3>

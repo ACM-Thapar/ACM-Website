@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import SEO from "../../Components/SEO";
 import AlumniComp from "../../Components/AlumniComp/AlumniComp";
 import styles from "./alumni.module.css";
 import { alumnid } from "../../data.mjs";
@@ -31,6 +32,7 @@ const Alumni = () => {
     }
     return(
         <div className={styles.main}>
+        <SEO title="Alumni" description="Connect with the brilliant minds who have shaped ACM Thapar over the years." />
         <Dots />
         <div className={styles.header}>
             <h1>Alumni</h1>

@@ -53,7 +53,7 @@ body[data-blog-theme="dark"] {
 }
 
 .blogArticle {
-    background: linear-gradient(135deg, #ffffff 0%, #f8fcff 100%);
+    background: linear-gradient(135deg, var(--white) 0%, #f8fcff 100%);
     border-radius: 16px;
     padding: 2.5rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
@@ -73,7 +73,7 @@ body[data-blog-theme="dark"] {
 
 .featuredBadge {
     display: inline-block;
-    background: linear-gradient(135deg, #8FDAF5 0%, #15A6DD 50%, #2041B5 100%);
+    background: linear-gradient(135deg, var(--p-blue) 0%, var(--blue) 50%, #2041B5 100%);
     color: white;
     padding: 0.15rem 0.45rem;
     border-radius: 8px;
@@ -112,13 +112,13 @@ body[data-blog-theme="dark"] {
 }
 
 #blogDetail[data-blog-theme="dark"] .blogMeta {
-    color: #8FDAF5;
+    color: var(--p-blue);
 }
 
 #blogDetail[data-blog-theme="dark"] .blogDate,
 #blogDetail[data-blog-theme="dark"] .blogReadTime,
 #blogDetail[data-blog-theme="dark"] .blogAuthor {
-    color: #8FDAF5;
+    color: var(--p-blue);
 }
 
 #blogDetail[data-blog-theme="dark"] .blogSeparator {
@@ -139,13 +139,13 @@ body[data-blog-theme="dark"] {
 }
 
 #blogDetail[data-blog-theme="dark"] .authorLink {
-    color: #8FDAF5;
+    color: var(--p-blue);
     font-weight: 600;
 }
 
 #blogDetail[data-blog-theme="dark"] .authorLink:hover {
-    color: #ffffff;
-    border-bottom-color: #8FDAF5;
+    color: var(--white);
+    border-bottom-color: var(--p-blue);
 }
 
 .blogDate,

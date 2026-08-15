@@ -41,7 +41,7 @@
 }
 
 .innerimg{
-  box-shadow: 35px -30px 0px 3px #15a6ddbf;
+  box-shadow: 35px -30px 0px 3px var(--blue)bf;
   -webkit-box-shadow: 35px -30px 0px 3px rgba(21,166,221,0.75);
   -moz-box-shadow: 35px -30px 0px 3px rgba(21,166,221,0.75);
   height: 90%;
@@ -49,7 +49,7 @@
 }
 
 .innercontent p {
-  color: #9aaebc;
+  color: var(--gray);
   font-family: var(--textFont);
   font-weight: 400;
   font-size: clamp(0.25rem, 3vw, 1.25rem);
@@ -63,7 +63,7 @@
 }
 
 .innercontent h6 {
-  color: #15a6dd;
+  color: var(--blue);
   font-family: 'Poppins';
   font-weight: 500;
   font-size: clamp(1rem, 2.25vw, 1.75rem);
@@ -95,9 +95,9 @@
 .main .box1:nth-child(4) .innerimg
 .main .box1:nth-child(5) .innerimg  {
   /* styles */
-  box-shadow: 35px -30px 0px 3px #8FDAF5;
-  -webkit-box-shadow: 35px -30px 0px 3px #8FDAF5;
-  -moz-box-shadow: 35px -30px 0px 3px #8FDAF5;
+  box-shadow: 35px -30px 0px 3px var(--p-blue);
+  -webkit-box-shadow: 35px -30px 0px 3px var(--p-blue);
+  -moz-box-shadow: 35px -30px 0px 3px var(--p-blue);
 }
 
 
@@ -152,9 +152,9 @@
 .main .box1:nth-child(2) .innerimg,
 .main .box1:nth-child(3) .innerimg {
   /* styles */
-  box-shadow: 14px -16px 0px -1px #8FDAF5;
-  -webkit-box-shadow: 14px -16px 0px -1px #8FDAF5;
-  -moz-box-shadow: 14px -16px 0px -1px #8FDAF5;
+  box-shadow: 14px -16px 0px -1px var(--p-blue);
+  -webkit-box-shadow: 14px -16px 0px -1px var(--p-blue);
+  -moz-box-shadow: 14px -16px 0px -1px var(--p-blue);
 }
 
 .innerimg img{
